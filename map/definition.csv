@@ -13906,12 +13906,12 @@
 13905;1;2;168;land;false;plains;8
 13906;1;3;81;land;false;plains;8
 13907;1;1;215;sea;false;ocean;0
-13908;167;22;148;land;ture;plain;0
+13908;167;22;148;land;true;plain;8
 13909;1;1;101;sea;false;ocean;0
 13910;1;1;213;sea;false;ocean;0
 13911;1;2;169;land;false;plains;8
 13912;1;2;11;land;false;plains;8
-13913;1;2;29;land;false;plain;0
+13913;1;2;29;land;true;plain;8
 13914;1;1;16;sea;false;ocean;0
 13915;48;45;222;land;false;plains;8
 13916;1;2;185;land;false;plains;8
@@ -13926,7 +13926,7 @@
 13925;1;2;59;land;false;plains;8
 13926;249;42;171;land;false;plains;8
 13927;1;4;29;land;false;plains;8
-13928;247;28;96;land;false;plains;8
+13928;247;28;96;land;true;plains;8
 13929;1;1;124;sea;false;ocean;0
 13930;1;2;171;land;false;plains;8
 13931;1;2;181;land;false;plains;8

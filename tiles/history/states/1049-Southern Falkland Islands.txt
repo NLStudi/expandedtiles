@@ -1,0 +1,20 @@
+state={
+	id=1049
+	name="STATE_1049"
+	manpower=30
+	state_category = tiny_island
+	
+	history=
+	{
+		owner = ANT
+		buildings = {
+			infrastructure = 1
+			14030 = {
+				naval_base = 1
+			}
+		}
+		add_claim_by = ENG
+	}
+	
+	provinces={ 14030}
+}

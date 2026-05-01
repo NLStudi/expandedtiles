@@ -1,0 +1,20 @@
+state={
+	id=982
+	name="STATE_982"
+	manpower=200
+	
+	state_category = wasteland 
+
+	history={
+		owner = ANT	
+		add_core_of = ANT
+		buildings = {
+			infrastructure = 0
+			13632 = {
+				naval_base = 3
+			}
+		}
+	}
+	
+	provinces={ 13632 }
+}

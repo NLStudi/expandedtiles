@@ -1,0 +1,631 @@
+add_namespace = toll_events
+
+# We Control Panama Canal
+country_event = {
+	id = toll_events.1
+	title = panama_ownership.1.t
+	desc = panama_ownership.1.d
+	picture = GFX_report_canal_control
+	
+	trigger = {
+		controls_state = 685
+		NOT = { has_idea = panama_canal_ownership }
+		NOT = { has_global_flag = PANAMA_CANAL_BLOCKED }
+	}	
+
+	mean_time_to_happen = {
+		days = 1
+	}
+
+	
+	option = {
+		name = panama_ownership.1.a
+		add_ideas = panama_canal_ownership
+	}
+}
+
+# Panama Canal under other's control
+country_event = {
+	id = toll_events.2
+	title = panama_ownership.2.t
+	desc = panama_ownership.2.d
+	picture = GFX_report_canal_control
+	
+	trigger = {
+		NOT = { controls_state = 685 }
+		NOT = { has_global_flag = PANAMA_CANAL_BLOCKED }
+		has_idea = panama_canal_ownership
+	}	
+
+	mean_time_to_happen = {
+		days = 1
+	}
+
+	
+	option = {
+		name = panama_ownership.2.a
+		trigger = {
+			is_puppet = no
+		}
+		remove_ideas = panama_canal_ownership
+	}
+	option = {
+		name = panama_ownership.2.b
+		trigger = {
+			is_puppet = yes
+		}
+		remove_ideas = panama_canal_ownership
+		OVERLORD = { remove_ideas = panama_canal_ownership_ally }
+	}
+}
+
+# Panama Canal destroyed
+country_event = {
+	id = toll_events.3
+	title = panama_ownership.3.t
+	desc = panama_ownership.3.d
+	picture = GFX_report_canal_control
+	
+	trigger = {
+		has_idea = panama_canal_ownership
+		has_global_flag = PANAMA_CANAL_BLOCKED
+	}	
+
+	mean_time_to_happen = {
+		days = 1
+	}
+
+	
+	option = {
+		name = panama_ownership.3.a
+		trigger = {
+			is_puppet = no
+		}
+		remove_ideas = panama_canal_ownership
+	}
+	option = {
+		name = panama_ownership.3.b
+		trigger = {
+			is_puppet = yes
+		}
+		remove_ideas = panama_canal_ownership
+		OVERLORD = { remove_ideas = panama_canal_ownership_ally }
+	}
+}
+
+# Panama Lease
+country_event = {
+	id = toll_events.4
+	title = panama_ownership.4.t
+	desc = panama_ownership.4.d
+	picture = GFX_report_canal_control
+	
+	trigger = {
+		original_tag = PAN
+		USA = { owns_state = 685 }
+	}	
+
+	mean_time_to_happen = {
+		days = 1
+	}
+
+	
+	option = {
+		name = panama_ownership.4.a
+		add_ideas = panama_lease
+	}
+}
+
+# Faction Member or Master Controls Panama Canal
+country_event = {
+	id = toll_events.5
+	title = panama_ownership.5.t
+	desc = panama_ownership.5.d
+	picture = GFX_report_canal_control
+	
+	trigger = {
+		OR = {
+			AND = { 
+				any_allied_country = { controls_state = 685 }
+				NOT = { has_idea = panama_canal_ownership }
+			}
+			AND = { 
+				OVERLORD = { controls_state = 685 }
+				NOT = { has_idea = panama_canal_ownership }
+			}
+			AND = {
+				has_idea = panama_canal_ownership
+				is_puppet = yes
+			}
+		}
+		NOT = { has_idea = panama_canal_ownership_ally }
+		NOT = { has_global_flag = PANAMA_CANAL_BLOCKED }
+	}
+
+	mean_time_to_happen = {
+		days = 1
+	}
+
+	
+	option = {
+		name = panama_ownership.5.a
+		trigger = {
+			NOT = { has_idea = panama_canal_ownership }
+		}
+		add_ideas = panama_canal_ownership_ally
+	}
+	option = {
+		name = panama_ownership.5.b
+		trigger = {
+			AND = {
+				has_idea = panama_canal_ownership
+				is_puppet = yes
+			}
+		}
+		OVERLORD = { add_ideas = panama_canal_ownership_ally }
+	}
+}
+
+# Panama Lease End
+country_event = {
+	id = toll_events.6
+	title = panama_ownership.6.t
+	desc = panama_ownership.6.d
+	picture = GFX_report_canal_control
+	
+	trigger = {
+		original_tag = PAN
+		NOT = { USA = { owns_state = 685 } }
+	}	
+
+	mean_time_to_happen = {
+		days = 1
+	}
+
+	
+	option = {
+		name = panama_ownership.6.a
+		remove_ideas = panama_lease
+	}
+}
+
+# Faction Member or Master Controls Panama Canal not
+country_event = {
+	id = toll_events.7
+	title = panama_ownership.7.t
+	desc = panama_ownership.7.d
+	picture = GFX_report_canal_control
+	
+	trigger = {
+		OR = {
+			AND = {
+				NOT = { any_allied_country = { controls_state = 685 } }
+				is_in_faction = yes
+			}
+			AND = {
+				NOT = { OVERLORD = { controls_state = 685 } }
+				is_puppet = yes
+			}
+		}
+		has_idea = panama_canal_ownership_ally
+		NOT = { has_global_flag = PANAMA_CANAL_BLOCKED }
+	}	
+
+	mean_time_to_happen = {
+		days = 1
+	}
+
+	
+	option = {
+		name = panama_ownership.7.a
+		remove_ideas = panama_canal_ownership_ally
+	}
+}
+
+#####################################################################
+
+# We Control Suez Canal
+country_event = {
+	id = toll_events.8
+	title = suez_ownership.1.t
+	desc = suez_ownership.1.d
+	picture = GFX_report_canal_control
+	
+	trigger = {
+		AND = {
+			controls_state = 446
+			controls_state = 446
+		}
+		NOT = { has_idea = suez_canal_ownership }
+		NOT = { has_global_flag = SUEZ_CANAL_BLOCKED }
+	}	
+
+	mean_time_to_happen = {
+		days = 1
+	}
+
+	
+	option = {
+		name = suez_ownership.1.a
+		add_ideas = suez_canal_ownership
+		remove_ideas = contested_suez_canal_ownership
+	}
+}
+
+# Suez Canal contested
+# country_event = {
+# 	id = toll_events.9
+# 	title = suez_ownership.2.t
+# 	desc = suez_ownership.2.d
+# 	picture = GFX_report_canal_control
+	
+# 	trigger = {
+# 		OR = {
+# 			AND = {
+# 				NOT = { controls_state = 913 }
+# 				controls_state = 446
+# 			}
+# 			AND = {
+# 				NOT = { controls_state = 446 }
+# 				controls_state = 446
+# 			}
+# 		}
+# 		NOT = { has_global_flag = SUEZ_CANAL_BLOCKED }
+# 		NOT = { has_idea = contested_suez_canal_ownership }
+# 	}	
+
+# 	mean_time_to_happen = {
+# 		days = 1
+# 	}
+
+	
+# 	option = {
+# 		name = suez_ownership.2.a
+# 		trigger = {
+# 			is_puppet = no
+# 		}
+# 		remove_ideas = suez_canal_ownership
+# 		add_ideas = contested_suez_canal_ownership
+# 	}
+# 	option = {
+# 		name = suez_ownership.2.b
+# 		trigger = {
+# 			is_puppet = yes
+# 		}
+# 		remove_ideas = suez_canal_ownership
+# 		add_ideas = contested_suez_canal_ownership
+# 		OVERLORD = { remove_ideas = suez_canal_ownership_ally }
+# 	}
+# }
+
+# Suez Canal under other's control
+country_event = {
+	id = toll_events.10
+	title = suez_ownership.3.t
+	desc = suez_ownership.3.d
+	picture = GFX_report_canal_control
+	
+	trigger = {
+		AND = {
+			NOT = { controls_state = 446 }
+			NOT = { controls_state = 446 }
+		}
+		NOT = { has_global_flag = SUEZ_CANAL_BLOCKED }
+		OR = {
+			has_idea = contested_suez_canal_ownership
+			has_idea = suez_canal_ownership
+		}
+	}	
+
+	mean_time_to_happen = {
+		days = 1
+	}
+
+	
+	option = {
+		name = suez_ownership.3.a
+		trigger = {
+			is_puppet = no
+		}
+		remove_ideas = suez_canal_ownership
+		remove_ideas = contested_suez_canal_ownership
+	}
+	option = {
+		name = suez_ownership.3.b
+		trigger = {
+			is_puppet = yes
+		}
+		remove_ideas = suez_canal_ownership
+		remove_ideas = contested_suez_canal_ownership
+		OVERLORD = { remove_ideas = suez_canal_ownership_ally }
+	}
+}
+
+# Suez Canal destroyed
+country_event = {
+	id = toll_events.11
+	title = suez_ownership.4.t
+	desc = suez_ownership.4.d
+	picture = GFX_report_canal_control
+	
+	trigger = {
+		OR = {
+			has_idea = suez_canal_ownership
+			has_idea = contested_suez_canal_ownership
+		}
+		has_global_flag = SUEZ_CANAL_BLOCKED
+	}	
+
+	mean_time_to_happen = {
+		days = 1
+	}
+
+	
+	option = {
+		name = suez_ownership.4.a
+		trigger = {
+			is_puppet = no
+		}
+		remove_ideas = suez_canal_ownership
+		remove_ideas = contested_suez_canal_ownership
+	}
+	option = {
+		name = suez_ownership.4.b
+		trigger = {
+			is_puppet = yes
+		}
+		remove_ideas = suez_canal_ownership
+		remove_ideas = contested_suez_canal_ownership
+		OVERLORD = { remove_ideas = suez_canal_ownership_ally }
+	}
+}
+
+# Faction Member or Master Controls Suez Canal
+country_event = {
+	id = toll_events.12
+	title = suez_ownership.5.t
+	desc = suez_ownership.5.d
+	picture = GFX_report_canal_control
+	
+	trigger = {
+		OR = {
+			AND = { 
+				any_allied_country = { controls_state = 446 }
+				any_allied_country = { controls_state = 446 }
+				NOT = { has_idea = suez_canal_ownership }
+			}
+			AND = { 
+				OVERLORD = { controls_state = 446 }
+				OVERLORD = { controls_state = 446 }
+				NOT = { has_idea = suez_canal_ownership }
+			}
+			AND = {
+				has_idea = suez_canal_ownership
+				is_puppet = yes
+			}
+		}
+		NOT = { any_country = { has_idea = contested_suez_canal_ownership } }
+		NOT = { has_idea = suez_canal_ownership_ally }
+		NOT = { has_global_flag = SUEZ_CANAL_BLOCKED }
+	}
+
+	mean_time_to_happen = {
+		days = 1
+	}
+
+	
+	option = {
+		name = suez_ownership.5.a
+		trigger = {
+			NOT = { has_idea = suez_canal_ownership }
+		}
+		add_ideas = suez_canal_ownership_ally
+	}
+	option = {
+		name = suez_ownership.5.b
+		trigger = {
+			AND = {
+				has_idea = suez_canal_ownership
+				is_puppet = yes
+			}
+		}
+		OVERLORD = { add_ideas = suez_canal_ownership_ally }
+	}
+}
+
+# Faction Member or Master Controls Suez Canal not
+country_event = {
+	id = toll_events.13
+	title = suez_ownership.6.t
+	desc = suez_ownership.6.d
+	picture = GFX_report_canal_control
+	
+	trigger = {
+		OR = {
+			OR = {
+				NOT = { any_allied_country = { controls_state = 446 } }
+				NOT = { any_allied_country = { controls_state = 446 } }
+			}
+			OR = {
+				AND = {
+					NOT = { OVERLORD = { controls_state = 446 } }
+					is_puppet = yes
+				}
+				AND = {
+					NOT = { OVERLORD = { controls_state = 446 } }
+					is_puppet = yes
+				}
+			}
+		}
+		has_idea = suez_canal_ownership_ally
+		NOT = { has_global_flag = SUEZ_CANAL_BLOCKED }
+	}	
+
+	mean_time_to_happen = {
+		days = 1
+	}
+
+	
+	option = {
+		name = suez_ownership.6.a
+		remove_ideas = suez_canal_ownership_ally
+	}
+}
+
+#####################################################################
+
+# We Control Kiel Canal
+country_event = {
+	id = toll_events.14
+	title = kiel_ownership.1.t
+	desc = kiel_ownership.1.d
+	picture = GFX_report_canal_control
+	
+	trigger = {
+		controls_state = 909
+		NOT = { has_idea = kiel_canal_ownership }
+		NOT = { has_idea = baltic_toll_ownership }
+	}	
+
+	mean_time_to_happen = {
+		days = 1
+	}
+
+	
+	option = {
+		name = kiel_ownership.1.a
+		add_ideas = kiel_canal_ownership
+	}
+}
+
+# Kiel Canal under other's control
+country_event = {
+	id = toll_events.15
+	title = kiel_ownership.2.t
+	desc = kiel_ownership.2.d
+	picture = GFX_report_canal_control
+	
+	trigger = {
+		NOT = { controls_state = 909 }
+		has_idea = kiel_canal_ownership
+	}	
+
+	mean_time_to_happen = {
+		days = 1
+	}
+
+	
+	option = {
+		name = kiel_ownership.2.a
+		remove_ideas = kiel_canal_ownership
+	}
+}
+
+# We Control Sound Toll
+country_event = {
+	id = toll_events.16
+	title = sound_toll_ownership.1.t
+	desc = sound_toll_ownership.1.d
+	picture = GFX_report_canal_control
+	
+	trigger = {
+		AND = {
+			controls_state = 37
+			controls_state = 99
+		}
+		NOT = { has_idea = sound_toll_ownership }
+		NOT = { has_idea = baltic_toll_ownership }
+		has_global_flag = sound_toll_restored
+	}	
+
+	mean_time_to_happen = {
+		days = 1
+	}
+
+	
+	option = {
+		name = sound_toll_ownership.1.a
+		add_ideas = sound_toll_ownership
+	}
+}
+
+# Sound Toll under other's control
+country_event = {
+	id = toll_events.17
+	title = sound_toll_ownership.2.t
+	desc = sound_toll_ownership.2.d
+	picture = GFX_report_canal_control
+	
+	trigger = {
+		OR = {
+			NOT = { controls_state = 37 }
+			NOT = { controls_state = 99 }
+		}
+		has_idea = sound_toll_ownership
+		has_global_flag = sound_toll_restored
+	}	
+
+	mean_time_to_happen = {
+		days = 1
+	}
+
+	
+	option = {
+		name = sound_toll_ownership.2.a
+		remove_ideas = sound_toll_ownership
+	}
+}
+
+# We Control Baltic Toll
+country_event = {
+	id = toll_events.18
+	title = baltic_toll_ownership.1.t
+	desc = baltic_toll_ownership.1.d
+	picture = GFX_report_canal_control
+	
+	trigger = {
+		AND = {
+			controls_state = 37
+			controls_state = 99
+			controls_state = 909
+		}
+		NOT = { has_idea = baltic_toll_ownership }
+		has_global_flag = sound_toll_restored
+	}	
+
+	mean_time_to_happen = {
+		days = 1
+	}
+
+	
+	option = {
+		name = baltic_toll_ownership.1.a
+		add_ideas = baltic_toll_ownership
+		remove_ideas = sound_toll_ownership
+		remove_ideas = kiel_canal_ownership
+	}
+}
+
+# Baltic Toll under other's control
+country_event = {
+	id = toll_events.19
+	title = baltic_toll_ownership.2.t
+	desc = baltic_toll_ownership.2.d
+	picture = GFX_report_canal_control
+	
+	trigger = {
+		any_country = { OR = { has_idea = kiel_canal_ownership has_idea = sound_toll_ownership } }
+		has_idea = baltic_toll_ownership
+		has_global_flag = sound_toll_restored
+	}	
+
+	mean_time_to_happen = {
+		days = 1
+	}
+
+	
+	option = {
+		name = baltic_toll_ownership.2.a
+		remove_ideas = baltic_toll_ownership
+	}
+}

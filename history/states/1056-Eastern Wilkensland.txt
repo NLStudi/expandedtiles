@@ -1,0 +1,15 @@
+state={
+	id=1056
+	name="STATE_1056"
+	manpower=1
+
+	state_category = wasteland 
+	impassable = yes
+
+	history={
+		owner = ANT	
+		add_core_of = ANT
+	}
+	
+	provinces={ 13477 }
+}

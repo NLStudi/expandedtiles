@@ -1,0 +1,16 @@
+state={
+	id=986
+	name="STATE_986"
+	provinces={
+		13463 13464 13465 13466 13467 13468 13498 13524 13525 13544 13545 13598 13599 13605 13615 13616 13617 13688 13689 13694 13695 13711 13716 13745 13765 13777 13782 13798 13805 13819 13839 13840 13857 13872 13873 13878 13906 13940 
+}
+		history={
+		owner = ANT	
+		add_core_of = ANT
+	}
+	impassable = yes
+	manpower=1
+	buildings_max_level_factor=1.000
+	state_category=wasteland
+	local_supplies=0.000
+}

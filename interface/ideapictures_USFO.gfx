@@ -1,0 +1,346 @@
+spriteTypes = {
+	spriteType = {
+		name = "GFX_idea_GER_mass_stealing"
+		texturefile = "gfx/interface/ideas/GER_mass_stealing.tga"
+	}
+		spriteType = {
+		name = "GFX_idea_GER_DAF"
+		texturefile = "gfx/interface/ideas/GER_DAF.tga"
+	}
+	spriteType = {
+		name = "GFX_idea_Japan_colony"
+		texturefile = "gfx/interface/ideas/JAP_hakko.tga"
+	}
+	spriteType = {
+		name = "GFX_idea_GER_operations_POL"
+		texturefile = "gfx/interface/ideas/GER_operations_POL.tga"
+	}
+	
+
+	spriteType = {
+		name = "GFX_idea_GER_reichskomissariatoppresion"
+		texturefile = "gfx/interface/ideas/GER_reichskomissariatoppresion.tga"
+	}
+	spriteType = {
+		name = "GFX_idea_Samurai_partner"
+		texturefile = "gfx/interface/ideas/kantogun_administration.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_BSP_icon"
+		texturefile = "gfx/interface/ideas/BSP_icon.dds"
+	}
+	
+spriteType = {
+		name = "GFX_idea_GER_SOV_trade"
+		texturefile = "gfx/interface/ideas/GER_SOV_trade.tga"
+	}
+
+		spriteType = {
+		name = "GFX_idea_GER_FRA_reparations"
+		texturefile = "gfx/interface/ideas/GER_FRA_reparations.tga"
+	}
+		spriteType = {
+		name = "GFX_idea_GER_operations"
+		texturefile = "gfx/interface/ideas/GER_operations.tga"
+	}
+		spriteType = {
+		name = "GFX_idea_GER_terror_raids"
+		texturefile = "gfx/interface/ideas/GER_terror_raids.tga"
+	}
+		spriteType = {
+		name = "GFX_idea_Idea_colonization"
+		texturefile = "gfx/interface/ideas/Idea_colonization.tga"
+	}
+		spriteType = {
+		name = "GFX_idea_Idea_finalsolution"
+		texturefile = "gfx/interface/ideas/Idea_finalsolution.tga"
+	}
+		spriteType = {
+		name = "GFX_idea_Idea_ghettostate"
+		texturefile = "gfx/interface/ideas/Idea_ghettostate.tga"
+	}
+		spriteType = {
+		name = "GFX_idea_Idea_red_army"
+		texturefile = "gfx/interface/ideas/Idea_red_army.tga"
+	}
+		spriteType = {
+		name = "GFX_idea_Idea_yugopartisans"
+		texturefile = "gfx/interface/ideas/Idea_yugopartisans.tga"
+	}
+		spriteType = {
+		name = "GFX_idea_JAP_pacific_master"
+		texturefile = "gfx/interface/ideas/JAP_pacific_master.tga"
+	}
+		spriteType = {
+		name = "GFX_idea_SOV_NKVD_state"
+		texturefile = "gfx/interface/ideas/SOV_NKVD_state.tga"
+	}
+		spriteType = {
+		name = "GFX_idea_USA_pacific_master"
+		texturefile = "gfx/interface/ideas/USA_pacific_master.tga"
+	}
+		spriteType = {
+		name = "GFX_idea_USA_marshal"
+		texturefile = "gfx/interface/ideas/USA_marshal.tga"
+	}
+		spriteType = {
+		name = "GFX_idea_USA_lend"
+		texturefile = "gfx/interface/ideas/USA_lend.tga"
+	}
+		spriteType = {
+		name = "GFX_idea_SOV_luftwaffe"
+		texturefile = "gfx/interface/ideas/SOV_luftwaffe.tga"
+	}
+	spriteType = {
+		name = "GFX_idea_GER_operations_CZE"
+		texturefile = "gfx/interface/ideas/GER_operations_CZE.tga"
+	}
+	spriteType = {
+		name = "GFX_idea_GER_operations_BEN"
+		texturefile = "gfx/interface/ideas/GER_operations_BEN.tga"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_GER_operations_FRA"
+		texturefile = "gfx/interface/ideas/GER_operations_FRA.tga"
+	}
+		
+		
+		
+		spriteType = {
+		name = "GFX_idea_GER_immigration"
+		texturefile = "gfx/interface/ideas/GER_immigration.tga"
+	}
+		spriteType = {
+		name = "GFX_idea_SOV_rebuild"
+		texturefile = "gfx/interface/ideas/SOV_rebuild.tga"
+	}
+		spriteType = {
+		name = "GFX_idea_SOV_wintertraining"
+		texturefile = "gfx/interface/ideas/SOV_wintertraining.tga"
+	}
+		spriteType = {
+		name = "GFX_idea_SOV_look_future"
+		texturefile = "gfx/interface/ideas/SOV_look_future.tga"
+	}
+		spriteType = {
+		name = "GFX_idea_SOV_rebuild_army"
+		texturefile = "gfx/interface/ideas/SOV_rebuild_army.tga"
+	}
+	spriteType = {
+		name = "GFX_idea_SOV_winter2"
+		texturefile = "gfx/interface/ideas/SOV_winter2.tga"
+	}
+	spriteType = {
+		name = "GFX_idea_kantogun_administration"
+		texturefile = "gfx/interface/ideas/kantogun_administration.tga"
+	}
+	spriteType = {
+		name = "GFX_idea_Treutapfer"
+		texturefile = "gfx/interface/ideas/Treutapfer.tga"
+	}
+	spriteType = {
+		name = "GFX_idea_lokot"
+		texturefile = "gfx/interface/ideas/lokot.tga"
+	}
+	spriteType = {
+		name = "GFX_idea_Kosakenarmee"
+		texturefile = "gfx/interface/ideas/Kosakenarmee.tga"
+	}
+	spriteType = {
+		name = "GFX_idea_ROA"
+		texturefile = "gfx/interface/ideas/ROA.tga"
+	}
+	spriteType = {
+		name = "GFX_idea_KONR"
+		texturefile = "gfx/interface/ideas/KONR.tga"
+	}
+	spriteType = {
+		name = "GFX_idea_Urallegion"
+		texturefile = "gfx/interface/ideas/Urallegion.tga"
+	}
+	spriteType = {
+		name = "GFX_idea_Kaukasienlegion"
+		texturefile = "gfx/interface/ideas/Kaukasienlegion.tga"
+	}
+	spriteType = {
+		name = "GFX_idea_GER_Kraft_druch"
+		texturefile = "gfx/interface/ideas/GER_ARBEIT_FRONT.tga"
+	}
+	spriteType = {
+		name = "GFX_idea_GER_DAFV"
+		texturefile = "gfx/interface/ideas/GER_DAFV.tga"
+	}
+	spriteType = {
+		name = "GFX_idea_Farben_rks"
+		texturefile = "gfx/interface/ideas/Farben_rks.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_GER_Positive_christianity"
+		texturefile = "gfx/interface/ideas/GER_Positive_christianity.tga"
+	}
+	spriteType = {
+		name = "GFX_idea_loot_rush"
+		texturefile = "gfx/interface/ideas/goal_generic_treasure.tga"
+	}
+	spriteType = {
+		name = "GFX_idea_retake_motherland"
+		texturefile = "gfx/interface/ideas/retake_motherland.tga"
+	}
+	spriteType = {
+		name = "GFX_idea_Native_turmoil"
+		texturefile = "gfx/interface/ideas/Native_turmoil.tga"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_RUS_Defenders_of_Moscow"
+		texturefile = "gfx/interface/ideas/idea_RUS_Defenders_of_Moscow.tga"
+	}
+	spriteType = {
+		name = "GFX_idea_GER_operations_winter"
+		texturefile = "gfx/interface/ideas/GER_operations_winter.tga"
+	}
+	spriteType = {
+		name = "GFX_idea_GER_operations_ROM"
+		texturefile = "gfx/interface/ideas/GER_operations_ROM.tga"
+	}
+	spriteType = {
+		name = "GFX_idea_GER_operations_HUN"
+		texturefile = "gfx/interface/ideas/GER_operations_HUN.tga"
+	}
+	spriteType = {
+		name = "GFX_idea_vaterland_turmoil"
+		texturefile = "gfx/interface/ideas/vaterland_turmoil.tga"
+	}
+	spriteType = {
+		name = "GFX_idea_SOV_operations_ger"
+		texturefile = "gfx/interface/ideas/SOV_operations_ger.tga"
+	}
+	spriteType = {
+		name = "GFX_idea_Power_pland_destroyed"
+		texturefile = "gfx/interface/ideas/Power_pland_destroyed.tga"
+	}
+	spriteType = {
+		name = "GFX_idea_GER_ju"
+		texturefile = "gfx/interface/ideas/GER_ju.tga"
+	}
+	spriteType = {
+		name = "GFX_idea_alpenfestung2"
+		texturefile = "gfx/interface/ideas/alpenfestung2.tga"
+	}
+	spriteType = {
+		name = "GFX_idea_GER_todt"
+		texturefile = "gfx/interface/ideas/GER_todt.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_alpenfestung1"
+		texturefile = "gfx/interface/ideas/alpenfestung1.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_SOV_stavka"
+		texturefile = "gfx/interface/ideas/SOV_stavka.tga"
+	}
+	spriteType = {
+		name = "GFX_idea_GER_Positive_christianity_in_progress"
+		texturefile = "gfx/interface/ideas/GER_Positive_christianity_in_progress.tga"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_GER_reichswerke"
+		texturefile = "gfx/interface/ideas/GER_reichswerke.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_Arabrevoltidea"
+		texturefile = "gfx/interface/ideas/Arabrevoltidea.dds"
+	}
+	
+
+	spriteType = {
+		name = "GFX_idea_RAF_production"
+		texturefile = "gfx/interface/ideas/RAF_production.dds"
+	}
+
+	spriteType = {
+		name = "GFX_idea_Uk_colony"
+		texturefile = "gfx/interface/ideas/Uk_colony.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_GER_operations_ITA"
+		texturefile = "gfx/interface/ideas/GER_operations_ITA.tga"
+	}
+	spriteType = {
+		name = "GFX_idea_GER_operations_ITA"
+		texturefile = "gfx/interface/ideas/GER_operations_ITA.tga"
+	}
+
+	spriteType = {
+		name = "GFX_idea_ITA_hold_rome_pic"
+		texturefile = "gfx/interface/ideas/ITA_hold_rome_pic.tga"
+	}
+	spriteType = {
+		name = "GFX_idea_EGY_hold_cairo_pic"
+		texturefile = "gfx/interface/ideas/EGY_hold_cairo_pic.tga"
+	}
+
+
+	spriteType = {
+		name = "GFX_modifiers_moskvametro_partisans"
+		texturefile = "gfx/interface/removers_modifiers/modifiers_moskvametro_partisans.dds"
+	}
+
+	spriteType = {
+		name = "GFX_modifiers_moskvametro"
+		texturefile = "gfx/interface/removers_modifiers/modifiers_moskvametro.dds"
+	}
+	spriteType = {
+		name = "GFX_modifiers_dammed_river"
+		texturefile = "gfx/interface/removers_modifiers/modifiers_dammed_river.dds"
+	}
+
+	spriteType = {
+		name = "GFX_modifiers_Stalin_cult"
+		texturefile = "gfx/interface/removers_modifiers/modifiers_Stalin_cult.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_modifiers_Stalin_cult_destroyed"
+		texturefile = "gfx/interface/removers_modifiers/modifiers_Stalin_cult_destroyed.dds"
+	}
+	spriteType = {
+		name = "GFX_SOV_stalindead"
+		texturefile = "gfx/interface/ideas/SOV_stalindead.tga"
+	}
+
+	spriteType = {
+		name = "GFX_Idea_nkvdway"
+		texturefile = "gfx/interface/ideas/Idea_nkvdway.tga"
+	}
+
+	spriteType = {
+		name = "GFX_Idea_stalinway"
+		texturefile = "gfx/interface/ideas/Idea_stalinway.tga"
+	}
+	spriteType = {
+		name = "GFX_Idea_voroshilovway"
+		texturefile = "gfx/interface/ideas/Idea_voroshilovway.tga"
+	}
+	spriteType = {
+		name = "GFX_helmethitGER"
+		texturefile = "gfx/interface/ideas/helmethitGER.tga"
+	}
+	spriteType = {
+		name = "GFX_erstemai_icon"
+		texturefile = "gfx/interface/ideas/erstemai_icon.dds"
+	}
+	spriteType = {
+		name = "GFX_1maysov_icon"
+		texturefile = "gfx/interface/ideas/1maysov_icon.dds"
+	}
+
+	spriteType = {
+		name = "GFX_canal_control"
+		texturefile = "gfx/interface/ideas/canal_control.dds"
+	}
+	
+	}
+	

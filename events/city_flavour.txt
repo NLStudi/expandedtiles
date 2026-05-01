@@ -1,0 +1,9061 @@
+add_namespace = cityflavour
+add_namespace = wargn
+
+news_event = {
+	id = wargn.100
+	title = wargn.100.t
+	desc = wargn.100.d
+	picture = GFX_news_event_haugeger
+	major = yes
+	trigger = {
+		7 = {
+			is_controlled_by = GER
+		}
+		7 = {
+			is_owned_by = HOL
+		}
+		GER = {
+			has_war_with = HOL
+		}
+		NOT = {
+			has_global_flag = fall_of_hague_ger
+		}
+	}
+	immediate = {
+		set_global_flag = fall_of_hague_ger
+	}
+	mean_time_to_happen = {
+		days = 2
+	}
+	option = {
+		name = wargn.100.a
+		trigger = {
+			NOT = {
+				TAG = GER
+				TAG = HOL
+			}
+		}
+	}
+	option = {
+		name = wargn.100.b
+		trigger = {
+			TAG = GER
+		}
+	}
+	option = {
+		name = wargn.100.c
+		trigger = {
+			TAG = HOL
+		}
+	}
+}
+
+# The Fall of Brussles (Germany)
+news_event = {
+	id = wargn.101
+	title = wargn.101.t
+	desc = wargn.101.d
+	picture = GFX_news_event_brusselsger
+	major = yes
+	trigger = {
+		6 = {
+			is_controlled_by = GER
+		}
+		6 = {
+			is_owned_by = BEL
+		}
+		GER = {
+			has_war_with = BEL
+		}
+		NOT = {
+			has_global_flag = fall_of_brussels_ger
+		}
+	}
+	immediate = {
+		set_global_flag = fall_of_brussels_ger
+	}
+	mean_time_to_happen = {
+		days = 2
+	}
+	option = {
+		name = wargn.101.a
+		trigger = {
+			NOT = {
+				TAG = GER
+				TAG = BEL
+			}
+		}
+	}
+	option = {
+		name = wargn.101.b
+		trigger = {
+			TAG = GER
+		}
+	}
+	option = {
+		name = wargn.101.c
+		trigger = {
+			TAG = BEL
+		}
+	}
+}
+
+# The Fall of Copenhagen (Germany)
+news_event = {
+	id = wargn.102
+	title = wargn.102.t
+	desc = wargn.102.d
+	picture = GFX_news_event_copenhagenger
+	major = yes
+	trigger = {
+		37 = {
+			is_controlled_by = GER
+		}
+		37 = {
+			is_owned_by = DEN
+		}
+		GER = {
+			has_war_with = DEN
+		}
+		NOT = {
+			has_global_flag = fall_of_copen_ger
+		}
+	}
+	immediate = {
+		set_global_flag = fall_of_copen_ger
+	}
+	mean_time_to_happen = {
+		days = 2
+	}
+	option = {
+		name = wargn.102.a
+		trigger = {
+			NOT = {
+				TAG = GER
+				TAG = DEN
+			}
+		}
+	}
+	option = {
+		name = wargn.102.b
+		trigger = {
+			TAG = GER
+		}
+	}
+	option = {
+		name = wargn.102.c
+		trigger = {
+			TAG = DEN
+		}
+	}
+}
+
+# The Fall of Stockholm (Germany)
+news_event = {
+	id = wargn.103
+	title = wargn.103.t
+	desc = wargn.103.d
+	picture = GFX_news_event_stockholmger
+	major = yes
+	trigger = {
+		141 = {
+			is_controlled_by = GER
+		}
+		141 = {
+			is_owned_by = SWE
+		}
+		GER = {
+			has_war_with = SWE
+		}
+		NOT = {
+			has_global_flag = fall_of_stock_ger
+		}
+	}
+	immediate = {
+		set_global_flag = fall_of_stock_ger
+	}
+	mean_time_to_happen = {
+		days = 2
+	}
+	option = {
+		name = wargn.103.a
+		trigger = {
+			NOT = {
+				TAG = GER
+				TAG = SWE
+			}
+		}
+	}
+	option = {
+		name = wargn.103.b
+		trigger = {
+			TAG = GER
+		}
+	}
+	option = {
+		name = wargn.103.c
+		trigger = {
+			TAG = SWE
+		}
+	}
+}
+
+# The Fall of Lakehurst (Germany)
+news_event = {
+	id = wargn.104
+	title = wargn.104.t
+	desc = wargn.104.d
+	picture = GFX_news_event_lakehurstger
+	major = yes
+	trigger = {
+		359 = {
+			is_controlled_by = GER
+		}
+		359 = {
+			is_owned_by = USA
+		}
+		GER = {
+			has_war_with = USA
+		}
+		NOT = {
+			has_global_flag = fall_of_lakehurst_ger
+		}
+		NOT = {
+			has_global_flag = hindenburg_survives
+		}
+	}
+	immediate = {
+		set_global_flag = fall_of_lakehurst_ger
+	}
+	mean_time_to_happen = {
+		days = 2
+	}
+	option = {
+		name = wargn.104.a
+		trigger = {
+			NOT = {
+				TAG = GER
+				TAG = USA
+			}
+		}
+	}
+	option = {
+		name = wargn.104.b
+		trigger = {
+			TAG = GER
+		}
+	}
+	option = {
+		name = wargn.104.c
+		trigger = {
+			TAG = USA
+		}
+	}
+}
+
+# The Fall of Oslo (Germany)
+news_event = {
+	id = wargn.105
+	title = wargn.105.t
+	desc = wargn.105.d
+	picture = GFX_news_event_osloger
+	major = yes
+	trigger = {
+		110 = {
+			is_controlled_by = GER
+		}
+		110 = {
+			is_owned_by = NOR
+		}
+		GER = {
+			has_war_with = NOR
+		}
+		NOT = {
+			has_global_flag = fall_of_oslo_ger
+		}
+	}
+	immediate = {
+		set_global_flag = fall_of_oslo_ger
+	}
+	mean_time_to_happen = {
+		days = 2
+	}
+	option = {
+		name = wargn.105.a
+		trigger = {
+			NOT = {
+				TAG = GER
+				TAG = NOR
+			}
+		}
+	}
+	option = {
+		name = wargn.105.b
+		trigger = {
+			TAG = GER
+		}
+	}
+	option = {
+		name = wargn.105.c
+		trigger = {
+			TAG = NOR
+		}
+	}
+}
+
+# The Liberation of Vilnius (Germany)
+news_event = {
+	id = wargn.106
+	title = wargn.106.t
+	desc = wargn.106.d
+	picture = GFX_news_event_vilnusger
+	major = yes
+	trigger = {
+		784 = {
+			is_controlled_by = GER
+		}
+		784 = {
+			is_owned_by = SOV
+		}
+		GER = {
+			has_war_with = SOV
+		}
+		NOT = {
+			has_global_flag = liberation_of_vilnius_ger
+		}
+	}
+	immediate = {
+		set_global_flag = liberation_of_vilnius_ger
+	}
+	mean_time_to_happen = {
+		days = 2
+	}
+	option = {
+		name = wargn.106.a
+		trigger = {
+			NOT = {
+				TAG = GER
+				TAG = SOV
+			}
+		}
+	}
+	option = {
+		name = wargn.106.b
+		trigger = {
+			TAG = GER
+		}
+	}
+	option = {
+		name = wargn.106.c
+		trigger = {
+			TAG = SOV
+		}
+	}
+}
+
+# The Liberation of Riga (Germany)
+news_event = {
+	id = wargn.107
+	title = wargn.107.t
+	desc = wargn.107.d
+	picture = GFX_news_event_rigager
+	major = yes
+	trigger = {
+		12 = {
+			is_controlled_by = GER
+		}
+		12 = {
+			is_owned_by = SOV
+		}
+		GER = {
+			has_war_with = SOV
+		}
+		NOT = {
+			has_global_flag = liberation_of_riga_ger
+		}
+	}
+	immediate = {
+		set_global_flag = liberation_of_riga_ger
+	}
+	mean_time_to_happen = {
+		days = 2
+	}
+	option = {
+		name = wargn.107.a
+		trigger = {
+			NOT = {
+				TAG = GER
+				TAG = SOV
+			}
+		}
+	}
+	option = {
+		name = wargn.107.b
+		trigger = {
+			TAG = GER
+		}
+	}
+	option = {
+		name = wargn.107.c
+		trigger = {
+			TAG = SOV
+		}
+	}
+}
+
+# The Liberation of Tallinn (Germany)
+news_event = {
+	id = wargn.108
+	title = wargn.108.t
+	desc = wargn.108.d
+	picture = GFX_news_event_tallinger
+	major = yes
+	trigger = {
+		812 = {
+			is_controlled_by = GER
+		}
+		812 = {
+			is_owned_by = SOV
+		}
+		GER = {
+			has_war_with = SOV
+		}
+		NOT = {
+			has_global_flag = liberation_of_tallinn_ger
+		}
+	}
+	immediate = {
+		set_global_flag = liberation_of_tallinn_ger
+	}
+	mean_time_to_happen = {
+		days = 2
+	}
+	option = {
+		name = wargn.108.a
+		trigger = {
+			NOT = {
+				TAG = GER
+				TAG = SOV
+			}
+		}
+	}
+	option = {
+		name = wargn.108.b
+		trigger = {
+			TAG = GER
+		}
+	}
+	option = {
+		name = wargn.108.c
+		trigger = {
+			TAG = SOV
+		}
+		country_event = {
+			id = flavourmr.5
+		}
+	}
+}
+
+# The Fall of Edinburgh (Germany)
+news_event = {
+	id = wargn.109
+	title = wargn.109.t
+	desc = wargn.109.d
+	picture = GFX_news_event_edinburghger
+	major = yes
+	trigger = {
+		121 = {
+			is_controlled_by = GER
+		}
+		121 = {
+			is_owned_by = ENG
+		}
+		GER = {
+			has_war_with = ENG
+		}
+		NOT = {
+			has_global_flag = fall_of_edin_ger
+		}
+	}
+	immediate = {
+		set_global_flag = fall_of_edin_ger
+	}
+	mean_time_to_happen = {
+		days = 2
+	}
+	option = {
+		name = wargn.109.a
+		trigger = {
+			NOT = {
+				TAG = GER
+				TAG = ENG
+			}
+		}
+	}
+	option = {
+		name = wargn.109.b
+		trigger = {
+			TAG = GER
+		}
+	}
+	option = {
+		name = wargn.109.c
+		trigger = {
+			TAG = ENG
+		}
+	}
+}
+
+# The Fall of Rome (Germany)
+news_event = {
+	id = wargn.110
+	title = wargn.110.t
+	desc = wargn.110.d
+	picture = GFX_news_event_romeger
+	major = yes
+	trigger = {
+		2 = {
+			is_controlled_by = GER
+		}
+		2 = {
+			is_owned_by = ITA
+		}
+		GER = {
+			has_war_with = ITA
+		}
+		NOT = {
+			has_global_flag = fall_of_rome_ger
+		}
+	}
+	immediate = {
+		set_global_flag = fall_of_rome_ger
+	}
+	mean_time_to_happen = {
+		days = 2
+	}
+	option = {
+		name = wargn.110.a
+		trigger = {
+			NOT = {
+				TAG = GER
+				TAG = ITA
+			}
+		}
+	}
+	option = {
+		name = wargn.110.b
+		trigger = {
+			TAG = GER
+		}
+	}
+	option = {
+		name = wargn.110.c
+		trigger = {
+			TAG = ITA
+		}
+	}
+}
+
+# The Fall of Budapest (Germany)
+news_event = {
+	id = wargn.111
+	title = wargn.111.t
+	desc = wargn.111.d
+	picture = GFX_news_event_budapestger
+	major = yes
+	trigger = {
+		43 = {
+			is_controlled_by = GER
+		}
+		43 = {
+			is_owned_by = HUN
+		}
+		GER = {
+			has_war_with = HUN
+		}
+		NOT = {
+			has_global_flag = fall_of_buda_ger
+		}
+	}
+	immediate = {
+		set_global_flag = fall_of_buda_ger
+	}
+	mean_time_to_happen = {
+		days = 2
+	}
+	option = {
+		name = wargn.111.a
+		trigger = {
+			NOT = {
+				TAG = GER
+				TAG = HUN
+			}
+		}
+	}
+	option = {
+		name = wargn.111.b
+		trigger = {
+			TAG = GER
+		}
+	}
+	option = {
+		name = wargn.111.c
+		trigger = {
+			TAG = HUN
+		}
+	}
+}
+
+# The Fall of Athens (Germany)
+news_event = {
+	id = wargn.112
+	title = wargn.112.t
+	desc = wargn.112.d
+	picture = GFX_news_event_athensger
+	major = yes
+	trigger = {
+		47 = {
+			is_controlled_by = GER
+		}
+		47 = {
+			is_owned_by = GRE
+		}
+		GER = {
+			has_war_with = GRE
+		}
+		NOT = {
+			has_global_flag = fall_of_athens_ger
+		}
+	}
+	immediate = {
+		set_global_flag = fall_of_athens_ger
+	}
+	mean_time_to_happen = {
+		days = 2
+	}
+	option = {
+		name = wargn.112.a
+		trigger = {
+			NOT = {
+				TAG = GER
+				TAG = GRE
+			}
+		}
+	}
+	option = {
+		name = wargn.112.b
+		trigger = {
+			TAG = GER
+		}
+	}
+	option = {
+		name = wargn.112.c
+		trigger = {
+			TAG = GRE
+		}
+	}
+}
+
+# The Fall of Belgrade (Germany)
+news_event = {
+	id = wargn.113
+	title = wargn.113.t
+	desc = wargn.113.d
+	picture = GFX_news_event_belgradeger
+	major = yes
+	trigger = {
+		GER = {
+			107 = {
+				is_controlled_by_ROOT_or_ally = yes
+			}
+		}
+		107 = {
+			is_owned_by = YUG
+		}
+		GER = {
+			has_war_with = YUG
+		}
+		NOT = {
+			has_global_flag = fall_of_belgrade_ger
+		}
+	}
+	immediate = {
+		set_global_flag = fall_of_belgrade_ger
+	}
+	mean_time_to_happen = {
+		days = 2
+	}
+	option = {
+		name = wargn.113.a
+		trigger = {
+			NOT = {
+				TAG = GER
+				TAG = YUG
+			}
+		}
+	}
+	option = {
+		name = wargn.113.b
+		trigger = {
+			TAG = GER
+		}
+	}
+	option = {
+		name = wargn.113.c
+		trigger = {
+			TAG = YUG
+		}
+	}
+}
+
+# The Fall of Tokyo (Germany)
+news_event = {
+	id = wargn.114
+	title = wargn.114.t
+	desc = wargn.114.d
+	picture = GFX_news_event_tokyoger
+	major = yes
+	trigger = {
+		282 = {
+			is_controlled_by = GER
+		}
+		282 = {
+			is_owned_by = JAP
+		}
+		GER = {
+			has_war_with = JAP
+		}
+		NOT = {
+			has_global_flag = fall_of_tokyo_ger
+		}
+	}
+	immediate = {
+		set_global_flag = fall_of_tokyo_ger
+	}
+	mean_time_to_happen = {
+		days = 2
+	}
+	option = {
+		name = wargn.114.a
+		trigger = {
+			NOT = {
+				TAG = GER
+				TAG = JAP
+			}
+		}
+	}
+	option = {
+		name = wargn.114.b
+		trigger = {
+			TAG = GER
+		}
+	}
+	option = {
+		name = wargn.114.c
+		trigger = {
+			TAG = JAP
+		}
+	}
+}
+
+# The Fall of Ottawa (Germany)
+news_event = {
+	id = wargn.115
+	title = wargn.115.t
+	desc = wargn.115.d
+	picture = GFX_news_event_ottawager
+	major = yes
+	trigger = {
+		276 = {
+			is_controlled_by = GER
+		}
+		276 = {
+			is_owned_by = CAN
+		}
+		GER = {
+			has_war_with = CAN
+		}
+		NOT = {
+			has_global_flag = fall_of_ottawa_ger
+		}
+	}
+	immediate = {
+		set_global_flag = fall_of_ottawa_ger
+	}
+	mean_time_to_happen = {
+		days = 2
+	}
+	option = {
+		name = wargn.115.a
+		trigger = {
+			NOT = {
+				TAG = GER
+				TAG = CAN
+			}
+		}
+	}
+	option = {
+		name = wargn.115.b
+		trigger = {
+			TAG = GER
+		}
+	}
+	option = {
+		name = wargn.115.c
+		trigger = {
+			TAG = CAN
+		}
+	}
+}
+
+# The Fall of Boston (Germany)
+news_event = {
+	id = wargn.116
+	title = wargn.116.t
+	desc = wargn.116.d
+	picture = GFX_news_event_bostonger
+	major = yes
+	trigger = {
+		357 = {
+			is_controlled_by = GER
+		}
+		357 = {
+			is_owned_by = USA
+		}
+		GER = {
+			has_war_with = USA
+		}
+		NOT = {
+			has_global_flag = fall_of_boston_ger
+		}
+	}
+	immediate = {
+		set_global_flag = fall_of_boston_ger
+	}
+	mean_time_to_happen = {
+		days = 2
+	}
+	option = {
+		name = wargn.116.a
+		trigger = {
+			NOT = {
+				TAG = GER
+				TAG = USA
+			}
+		}
+	}
+	option = {
+		name = wargn.116.b
+		trigger = {
+			TAG = GER
+		}
+	}
+	option = {
+		name = wargn.116.c
+		trigger = {
+			TAG = USA
+		}
+	}
+}
+
+# The Fall of Philadelphia (Germany)
+news_event = {
+	id = wargn.117
+	title = wargn.117.t
+	desc = wargn.117.d
+	picture = GFX_news_event_philadelphiager
+	major = yes
+	trigger = {
+		360 = {
+			is_controlled_by = GER
+		}
+		360 = {
+			is_owned_by = USA
+		}
+		GER = {
+			has_war_with = USA
+		}
+		NOT = {
+			has_global_flag = fall_of_philly_ger
+		}
+	}
+	immediate = {
+		set_global_flag = fall_of_philly_ger
+	}
+	mean_time_to_happen = {
+		days = 2
+	}
+	option = {
+		name = wargn.117.a
+		trigger = {
+			NOT = {
+				TAG = GER
+				TAG = USA
+			}
+		}
+	}
+	option = {
+		name = wargn.117.b
+		trigger = {
+			TAG = GER
+		}
+	}
+	option = {
+		name = wargn.117.c
+		trigger = {
+			TAG = USA
+		}
+	}
+}
+
+# The Fall of Detroit (Germany)
+news_event = {
+	id = wargn.118
+	title = wargn.118.t
+	desc = wargn.118.d
+	picture = GFX_news_event_detroitger
+	major = yes
+	trigger = {
+		393 = {
+			is_controlled_by = GER
+		}
+		393 = {
+			is_owned_by = USA
+		}
+		GER = {
+			has_war_with = USA
+		}
+		NOT = {
+			has_global_flag = fall_of_detroit_ger
+		}
+	}
+	immediate = {
+		set_global_flag = fall_of_detroit_ger
+	}
+	mean_time_to_happen = {
+		days = 2
+	}
+	option = {
+		name = wargn.118.a
+		trigger = {
+			NOT = {
+				TAG = GER
+				TAG = USA
+			}
+		}
+	}
+	option = {
+		name = wargn.118.b
+		trigger = {
+			TAG = GER
+		}
+	}
+	option = {
+		name = wargn.118.c
+		trigger = {
+			TAG = USA
+		}
+	}
+}
+
+# The Liberation of Tehran (Germany)
+news_event = {
+	id = wargn.119
+	title = wargn.119.t
+	desc = wargn.119.d
+	picture = GFX_news_event_teheranger
+	major = yes
+	trigger = {
+		266 = {
+			is_controlled_by = GER
+		}
+		266 = {
+			is_owned_by = SOV
+		}
+		GER = {
+			has_war_with = SOV
+		}
+		NOT = {
+			has_global_flag = lib_of_tehran_ger
+		}
+	}
+	immediate = {
+		set_global_flag = lib_of_tehran_ger
+	}
+	mean_time_to_happen = {
+		days = 2
+	}
+	option = {
+		name = wargn.119.a
+		trigger = {
+			NOT = {
+				TAG = GER
+				TAG = SOV
+			}
+		}
+	}
+	option = {
+		name = wargn.119.b
+		trigger = {
+			TAG = GER
+		}
+	}
+	option = {
+		name = wargn.119.c
+		trigger = {
+			TAG = SOV
+		}
+	}
+}
+
+# The Fall of Los Angeles (Germany)
+news_event = {
+	id = wargn.120
+	title = wargn.120.t
+	desc = wargn.120.d
+	picture = GFX_news_event_losangelesger
+	major = yes
+	trigger = {
+		378 = {
+			is_controlled_by = GER
+		}
+		378 = {
+			is_owned_by = USA
+		}
+		GER = {
+			has_war_with = USA
+		}
+		NOT = {
+			has_global_flag = fall_of_los_angeles_ger
+		}
+	}
+	immediate = {
+		set_global_flag = fall_of_los_angeles_ger
+	}
+	mean_time_to_happen = {
+		days = 2
+	}
+	option = {
+		name = wargn.120.a
+		trigger = {
+			NOT = {
+				TAG = GER
+				TAG = USA
+			}
+		}
+	}
+	option = {
+		name = wargn.120.b
+		trigger = {
+			TAG = GER
+		}
+	}
+	option = {
+		name = wargn.120.c
+		trigger = {
+			TAG = USA
+		}
+	}
+}
+
+# The Fall of Delhi (Germany)
+news_event = {
+	id = wargn.121
+	title = wargn.121.t
+	desc = wargn.121.d
+	picture = GFX_news_event_delhiger
+	major = yes
+	trigger = {
+		439 = {
+			is_controlled_by = GER
+		}
+		439 = {
+			is_owned_by = RAJ
+		}
+		GER = {
+			has_war_with = RAJ
+		}
+		NOT = {
+			has_global_flag = fall_of_delhi_ger
+		}
+	}
+	immediate = {
+		set_global_flag = fall_of_delhi_ger
+	}
+	mean_time_to_happen = {
+		days = 2
+	}
+	option = {
+		name = wargn.121.a
+		trigger = {
+			NOT = {
+				TAG = GER
+				TAG = RAJ
+			}
+		}
+	}
+	option = {
+		name = wargn.121.b
+		trigger = {
+			TAG = GER
+		}
+	}
+	option = {
+		name = wargn.121.c
+		trigger = {
+			TAG = RAJ
+		}
+	}
+}
+
+# The Fall of Tehran (Germany)
+news_event = {
+	id = wargn.122
+	title = wargn.122.t
+	desc = wargn.122.d
+	picture = GFX_news_event_teheranger
+	major = yes
+	trigger = {
+		266 = {
+			is_controlled_by = GER
+		}
+		266 = {
+			is_owned_by = PER
+		}
+		GER = {
+			has_war_with = PER
+		}
+		NOT = {
+			has_global_flag = fall_of_tehran_ger
+		}
+	}
+	immediate = {
+		set_global_flag = fall_of_tehran_ger
+	}
+	mean_time_to_happen = {
+		days = 2
+	}
+	option = {
+		name = wargn.122.a
+		trigger = {
+			NOT = {
+				TAG = GER
+				TAG = PER
+			}
+		}
+	}
+	option = {
+		name = wargn.122.b
+		trigger = {
+			TAG = GER
+		}
+	}
+	option = {
+		name = wargn.122.c
+		trigger = {
+			TAG = PER
+		}
+	}
+}
+
+# The Fall of Jerusalem (Germany)
+news_event = {
+	id = wargn.123
+	title = wargn.123.t
+	desc = wargn.123.d
+	picture = GFX_news_event_jerusalemger
+	major = yes
+	trigger = {
+		OR = {
+			454 = {
+				is_controlled_by = ITA
+			}
+			454 = {
+				is_controlled_by = GER
+			}
+		}
+		454 = {
+			is_owned_by = PAL
+		}
+		GER = {
+			has_war_with = ENG
+		}
+		NOT = {
+			has_global_flag = fall_of_jerusalem_ger
+		}
+	}
+	immediate = {
+		set_global_flag = fall_of_jerusalem_ger
+	}
+	mean_time_to_happen = {
+		days = 2
+	}
+	option = {
+		name = wargn.123.a
+		trigger = {
+			NOT = {
+				TAG = GER
+				TAG = ENG
+			}
+		}
+	}
+	option = {
+		name = wargn.123.b
+		trigger = {
+			TAG = GER
+		}
+	}
+	option = {
+		name = wargn.123.c
+		trigger = {
+			TAG = ENG
+		}
+	}
+}
+
+# The Fall of Mecca (Germany)
+news_event = {
+	id = wargn.124
+	title = wargn.124.t
+	desc = wargn.124.d
+	picture = GFX_news_event_meccager
+	major = yes
+	trigger = {
+		679 = {
+			is_controlled_by = GER
+		}
+		679 = {
+			is_owned_by = SAU
+		}
+		GER = {
+			has_war_with = SAU
+		}
+		NOT = {
+			has_global_flag = fall_of_mecca_ger
+		}
+	}
+	immediate = {
+		set_global_flag = fall_of_mecca_ger
+	}
+	mean_time_to_happen = {
+		days = 2
+	}
+	option = {
+		name = wargn.124.a
+		trigger = {
+			NOT = {
+				TAG = GER
+				TAG = SAU
+			}
+		}
+	}
+	option = {
+		name = wargn.124.b
+		trigger = {
+			TAG = GER
+		}
+	}
+	option = {
+		name = wargn.124.c
+		trigger = {
+			TAG = SAU
+		}
+	}
+}
+
+# The Fall of the Urals (Germany)
+news_event = {
+	id = wargn.125
+	title = wargn.125.t
+	desc = wargn.125.d
+	picture = GFX_news_event_uralger
+	major = yes
+	fire_only_once = yes
+	trigger = {
+		876 = {
+			is_controlled_by = GER
+		}
+		876 = {
+			is_owned_by = SOV
+		}
+		573 = {
+			is_controlled_by = GER
+		}
+		573 = {
+			is_owned_by = SOV
+		}
+		581 = {
+			is_controlled_by = GER
+		}
+		581 = {
+			is_owned_by = SOV
+		}
+		GER = {
+			has_war_with = SOV
+		}
+		NOT = {
+			has_global_flag = fall_of_urals_ger
+		}
+	}
+	immediate = {
+		set_global_flag = fall_of_urals_ger
+	}
+	mean_time_to_happen = {
+		days = 2
+	}
+	option = {
+		name = wargn.125.a
+		trigger = {
+			NOT = {
+				TAG = GER
+				TAG = SOV
+			}
+		}
+	}
+	option = {
+		name = wargn.125.b
+		trigger = {
+			TAG = GER
+		}
+	}
+	option = {
+		name = wargn.125.c
+		trigger = {
+			TAG = SOV
+		}
+	}
+}
+
+# The Fall of Vladivostok (Germany)
+news_event = {
+	id = wargn.126
+	title = wargn.126.t
+	desc = wargn.126.d
+	picture = GFX_news_event_vladivostokger
+	major = yes
+	trigger = {
+		890 = {
+			is_controlled_by = GER
+		}
+		890 = {
+			is_owned_by = SOV
+		}
+		GER = {
+			has_war_with = SOV
+		}
+		NOT = {
+			has_global_flag = fall_of_vladivostok_ger
+		}
+	}
+	immediate = {
+		set_global_flag = fall_of_vladivostok_ger
+	}
+	mean_time_to_happen = {
+		days = 2
+	}
+	option = {
+		name = wargn.126.a
+		trigger = {
+			NOT = {
+				TAG = GER
+				TAG = SOV
+			}
+		}
+	}
+	option = {
+		name = wargn.126.b
+		trigger = {
+			TAG = GER
+		}
+	}
+	option = {
+		name = wargn.126.c
+		trigger = {
+			TAG = SOV
+		}
+	}
+}
+
+# The Fall of Ulaanbaatar/Mongolia (Germany)
+news_event = {
+	id = wargn.127
+	title = wargn.127.t
+	desc = wargn.127.d
+	picture = GFX_news_event_mongoliager
+	major = yes
+	trigger = {
+		330 = {
+			is_controlled_by = GER
+		}
+		330 = {
+			is_owned_by = MON
+		}
+		GER = {
+			has_war_with = MON
+		}
+		NOT = {
+			has_global_flag = fall_of_ulaanbaatar_ger
+		}
+	}
+	immediate = {
+		set_global_flag = fall_of_ulaanbaatar_ger
+	}
+	mean_time_to_happen = {
+		days = 2
+	}
+	option = {
+		name = wargn.127.a
+		trigger = {
+			NOT = {
+				TAG = GER
+				TAG = MON
+			}
+		}
+	}
+	option = {
+		name = wargn.127.b
+		trigger = {
+			TAG = GER
+		}
+	}
+	option = {
+		name = wargn.127.c
+		trigger = {
+			TAG = MON
+		}
+	}
+}
+
+#########################NEW BY ME SRY TO MOD CREATOR XD###############################
+# The Capture of Riga (Germany)
+news_event = {
+	id = wargn.128
+	title = wargn.128.t
+	desc = wargn.128.d
+	picture = GFX_news_event_rigafallger
+	major = yes
+	trigger = {
+		808 = {
+			is_controlled_by = GER
+		}
+		808 = {
+			is_owned_by = LAT
+		}
+		GER = {
+			has_war_with = LAT
+		}
+		NOT = {
+			has_global_flag = capture_of_riga_ger
+		}
+	}
+	immediate = {
+		set_global_flag = capture_of_riga_ger
+	}
+	mean_time_to_happen = {
+		days = 2
+	}
+	option = {
+		name = wargn.128.a
+		trigger = {
+			NOT = {
+				TAG = GER
+				TAG = LAT
+			}
+		}
+	}
+	option = {
+		name = wargn.128.b
+		trigger = {
+			TAG = GER
+		}
+	}
+	option = {
+		name = wargn.128.c
+		trigger = {
+			TAG = LAT
+		}
+	}
+}
+
+# The capture of Tallinn (Germany)
+news_event = {
+	id = wargn.129
+	title = wargn.129.t
+	desc = wargn.129.d
+	picture = GFX_news_event_tallinfallger
+	major = yes
+	trigger = {
+		812 = {
+			is_controlled_by = GER
+		}
+		812 = {
+			is_owned_by = EST
+		}
+		GER = {
+			has_war_with = EST
+		}
+		NOT = {
+			has_global_flag = capture_of_tallinn_ger
+		}
+	}
+	immediate = {
+		set_global_flag = capture_of_tallinn_ger
+	}
+	mean_time_to_happen = {
+		days = 2
+	}
+	option = {
+		name = wargn.129.a
+		trigger = {
+			NOT = {
+				TAG = GER
+				TAG = EST
+			}
+		}
+	}
+	option = {
+		name = wargn.129.b
+		trigger = {
+			TAG = GER
+		}
+	}
+	option = {
+		name = wargn.129.c
+		trigger = {
+			TAG = EST
+		}
+	}
+}
+
+#################################OSTFRONT######################################
+news_event = {
+	id = cityflavour.100
+	title = cityflavour.100.t
+	desc = cityflavour.100.d
+	picture = GFX_news_event_smolenskfall
+	major = yes
+	trigger = {
+		242 = {
+			is_controlled_by = GER
+		}
+		242 = {
+			is_owned_by = SOV
+		}
+		GER = {
+			has_war_with = SOV
+		}
+		NOT = {
+			has_global_flag = capture_of_smolensk_ger
+		}
+	}
+	immediate = {
+		set_global_flag = capture_of_smolensk_ger
+	}
+	mean_time_to_happen = {
+		days = 2
+	}
+	option = {
+		name = cityflavour.100.a
+		trigger = {
+			NOT = {
+				TAG = GER
+				TAG = SOV
+			}
+		}
+	}
+	option = {
+		name = cityflavour.100.b
+		trigger = {
+			TAG = GER
+		}
+	}
+	option = {
+		name = cityflavour.100.c
+		trigger = {
+			TAG = SOV
+		}
+		country_event = {
+			id = flavourmr.14
+		}
+	}
+}
+
+news_event = {
+	id = cityflavour.101
+	title = cityflavour.101.t
+	desc = cityflavour.101.d
+	picture = GFX_news_event_smolensklib
+	major = yes
+	trigger = {
+		242 = {
+			is_controlled_by = SOV
+		}
+		242 = {
+			is_owned_by = SOV
+		}
+		GER = {
+			has_war_with = SOV
+		}
+		has_global_flag = capture_of_smolensk_ger
+		NOT = {
+			has_global_flag = lib_of_smolensk
+		}
+	}
+	immediate = {
+		clr_global_flag = capture_of_smolensk_ger
+		set_global_flag = lib_of_smolensk
+	}
+	mean_time_to_happen = {
+		days = 2
+	}
+	option = {
+		name = cityflavour.101.a
+		trigger = {
+			NOT = {
+				TAG = GER
+				TAG = SOV
+			}
+		}
+	}
+	option = {
+		name = cityflavour.101.b
+		trigger = {
+			TAG = GER
+		}
+	}
+	option = {
+		name = cityflavour.101.c
+		trigger = {
+			TAG = SOV
+		}
+	}
+}
+
+news_event = {
+	id = cityflavour.102
+	title = cityflavour.102.t
+	desc = cityflavour.102.d
+	picture = GFX_news_event_mittelafrikaestablished
+	major = yes
+	trigger = {
+		#GER = { has_completed_focus = GER_establish_rk_mittelafrika }
+		NOT = {
+			has_global_flag = mittelafrikaestablished
+		}
+		country_exists = RMA
+	}
+	immediate = {
+		set_global_flag = mittelafrikaestablished
+	}
+	mean_time_to_happen = {
+		days = 2
+	}
+	option = {
+		name = cityflavour.102.a
+		trigger = {
+			NOT = {
+				TAG = GER
+			}
+		}
+	}
+	option = {
+		name = cityflavour.102.b
+		trigger = {
+			TAG = GER
+		}
+		add_stability = 0.015
+		add_war_support = 0.015
+		add_political_power = 20
+	}
+}
+
+news_event = {
+	id = cityflavour.103
+	title = cityflavour.103.t
+	desc = cityflavour.103.d
+	picture = GFX_news_event_babiyar
+	major = yes
+	trigger = {
+		202 = {
+			is_controlled_by = GER
+		}
+		202 = {
+			is_owned_by = SOV
+		}
+		GER = {
+			has_war_with = SOV
+		}
+		NOT = {
+			has_global_flag = babi_yar_crime
+		}
+		TAG = GER
+	}
+	immediate = {
+		set_global_flag = babi_yar_crime
+	}
+	mean_time_to_happen = {
+		days = 28
+	}
+	option = {
+		name = cityflavour.103.a
+		trigger = {
+			TAG = GER
+		}
+		add_stability = 0.05
+		add_political_power = -150
+	}
+	option = {
+		name = cityflavour.103.b
+		trigger = {
+			TAG = GER
+		}
+		add_stability = -0.05
+		add_political_power = 150
+		202 = {
+			add_manpower = -33761
+		}
+	}
+}
+
+news_event = {
+	id = cityflavour.104
+	title = cityflavour.104.t
+	desc = cityflavour.104.d
+	picture = GFX_news_event_arkchangelslib
+	major = yes
+	trigger = {
+		919 = {
+			is_controlled_by = SOV
+		}
+		919 = {
+			is_owned_by = SOV
+		}
+		GER = {
+			has_war_with = SOV
+		}
+		has_global_flag = capture_of_arkchangelsk
+		NOT = {
+			has_global_flag = lib_of_arkchangelsk
+		}
+	}
+	immediate = {
+		clr_global_flag = capture_of_arkchangelsk
+		set_global_flag = lib_of_arkchangelsk
+	}
+	mean_time_to_happen = {
+		days = 2
+	}
+	option = {
+		name = cityflavour.104.a
+		trigger = {
+			NOT = {
+				TAG = GER
+				TAG = SOV
+			}
+		}
+	}
+	option = {
+		name = cityflavour.104.b
+		trigger = {
+			TAG = GER
+		}
+	}
+	option = {
+		name = cityflavour.104.c
+		trigger = {
+			TAG = SOV
+		}
+	}
+}
+
+news_event = {
+	id = cityflavour.105
+	title = cityflavour.105.t
+	desc = cityflavour.105.d
+	picture = GFX_news_event_fallarkchangelsk
+	major = yes
+	trigger = {
+		919 = {
+			is_controlled_by = GER
+		}
+		919 = {
+			is_owned_by = SOV
+		}
+		GER = {
+			has_war_with = SOV
+		}
+		NOT = {
+			has_global_flag = capture_of_arkchangelsk
+		}
+	}
+	immediate = {
+		set_global_flag = capture_of_arkchangelsk
+	}
+	mean_time_to_happen = {
+		days = 2
+	}
+	option = {
+		name = cityflavour.105.a
+		trigger = {
+			NOT = {
+				TAG = GER
+				TAG = SOV
+			}
+		}
+	}
+	option = {
+		name = cityflavour.105.b
+		trigger = {
+			TAG = GER
+		}
+	}
+	option = {
+		name = cityflavour.105.c
+		trigger = {
+			TAG = SOV
+		}
+	}
+}
+
+news_event = {
+	id = cityflavour.106
+	title = cityflavour.106.t
+	desc = cityflavour.106.d
+	picture = GFX_news_event_barbarossa
+	major = yes
+	trigger = {
+		GER = {
+			has_offensive_war_with = SOV
+		}
+		NOT = {
+			has_global_flag = unternehemenbarbarossiflavour
+		}
+	}
+	immediate = {
+		set_global_flag = unternehemenbarbarossiflavour
+		GER = {
+			country_event = {
+				id = rem_germany_expanded.24
+			}
+		}
+		SOV = {
+			country_event = {
+				id = rem_germany_expanded.24
+			}
+		}
+	}
+	mean_time_to_happen = {
+		days = 2
+	}
+	option = {
+		name = cityflavour.106.a
+		trigger = {
+			NOT = {
+				TAG = GER
+				TAG = SOV
+			}
+		}
+	}
+	option = {
+		name = cityflavour.106.b
+		trigger = {
+			TAG = GER
+		}
+		add_stability = 0.025
+		add_war_support = 0.025
+		add_political_power = 45
+	}
+	option = {
+		name = cityflavour.106.c
+		trigger = {
+			TAG = SOV
+		}
+	}
+}
+
+news_event = {
+	id = cityflavour.107
+	title = cityflavour.107.t
+	desc = cityflavour.107.d
+	picture = GFX_news_event_bialystokfall
+	major = yes
+	trigger = {
+		97 = {
+			is_controlled_by = GER
+		}
+		97 = {
+			is_owned_by = SOV
+		}
+		GER = {
+			has_war_with = SOV
+		}
+		NOT = {
+			has_global_flag = capture_of_bialystok
+		}
+	}
+	immediate = {
+		set_global_flag = capture_of_bialystok
+	}
+	mean_time_to_happen = {
+		days = 2
+	}
+	option = {
+		name = cityflavour.107.a
+		trigger = {
+			NOT = {
+				TAG = GER
+				TAG = SOV
+			}
+		}
+	}
+	option = {
+		name = cityflavour.107.b
+		trigger = {
+			TAG = GER
+		}
+	}
+	option = {
+		name = cityflavour.107.c
+		trigger = {
+			TAG = SOV
+		}
+	}
+}
+
+news_event = {
+	id = cityflavour.108
+	title = cityflavour.108.t
+	desc = cityflavour.108.d
+	picture = GFX_news_event_bretonestablished
+	major = yes
+	trigger = {
+		country_exists = RBR
+		NOT = {
+			has_global_flag = breton_established
+		}
+	}
+	immediate = {
+		set_global_flag = breton_established
+	}
+	mean_time_to_happen = {
+		days = 2
+	}
+	option = {
+		name = cityflavour.108.a
+		trigger = {
+			NOT = {
+				TAG = GER
+			}
+		}
+	}
+	option = {
+		name = cityflavour.108.b
+		trigger = {
+			TAG = GER
+		}
+	}
+}
+
+news_event = {
+	id = cityflavour.109
+	title = cityflavour.109.t
+	desc = cityflavour.109.d
+	picture = GFX_news_event_burgundyjoinsagainstsov
+	major = yes
+	trigger = {
+		country_exists = RBU
+		RBU = {
+			has_war_with = SOV
+		}
+		GER = {
+			has_war_with = SOV
+		}
+		NOT = {
+			has_global_flag = burgundyjoined
+		}
+	}
+	immediate = {
+		set_global_flag = burgundyjoined
+	}
+	mean_time_to_happen = {
+		days = 2
+	}
+	option = {
+		name = cityflavour.109.a
+		trigger = {
+			NOT = {
+				TAG = GER
+				TAG = SOV
+			}
+		}
+	}
+	option = {
+		name = cityflavour.109.b
+		trigger = {
+			TAG = GER
+		}
+	}
+	option = {
+		name = cityflavour.109.c
+		trigger = {
+			TAG = SOV
+		}
+	}
+}
+
+news_event = {
+	id = cityflavour.110
+	title = cityflavour.110.t
+	desc = cityflavour.110.d
+	picture = GFX_news_event_chelabinskfall
+	major = yes
+	trigger = {
+		572 = {
+			is_controlled_by = GER
+		}
+		572 = {
+			is_owned_by = SOV
+		}
+		GER = {
+			has_war_with = SOV
+		}
+		NOT = {
+			has_global_flag = capture_of_chelabinsk
+		}
+	}
+	immediate = {
+		set_global_flag = capture_of_chelabinsk
+	}
+	mean_time_to_happen = {
+		days = 2
+	}
+	option = {
+		name = cityflavour.110.a
+		trigger = {
+			NOT = {
+				TAG = GER
+				TAG = SOV
+			}
+		}
+	}
+	option = {
+		name = cityflavour.110.b
+		trigger = {
+			TAG = GER
+		}
+	}
+	option = {
+		name = cityflavour.110.c
+		trigger = {
+			TAG = SOV
+		}
+	}
+}
+
+news_event = {
+	id = cityflavour.111
+	title = cityflavour.111.t
+	desc = cityflavour.111.d
+	picture = GFX_news_event_chelabinsklib
+	major = yes
+	trigger = {
+		572 = {
+			is_controlled_by = SOV
+		}
+		572 = {
+			is_owned_by = SOV
+		}
+		GER = {
+			has_war_with = SOV
+		}
+		has_global_flag = capture_of_chelabinsk
+		NOT = {
+			has_global_flag = lib_of_chelabinsk
+		}
+	}
+	immediate = {
+		clr_global_flag = capture_of_chelabinsk
+		set_global_flag = lib_of_chelabinsk
+	}
+	mean_time_to_happen = {
+		days = 2
+	}
+	option = {
+		name = cityflavour.111.a
+		trigger = {
+			NOT = {
+				TAG = GER
+				TAG = SOV
+			}
+		}
+	}
+	option = {
+		name = cityflavour.111.b
+		trigger = {
+			TAG = GER
+		}
+	}
+	option = {
+		name = cityflavour.111.c
+		trigger = {
+			TAG = SOV
+		}
+	}
+}
+
+news_event = {
+	id = cityflavour.112
+	title = cityflavour.112.t
+	desc = cityflavour.112.d
+	picture = GFX_news_event_decentralizationofafrika
+	major = yes
+	trigger = {
+		country_exists = RWF
+		country_exists = RZA
+		country_exists = REA
+		country_exists = RSA
+		country_exists = RMG
+		NOT = {
+			has_global_flag = afrikadecentralized
+		}
+	}
+	immediate = {
+		set_global_flag = afrikadecentralized
+	}
+	mean_time_to_happen = {
+		days = 2
+	}
+	option = {
+		name = cityflavour.112.a
+		trigger = {
+			NOT = {
+				TAG = GER
+			}
+		}
+	}
+	option = {
+		name = cityflavour.112.b
+		trigger = {
+			TAG = GER
+		}
+	}
+}
+
+news_event = {
+	id = cityflavour.113
+	title = cityflavour.113.t
+	desc = cityflavour.113.d
+	picture = GFX_news_event_gorkyfall
+	major = yes
+	trigger = {
+		252 = {
+			is_controlled_by = GER
+		}
+		252 = {
+			is_owned_by = SOV
+		}
+		GER = {
+			has_war_with = SOV
+		}
+		NOT = {
+			has_global_flag = capture_of_gorky
+		}
+	}
+	immediate = {
+		set_global_flag = capture_of_gorky
+	}
+	mean_time_to_happen = {
+		days = 2
+	}
+	option = {
+		name = cityflavour.113.a
+		trigger = {
+			NOT = {
+				TAG = GER
+				TAG = SOV
+			}
+		}
+	}
+	option = {
+		name = cityflavour.113.b
+		trigger = {
+			TAG = GER
+		}
+	}
+	option = {
+		name = cityflavour.113.c
+		trigger = {
+			TAG = SOV
+		}
+	}
+}
+
+news_event = {
+	id = cityflavour.114
+	title = cityflavour.114.t
+	desc = cityflavour.114.d
+	picture = GFX_news_event_gorkylib
+	major = yes
+	trigger = {
+		252 = {
+			is_controlled_by = SOV
+		}
+		252 = {
+			is_owned_by = SOV
+		}
+		GER = {
+			has_war_with = SOV
+		}
+		has_global_flag = capture_of_gorky
+		NOT = {
+			has_global_flag = lib_of_gorky
+		}
+	}
+	immediate = {
+		clr_global_flag = capture_of_gorky
+		set_global_flag = lib_of_gorky
+	}
+	mean_time_to_happen = {
+		days = 2
+	}
+	option = {
+		name = cityflavour.114.a
+		trigger = {
+			NOT = {
+				TAG = GER
+				TAG = SOV
+			}
+		}
+	}
+	option = {
+		name = cityflavour.114.b
+		trigger = {
+			TAG = GER
+		}
+	}
+	option = {
+		name = cityflavour.114.c
+		trigger = {
+			TAG = SOV
+		}
+	}
+}
+
+news_event = {
+	id = cityflavour.115
+	title = cityflavour.115.t
+	desc = cityflavour.115.d
+	picture = GFX_news_event_irkutskfall
+	major = yes
+	trigger = {
+		566 = {
+			is_controlled_by = JAP
+		}
+		566 = {
+			is_owned_by = SOV
+		}
+		JAP = {
+			has_war_with = SOV
+		}
+		NOT = {
+			has_global_flag = capture_of_irkutsk
+		}
+	}
+	immediate = {
+		set_global_flag = capture_of_irkutsk
+	}
+	mean_time_to_happen = {
+		days = 2
+	}
+	option = {
+		name = cityflavour.115.a
+		trigger = {
+			NOT = {
+				TAG = JAP
+				TAG = SOV
+			}
+		}
+	}
+	option = {
+		name = cityflavour.115.b
+		trigger = {
+			TAG = JAP
+		}
+	}
+	option = {
+		name = cityflavour.115.c
+		trigger = {
+			TAG = SOV
+		}
+	}
+}
+
+news_event = {
+	id = cityflavour.116
+	title = cityflavour.116.t
+	desc = cityflavour.116.d
+	picture = GFX_news_event_irkutsklib
+	major = yes
+	trigger = {
+		566 = {
+			is_controlled_by = SOV
+		}
+		566 = {
+			is_owned_by = SOV
+		}
+		JAP = {
+			has_war_with = SOV
+		}
+		has_global_flag = capture_of_irkutsk
+		NOT = {
+			has_global_flag = lib_of_irkutsk
+		}
+	}
+	immediate = {
+		clr_global_flag = capture_of_irkutsk
+		set_global_flag = lib_of_irkutsk
+	}
+	mean_time_to_happen = {
+		days = 2
+	}
+	option = {
+		name = cityflavour.116.a
+		trigger = {
+			NOT = {
+				TAG = JAP
+				TAG = SOV
+			}
+		}
+	}
+	option = {
+		name = cityflavour.116.b
+		trigger = {
+			TAG = JAP
+		}
+	}
+	option = {
+		name = cityflavour.116.c
+		trigger = {
+			TAG = SOV
+		}
+	}
+}
+
+news_event = {
+	id = cityflavour.117
+	title = cityflavour.117.t
+	desc = cityflavour.117.d
+	picture = GFX_news_event_khabarovskfall
+	major = yes
+	trigger = {
+		409 = {
+			is_controlled_by = JAP
+		}
+		409 = {
+			is_owned_by = SOV
+		}
+		JAP = {
+			has_war_with = SOV
+		}
+		NOT = {
+			has_global_flag = capture_of_khabarkovsk
+		}
+	}
+	immediate = {
+		set_global_flag = capture_of_khabarkovsk
+	}
+	mean_time_to_happen = {
+		days = 2
+	}
+	option = {
+		name = cityflavour.117.a
+		trigger = {
+			NOT = {
+				TAG = JAP
+				TAG = SOV
+			}
+		}
+	}
+	option = {
+		name = cityflavour.117.b
+		trigger = {
+			TAG = JAP
+		}
+	}
+	option = {
+		name = cityflavour.117.c
+		trigger = {
+			TAG = SOV
+		}
+		if = {
+			limit = { NOT={
+		has_global_flag = DALV_used_in_moscow
+		has_global_flag = DALV_used_in_east
+			} }
+
+			country_event = {
+				id = flavourmr.9
+			}
+		}
+		
+	}
+}
+
+news_event = {
+	id = cityflavour.118
+	title = cityflavour.118.t
+	desc = cityflavour.118.d
+	picture = GFX_news_event_khabarovsklib
+	major = yes
+	trigger = {
+		206 = {
+			is_controlled_by = SOV
+		}
+		206 = {
+			is_owned_by = SOV
+		}
+		JAP = {
+			has_war_with = SOV
+		}
+		has_global_flag = capture_of_khabarkovsk
+		NOT = {
+			has_global_flag = lib_of_khabarovsk
+		}
+	}
+	immediate = {
+		clr_global_flag = capture_of_khabarkovsk
+		set_global_flag = lib_of_khabarovsk
+	}
+	mean_time_to_happen = {
+		days = 2
+	}
+	option = {
+		name = cityflavour.118.a
+		trigger = {
+			NOT = {
+				TAG = JAP
+				TAG = SOV
+			}
+		}
+	}
+	option = {
+		name = cityflavour.118.b
+		trigger = {
+			TAG = JAP
+		}
+	}
+	option = {
+		name = cityflavour.118.c
+		trigger = {
+			TAG = SOV
+		}
+	}
+}
+
+news_event = {
+	id = cityflavour.119
+	title = cityflavour.119.t
+	desc = cityflavour.119.d
+	picture = GFX_news_event_kharkovfall
+	major = yes
+	trigger = {
+		221 = {
+			is_controlled_by = GER
+		}
+		221 = {
+			is_owned_by = SOV
+		}
+		GER = {
+			has_war_with = SOV
+		}
+		NOT = {
+			has_global_flag = capture_of_kharkov1
+		}
+	}
+	immediate = {
+		set_global_flag = capture_of_kharkov1
+	}
+	mean_time_to_happen = {
+		days = 2
+	}
+	option = {
+		name = cityflavour.119.a
+		trigger = {
+			NOT = {
+				TAG = GER
+				TAG = SOV
+			}
+		}
+	}
+	option = {
+		name = cityflavour.119.b
+		trigger = {
+			TAG = GER
+		}
+	}
+	option = {
+		name = cityflavour.119.c
+		trigger = {
+			TAG = SOV
+		}
+	}
+}
+
+news_event = {
+	id = cityflavour.120
+	title = cityflavour.120.t
+	desc = cityflavour.120.d
+	picture = GFX_news_event_kharkovlib1
+	major = yes
+	trigger = {
+		221 = {
+			is_controlled_by = SOV
+		}
+		221 = {
+			is_owned_by = SOV
+		}
+		GER = {
+			has_war_with = SOV
+		}
+		has_global_flag = capture_of_kharkov1
+		NOT = {
+			has_global_flag = liberation_of_kharkov1
+		}
+	}
+	immediate = {
+		set_global_flag = liberation_of_kharkov1
+	}
+	mean_time_to_happen = {
+		days = 2
+	}
+	option = {
+		name = cityflavour.120.a
+		trigger = {
+			NOT = {
+				TAG = GER
+				TAG = SOV
+			}
+		}
+	}
+	option = {
+		name = cityflavour.120.b
+		trigger = {
+			TAG = GER
+		}
+	}
+	option = {
+		name = cityflavour.120.c
+		trigger = {
+			TAG = SOV
+		}
+	}
+}
+
+news_event = {
+	id = cityflavour.121
+	title = cityflavour.121.t
+	desc = cityflavour.121.d
+	picture = GFX_news_event_kharkovfall2
+	major = yes
+	trigger = {
+		221 = {
+			is_controlled_by = GER
+		}
+		221 = {
+			is_owned_by = SOV
+		}
+		GER = {
+			has_war_with = SOV
+		}
+		NOT = {
+			has_global_flag = capture_of_kharkov2
+		}
+		has_global_flag = liberation_of_kharkov1
+	}
+	immediate = {
+		set_global_flag = capture_of_kharkov2
+	}
+	mean_time_to_happen = {
+		days = 2
+	}
+	option = {
+		name = cityflavour.121.a
+		trigger = {
+			NOT = {
+				TAG = GER
+				TAG = SOV
+			}
+		}
+	}
+	option = {
+		name = cityflavour.121.b
+		trigger = {
+			TAG = GER
+		}
+	}
+	option = {
+		name = cityflavour.121.c
+		trigger = {
+			TAG = SOV
+		}
+	}
+}
+
+news_event = {
+	id = cityflavour.122
+	title = cityflavour.122.t
+	desc = cityflavour.122.d
+	picture = GFX_news_event_kharkovlib2
+	major = yes
+	trigger = {
+		221 = {
+			is_controlled_by = SOV
+		}
+		221 = {
+			is_owned_by = SOV
+		}
+		GER = {
+			has_war_with = SOV
+		}
+		NOT = {
+			has_global_flag = liberation_of_kharkov2
+		}
+		has_global_flag = capture_of_kharkov2
+	}
+	immediate = {
+		set_global_flag = liberation_of_kharkov2
+		clr_global_flag = capture_of_kharkov2
+	}
+	mean_time_to_happen = {
+		days = 2
+	}
+	option = {
+		name = cityflavour.122.a
+		trigger = {
+			NOT = {
+				TAG = GER
+				TAG = SOV
+			}
+		}
+	}
+	option = {
+		name = cityflavour.122.b
+		trigger = {
+			TAG = GER
+		}
+	}
+	option = {
+		name = cityflavour.122.c
+		trigger = {
+			TAG = SOV
+		}
+	}
+}
+
+news_event = {
+	id = cityflavour.123
+	title = cityflavour.123.t
+	desc = cityflavour.123.d
+	picture = GFX_news_event_kievbegins
+	major = yes
+	trigger = {
+		GER = {
+			divisions_in_state = {
+				size > 0
+				state = 202
+			}
+		}
+		202 = {
+			is_owned_by = SOV
+		}
+		GER = {
+			has_war_with = SOV
+		}
+		NOT = {
+			has_global_flag = kievbegin
+		}
+	}
+	immediate = {
+		set_global_flag = kievbegin
+	}
+	mean_time_to_happen = {
+		days = 2
+	}
+	option = {
+		name = cityflavour.123.a
+		trigger = {
+			NOT = {
+				TAG = GER
+				TAG = SOV
+			}
+		}
+	}
+	option = {
+		name = cityflavour.123.b
+		trigger = {
+			TAG = GER
+		}
+	}
+	option = {
+		name = cityflavour.123.c
+		trigger = {
+			TAG = SOV
+		}
+		country_event = {
+			id = flavourmr.7
+		}
+	}
+}
+
+news_event = {
+	id = cityflavour.124
+	title = cityflavour.124.t
+	desc = cityflavour.124.d
+	picture = GFX_news_event_kievfallbetter
+	major = yes
+	trigger = {
+		202 = {
+			is_controlled_by = GER
+		}
+		202 = {
+			is_owned_by = SOV
+		}
+		GER = {
+			has_war_with = SOV
+		}
+		NOT = {
+			has_global_flag = capture_of_kievbet
+		}
+	}
+	immediate = {
+		set_global_flag = capture_of_kievbet
+	}
+	mean_time_to_happen = {
+		days = 2
+	}
+	option = {
+		name = cityflavour.124.a
+		trigger = {
+			NOT = {
+				TAG = GER
+				TAG = SOV
+			}
+		}
+	}
+	option = {
+		name = cityflavour.124.b
+		trigger = {
+			TAG = GER
+		}
+	}
+	option = {
+		name = cityflavour.124.c
+		trigger = {
+			TAG = SOV
+		}
+	}
+}
+
+news_event = {
+	id = cityflavour.125
+	title = cityflavour.125.t
+	desc = cityflavour.125.d
+	picture = GFX_news_event_kievlib
+	major = yes
+	trigger = {
+		202 = {
+			is_controlled_by = SOV
+		}
+		202 = {
+			is_owned_by = SOV
+		}
+		GER = {
+			has_war_with = SOV
+		}
+		has_global_flag = capture_of_kievbet
+		NOT = {
+			has_global_flag = lib_of_kiev
+		}
+	}
+	immediate = {
+		clr_global_flag = capture_of_kievbet
+		set_global_flag = lib_of_kiev
+	}
+	mean_time_to_happen = {
+		days = 2
+	}
+	option = {
+		name = cityflavour.125.a
+		trigger = {
+			NOT = {
+				TAG = GER
+				TAG = SOV
+			}
+		}
+	}
+	option = {
+		name = cityflavour.125.b
+		trigger = {
+			TAG = GER
+		}
+	}
+	option = {
+		name = cityflavour.125.c
+		trigger = {
+			TAG = SOV
+		}
+	}
+}
+
+news_event = {
+	id = cityflavour.126
+	title = cityflavour.126.t
+	desc = cityflavour.126.d
+	picture = GFX_news_event_kiubyshevlib
+	major = yes
+	trigger = {
+		251 = {
+			is_controlled_by = SOV
+		}
+		251 = {
+			is_owned_by = SOV
+		}
+		GER = {
+			has_war_with = SOV
+		}
+		has_global_flag = capture_of_kuibyshev
+		NOT = {
+			has_global_flag = lib_of_kuibyshev
+		}
+	}
+	immediate = {
+		clr_global_flag = capture_of_kuibyshev
+		set_global_flag = lib_of_kuibyshev
+	}
+	mean_time_to_happen = {
+		days = 2
+	}
+	option = {
+		name = cityflavour.126.a
+		trigger = {
+			NOT = {
+				TAG = GER
+				TAG = SOV
+			}
+		}
+	}
+	option = {
+		name = cityflavour.126.b
+		trigger = {
+			TAG = GER
+		}
+	}
+	option = {
+		name = cityflavour.126.c
+		trigger = {
+			TAG = SOV
+		}
+	}
+}
+
+news_event = {
+	id = cityflavour.127
+	title = cityflavour.127.t
+	desc = cityflavour.127.d
+	picture = GFX_news_event_kuibyshevfall
+	major = yes
+	trigger = {
+		251 = {
+			is_controlled_by = GER
+		}
+		251 = {
+			is_owned_by = SOV
+		}
+		GER = {
+			has_war_with = SOV
+		}
+		NOT = {
+			has_global_flag = capture_of_kuibyshev
+		}
+	}
+	immediate = {
+		set_global_flag = capture_of_kuibyshev
+	}
+	mean_time_to_happen = {
+		days = 2
+	}
+	option = {
+		name = cityflavour.127.a
+		trigger = {
+			NOT = {
+				TAG = GER
+				TAG = SOV
+			}
+		}
+	}
+	option = {
+		name = cityflavour.127.b
+		trigger = {
+			TAG = GER
+		}
+	}
+	option = {
+		name = cityflavour.127.c
+		trigger = {
+			TAG = SOV
+		}
+	}
+}
+
+news_event = {
+	id = cityflavour.128
+	title = cityflavour.128.t
+	desc = cityflavour.128.d
+	picture = GFX_news_event_minskfall
+	major = yes
+	trigger = {
+		206 = {
+			is_controlled_by = GER
+		}
+		206 = {
+			is_owned_by = SOV
+		}
+		GER = {
+			has_war_with = SOV
+		}
+		NOT = {
+			has_global_flag = capture_of_minskbet
+		}
+	}
+	immediate = {
+		set_global_flag = capture_of_minskbet
+	}
+	mean_time_to_happen = {
+		days = 2
+	}
+	option = {
+		name = cityflavour.128.a
+		trigger = {
+			NOT = {
+				TAG = GER
+				TAG = SOV
+			}
+		}
+	}
+	option = {
+		name = cityflavour.128.b
+		trigger = {
+			TAG = GER
+		}
+	}
+	option = {
+		name = cityflavour.128.c
+		trigger = {
+			TAG = SOV
+		}
+	}
+}
+
+news_event = {
+	id = cityflavour.129
+	title = cityflavour.129.t
+	desc = cityflavour.129.d
+	picture = GFX_news_event_minsklib
+	major = yes
+	trigger = {
+		206 = {
+			is_controlled_by = SOV
+		}
+		206 = {
+			is_owned_by = SOV
+		}
+		GER = {
+			has_war_with = SOV
+		}
+		has_global_flag = capture_of_minskbet
+		NOT = {
+			has_global_flag = lib_of_minskbet
+		}
+	}
+	immediate = {
+		clr_global_flag = capture_of_minskbet
+		set_global_flag = lib_of_minskbet
+	}
+	mean_time_to_happen = {
+		days = 2
+	}
+	option = {
+		name = cityflavour.129.a
+		trigger = {
+			NOT = {
+				TAG = GER
+				TAG = SOV
+			}
+		}
+	}
+	option = {
+		name = cityflavour.129.b
+		trigger = {
+			TAG = GER
+		}
+	}
+	option = {
+		name = cityflavour.129.c
+		trigger = {
+			TAG = SOV
+		}
+	}
+}
+
+news_event = {
+	id = cityflavour.130
+	title = cityflavour.130.t
+	desc = cityflavour.130.d
+	picture = GFX_news_event_moscowlib
+	major = yes
+	trigger = {
+		219 = {
+			is_controlled_by = SOV
+		}
+		219 = {
+			is_owned_by = SOV
+		}
+		GER = {
+			has_war_with = SOV
+		}
+		has_global_flag = capture_of_moscow
+		NOT = {
+			has_global_flag = lib_of_moscow
+		}
+	}
+	immediate = {
+		clr_global_flag = capture_of_moscow
+		set_global_flag = lib_of_moscow
+	}
+	mean_time_to_happen = {
+		days = 2
+	}
+	option = {
+		name = cityflavour.130.a
+		trigger = {
+			NOT = {
+				TAG = GER
+				TAG = SOV
+			}
+		}
+	}
+	option = {
+		name = cityflavour.130.b
+		trigger = {
+			TAG = GER
+		}
+	}
+	option = {
+		name = cityflavour.130.c
+		trigger = {
+			TAG = SOV
+		}
+	}
+}
+
+news_event = {
+	id = cityflavour.131
+	title = cityflavour.131.t
+	desc = cityflavour.131.d
+	picture = GFX_news_event_fallmoskva
+	major = yes
+	trigger = {
+		219 = {
+			is_controlled_by = GER
+		}
+		219 = {
+			is_owned_by = SOV
+		}
+		GER = {
+			has_war_with = SOV
+		}
+		NOT = {
+			has_global_flag = capture_of_moscow
+		}
+	}
+	immediate = {
+		set_global_flag = capture_of_moscow
+	}
+	mean_time_to_happen = {
+		days = 2
+	}
+	option = {
+		name = cityflavour.131.a
+		trigger = {
+			NOT = {
+				TAG = GER
+				TAG = SOV
+			}
+		}
+	}
+	option = {
+		name = cityflavour.131.b
+		trigger = {
+			TAG = GER
+		}
+		219 = {
+			add_dynamic_modifier = {
+				modifier = Moskva_metro_resistance
+			}
+		}
+	}
+	option = {
+		name = cityflavour.131.c
+		trigger = {
+			TAG = SOV
+		}
+		if = {
+			limit = {
+				has_country_flag = Stalin_stays_in_moscow
+			}
+			country_event = {
+				id = flavourmr.16
+			}
+		}
+	}
+}
+
+news_event = {
+	id = cityflavour.132
+	title = cityflavour.132.t
+	desc = cityflavour.132.d
+	picture = GFX_news_event_murmanskfall
+	major = yes
+	trigger = {
+		OR = {
+			213 = {
+				is_controlled_by = FIN
+			}
+			213 = {
+				is_controlled_by = GER
+			}
+		}
+		213 = {
+			is_owned_by = SOV
+		}
+		GER = {
+			has_war_with = SOV
+		}
+		NOT = {
+			has_global_flag = capture_of_murmansk
+		}
+	}
+	immediate = {
+		set_global_flag = capture_of_murmansk
+	}
+	mean_time_to_happen = {
+		days = 2
+	}
+	option = {
+		name = cityflavour.132.a
+		trigger = {
+			NOT = {
+				TAG = GER
+				TAG = SOV
+				TAG = FIN
+			}
+		}
+	}
+	option = {
+		name = cityflavour.132.b
+		trigger = {
+			TAG = GER
+		}
+	}
+	option = {
+		name = cityflavour.132.e
+		trigger = {
+			TAG = FIN
+		}
+	}
+	option = {
+		name = cityflavour.132.c
+		trigger = {
+			TAG = SOV
+		}
+	}
+}
+
+news_event = {
+	id = cityflavour.133
+	title = cityflavour.133.t
+	desc = cityflavour.133.d
+	picture = GFX_news_event_murmansklib
+	major = yes
+	trigger = {
+		213 = {
+			is_controlled_by = SOV
+		}
+		213 = {
+			is_owned_by = SOV
+		}
+		GER = {
+			has_war_with = SOV
+		}
+		has_global_flag = capture_of_murmansk
+		NOT = {
+			has_global_flag = lib_of_murmansk
+		}
+	}
+	immediate = {
+		clr_global_flag = capture_of_murmansk
+		set_global_flag = lib_of_murmansk
+	}
+	mean_time_to_happen = {
+		days = 2
+	}
+	option = {
+		name = cityflavour.133.a
+		trigger = {
+			NOT = {
+				TAG = GER
+				TAG = SOV
+				TAG = FIN
+			}
+		}
+	}
+	option = {
+		name = cityflavour.133.b
+		trigger = {
+			TAG = GER
+		}
+	}
+	option = {
+		name = cityflavour.133.e
+		trigger = {
+			TAG = FIN
+		}
+	}
+	option = {
+		name = cityflavour.133.c
+		trigger = {
+			TAG = SOV
+		}
+	}
+}
+
+news_event = {
+	id = cityflavour.134
+	title = cityflavour.134.t
+	desc = cityflavour.134.d
+	picture = GFX_news_event_orelfall
+	major = yes
+	trigger = {
+		222 = {
+			is_controlled_by = GER
+		}
+		222 = {
+			is_owned_by = SOV
+		}
+		GER = {
+			has_war_with = SOV
+		}
+		NOT = {
+			has_global_flag = capture_of_orel
+		}
+	}
+	immediate = {
+		set_global_flag = capture_of_orel
+	}
+	mean_time_to_happen = {
+		days = 2
+	}
+	option = {
+		name = cityflavour.134.a
+		trigger = {
+			NOT = {
+				TAG = GER
+				TAG = SOV
+			}
+		}
+	}
+	option = {
+		name = cityflavour.134.b
+		trigger = {
+			TAG = GER
+		}
+	}
+	option = {
+		name = cityflavour.134.c
+		trigger = {
+			TAG = SOV
+		}
+	}
+}
+
+news_event = {
+	id = cityflavour.135
+	title = cityflavour.135.t
+	desc = cityflavour.135.d
+	picture = GFX_news_event_orellib
+	major = yes
+	trigger = {
+		222 = {
+			is_controlled_by = SOV
+		}
+		222 = {
+			is_owned_by = SOV
+		}
+		GER = {
+			has_war_with = SOV
+		}
+		has_global_flag = capture_of_orel
+		NOT = {
+			has_global_flag = liberation_of_orel
+		}
+	}
+	immediate = {
+		set_global_flag = liberation_of_orel
+		clr_global_flag = capture_of_orel
+	}
+	mean_time_to_happen = {
+		days = 2
+	}
+	option = {
+		name = cityflavour.135.a
+		trigger = {
+			NOT = {
+				TAG = GER
+				TAG = SOV
+			}
+		}
+	}
+	option = {
+		name = cityflavour.135.b
+		trigger = {
+			TAG = GER
+		}
+	}
+	option = {
+		name = cityflavour.135.c
+		trigger = {
+			TAG = SOV
+		}
+		GER = {
+			add_manpower = -42137
+		}
+	}
+}
+
+news_event = {
+	id = cityflavour.136
+	title = cityflavour.136.t
+	desc = cityflavour.136.d
+	picture = GFX_news_event_orelfall2
+	major = yes
+	trigger = {
+		222 = {
+			is_controlled_by = GER
+		}
+		222 = {
+			is_owned_by = SOV
+		}
+		GER = {
+			has_war_with = SOV
+		}
+		has_global_flag = liberation_of_orel
+	}
+	immediate = {
+		clr_global_flag = liberation_of_orel
+	}
+	mean_time_to_happen = {
+		days = 2
+	}
+	option = {
+		name = cityflavour.136.a
+		trigger = {
+			NOT = {
+				TAG = GER
+				TAG = SOV
+			}
+		}
+	}
+	option = {
+		name = cityflavour.136.b
+		trigger = {
+			TAG = GER
+		}
+		222 = {
+			add_manpower = -457290
+		}
+	}
+	option = {
+		name = cityflavour.136.c
+		trigger = {
+			TAG = SOV
+		}
+	}
+}
+
+news_event = {
+	id = cityflavour.137
+	title = cityflavour.137.t
+	desc = cityflavour.137.d
+	picture = GFX_news_event_rkenglandestablished
+	major = yes
+	trigger = {
+		country_exists = REN
+		NOT = {
+			has_global_flag = englandrkestablished
+		}
+	}
+	immediate = {
+		set_global_flag = englandrkestablished
+	}
+	mean_time_to_happen = {
+		days = 2
+	}
+	option = {
+		name = cityflavour.137.a
+		trigger = {
+			NOT = {
+				TAG = GER
+			}
+		}
+	}
+	option = {
+		name = cityflavour.137.b
+		trigger = {
+			TAG = GER
+		}
+	}
+}
+
+news_event = {
+	id = cityflavour.138
+	title = cityflavour.138.t
+	desc = cityflavour.138.d
+	picture = GFX_news_event_rostovfall
+	major = yes
+	trigger = {
+		218 = {
+			is_controlled_by = GER
+		}
+		218 = {
+			is_owned_by = SOV
+		}
+		GER = {
+			has_war_with = SOV
+		}
+		NOT = {
+			has_global_flag = capture_of_rostov
+		}
+	}
+	immediate = {
+		set_global_flag = capture_of_rostov
+	}
+	mean_time_to_happen = {
+		days = 2
+	}
+	option = {
+		name = cityflavour.138.a
+		trigger = {
+			NOT = {
+				TAG = GER
+				TAG = SOV
+			}
+		}
+	}
+	option = {
+		name = cityflavour.138.b
+		trigger = {
+			TAG = GER
+		}
+	}
+	option = {
+		name = cityflavour.138.c
+		trigger = {
+			TAG = SOV
+		}
+	}
+}
+
+news_event = {
+	id = cityflavour.139
+	title = cityflavour.139.t
+	desc = cityflavour.139.d
+	picture = GFX_news_event_rostovlib1
+	major = yes
+	trigger = {
+		218 = {
+			is_controlled_by = SOV
+		}
+		218 = {
+			is_owned_by = SOV
+		}
+		GER = {
+			has_war_with = SOV
+		}
+		has_global_flag = capture_of_rostov
+		NOT = {
+			has_global_flag = liberation_of_rostov1
+		}
+	}
+	immediate = {
+		set_global_flag = liberation_of_rostov1
+		clr_global_flag = capture_of_rostov
+	}
+	mean_time_to_happen = {
+		days = 2
+	}
+	option = {
+		name = cityflavour.139.a
+		trigger = {
+			NOT = {
+				TAG = GER
+				TAG = SOV
+			}
+		}
+	}
+	option = {
+		name = cityflavour.139.b
+		trigger = {
+			TAG = GER
+		}
+	}
+	option = {
+		name = cityflavour.139.c
+		trigger = {
+			TAG = SOV
+		}
+	}
+}
+
+news_event = {
+	id = cityflavour.140
+	title = cityflavour.140.t
+	desc = cityflavour.140.d
+	picture = GFX_news_event_rostovlib2
+	major = yes
+	trigger = {
+		218 = {
+			is_controlled_by = SOV
+		}
+		218 = {
+			is_owned_by = SOV
+		}
+		GER = {
+			has_war_with = SOV
+		}
+		has_global_flag = liberation_of_rostov1
+		NOT = {
+			has_global_flag = lib_of_rostov2
+		}
+	}
+	immediate = {
+		clr_global_flag = capture_of_rostov
+		set_global_flag = lib_of_rostov2
+	}
+	mean_time_to_happen = {
+		days = 2
+	}
+	option = {
+		name = cityflavour.140.a
+		trigger = {
+			NOT = {
+				TAG = GER
+				TAG = SOV
+			}
+		}
+	}
+	option = {
+		name = cityflavour.140.b
+		trigger = {
+			TAG = GER
+		}
+	}
+	option = {
+		name = cityflavour.140.c
+		trigger = {
+			TAG = SOV
+		}
+	}
+}
+
+news_event = {
+	id = cityflavour.141
+	title = cityflavour.141.t
+	desc = cityflavour.141.d
+	picture = GFX_news_event_rzhevbegins
+	major = yes
+	trigger = {
+		GER = {
+			divisions_in_state = {
+				size > 0
+				state = 246
+			}
+		}
+		246 = {
+			is_owned_by = SOV
+		}
+		GER = {
+			has_war_with = SOV
+		}
+		NOT = {
+			has_global_flag = rzhev_begins
+		}
+	}
+	immediate = {
+		set_global_flag = rzhev_begins
+	}
+	mean_time_to_happen = {
+		days = 2
+	}
+	option = {
+		name = cityflavour.141.a
+		trigger = {
+			NOT = {
+				TAG = GER
+				TAG = SOV
+			}
+		}
+	}
+	option = {
+		name = cityflavour.141.b
+		trigger = {
+			TAG = GER
+		}
+	}
+	option = {
+		name = cityflavour.141.c
+		trigger = {
+			TAG = SOV
+		}
+		country_event = {
+			id = flavourmr.4
+		}
+	}
+}
+
+news_event = {
+	id = cityflavour.142
+	title = cityflavour.142.t
+	desc = cityflavour.142.d
+	picture = GFX_news_event_rzhevfall
+	major = yes
+	trigger = {
+		246 = {
+			is_controlled_by = GER
+		}
+		246 = {
+			is_owned_by = SOV
+		}
+		GER = {
+			has_war_with = SOV
+		}
+		NOT = {
+			has_global_flag = capture_of_rzhev
+		}
+	}
+	immediate = {
+		set_global_flag = capture_of_rzhev
+	}
+	mean_time_to_happen = {
+		days = 2
+	}
+	option = {
+		name = cityflavour.142.a
+		trigger = {
+			NOT = {
+				TAG = GER
+				TAG = SOV
+			}
+		}
+	}
+	option = {
+		name = cityflavour.142.b
+		trigger = {
+			TAG = GER
+		}
+	}
+	option = {
+		name = cityflavour.142.c
+		trigger = {
+			TAG = SOV
+		}
+	}
+}
+
+news_event = {
+	id = cityflavour.143
+	title = cityflavour.143.t
+	desc = cityflavour.143.d
+	picture = GFX_news_event_rzhevliberation
+	major = yes
+	trigger = {
+		246 = {
+			is_controlled_by = SOV
+		}
+		246 = {
+			is_owned_by = SOV
+		}
+		GER = {
+			has_war_with = SOV
+		}
+		has_global_flag = capture_of_rzhev
+		NOT = {
+			has_global_flag = lib_of_rzhev
+		}
+	}
+	immediate = {
+		clr_global_flag = capture_of_rzhev
+		set_global_flag = lib_of_rzhev
+	}
+	mean_time_to_happen = {
+		days = 2
+	}
+	option = {
+		name = cityflavour.143.a
+		trigger = {
+			NOT = {
+				TAG = GER
+				TAG = SOV
+			}
+		}
+	}
+	option = {
+		name = cityflavour.143.b
+		trigger = {
+			TAG = GER
+		}
+	}
+	option = {
+		name = cityflavour.143.c
+		trigger = {
+			TAG = SOV
+		}
+	}
+}
+
+news_event = {
+	id = cityflavour.144
+	title = cityflavour.144.t
+	desc = cityflavour.144.d
+	picture = GFX_news_event_sevastopollib
+	major = yes
+	trigger = {
+		137 = {
+			is_controlled_by = SOV
+		}
+		137 = {
+			is_owned_by = SOV
+		}
+		GER = {
+			has_war_with = SOV
+		}
+		has_global_flag = capture_of_sevastopol
+		NOT = {
+			has_global_flag = lib_of_sevastopol
+		}
+	}
+	immediate = {
+		clr_global_flag = capture_of_sevastopol
+		set_global_flag = lib_of_sevastopol
+	}
+	mean_time_to_happen = {
+		days = 2
+	}
+	option = {
+		name = cityflavour.144.a
+		trigger = {
+			NOT = {
+				TAG = GER
+				TAG = SOV
+			}
+		}
+	}
+	option = {
+		name = cityflavour.144.b
+		trigger = {
+			TAG = GER
+		}
+	}
+	option = {
+		name = cityflavour.144.c
+		trigger = {
+			TAG = SOV
+		}
+	}
+}
+
+news_event = {
+	id = cityflavour.145
+	title = cityflavour.145.t
+	desc = cityflavour.145.d
+	picture = GFX_news_event_sevastopolfall
+	major = yes
+	trigger = {
+		137 = {
+			is_controlled_by = GER
+		}
+		137 = {
+			is_owned_by = SOV
+		}
+		GER = {
+			has_war_with = SOV
+		}
+		NOT = {
+			has_global_flag = capture_of_sevastopol
+		}
+	}
+	immediate = {
+		set_global_flag = capture_of_sevastopol
+	}
+	mean_time_to_happen = {
+		days = 2
+	}
+	option = {
+		name = cityflavour.145.a
+		trigger = {
+			NOT = {
+				TAG = GER
+				TAG = SOV
+			}
+		}
+	}
+	option = {
+		name = cityflavour.145.b
+		trigger = {
+			TAG = GER
+		}
+	}
+	option = {
+		name = cityflavour.145.c
+		trigger = {
+			TAG = SOV
+		}
+	}
+}
+
+news_event = {
+	id = cityflavour.146
+	title = cityflavour.146.t
+	desc = cityflavour.146.d
+	picture = GFX_news_event_stalingradbegins
+	major = yes
+	trigger = {
+		GER = {
+			divisions_in_state = {
+				size > 0
+				state = 217
+			}
+		}
+		217 = {
+			is_owned_by = SOV
+		}
+		GER = {
+			has_war_with = SOV
+		}
+		NOT = {
+			has_global_flag = stalingrad_begins
+		}
+	}
+	immediate = {
+		set_global_flag = stalingrad_begins
+	}
+	mean_time_to_happen = {
+		days = 2
+	}
+	option = {
+		name = cityflavour.146.a
+		trigger = {
+			NOT = {
+				TAG = GER
+				TAG = SOV
+			}
+		}
+	}
+	option = {
+		name = cityflavour.146.b
+		trigger = {
+			TAG = GER
+		}
+	}
+	option = {
+		name = cityflavour.146.c
+		trigger = {
+			TAG = SOV
+		}
+		country_event = {
+			id = flavourmr.6
+		}
+	}
+}
+
+news_event = {
+	id = cityflavour.147
+	title = cityflavour.147.t
+	desc = cityflavour.147.d
+	picture = GFX_news_event_stalingradlib
+	major = yes
+	trigger = {
+		217 = {
+			is_controlled_by = SOV
+		}
+		217 = {
+			is_owned_by = SOV
+		}
+		GER = {
+			has_war_with = SOV
+		}
+		has_global_flag = capture_of_stalingrad
+		NOT = {
+			has_global_flag = lib_of_stalingrad
+		}
+	}
+	immediate = {
+		clr_global_flag = capture_of_stalingrad
+		set_global_flag = lib_of_stalingrad
+	}
+	mean_time_to_happen = {
+		days = 2
+	}
+	option = {
+		name = cityflavour.147.a
+		trigger = {
+			NOT = {
+				TAG = GER
+				TAG = SOV
+			}
+		}
+	}
+	option = {
+		name = cityflavour.147.b
+		trigger = {
+			TAG = GER
+		}
+	}
+	option = {
+		name = cityflavour.147.c
+		trigger = {
+			TAG = SOV
+		}
+	}
+}
+
+news_event = {
+	id = cityflavour.148
+	title = cityflavour.148.t
+	desc = cityflavour.148.d
+	picture = GFX_news_event_stalingradfall
+	major = yes
+	trigger = {
+		217 = {
+			is_controlled_by = GER
+		}
+		217 = {
+			is_owned_by = SOV
+		}
+		GER = {
+			has_war_with = SOV
+		}
+		NOT = {
+			has_global_flag = capture_of_stalingrad
+		}
+	}
+	immediate = {
+		set_global_flag = capture_of_stalingrad
+	}
+	mean_time_to_happen = {
+		days = 2
+	}
+	option = {
+		name = cityflavour.148.a
+		trigger = {
+			NOT = {
+				TAG = GER
+				TAG = SOV
+			}
+		}
+	}
+	option = {
+		name = cityflavour.148.b
+		trigger = {
+			TAG = GER
+		}
+	}
+	option = {
+		name = cityflavour.148.c
+		trigger = {
+			TAG = SOV
+		}
+	}
+}
+
+news_event = {
+	id = cityflavour.149
+	title = cityflavour.149.t
+	desc = cityflavour.149.d
+	picture = GFX_news_event_sverlodovskfall
+	major = yes
+	trigger = {
+		653 = {
+			is_controlled_by = GER
+		}
+		653 = {
+			is_owned_by = SOV
+		}
+		GER = {
+			has_war_with = SOV
+		}
+		NOT = {
+			has_global_flag = capture_of_sverlodovsk
+		}
+	}
+	immediate = {
+		set_global_flag = capture_of_sverlodovsk
+	}
+	mean_time_to_happen = {
+		days = 2
+	}
+	option = {
+		name = cityflavour.149.a
+		trigger = {
+			NOT = {
+				TAG = GER
+				TAG = SOV
+			}
+		}
+	}
+	option = {
+		name = cityflavour.149.b
+		trigger = {
+			TAG = GER
+		}
+	}
+	option = {
+		name = cityflavour.149.c
+		trigger = {
+			TAG = SOV
+		}
+	}
+}
+
+news_event = {
+	id = cityflavour.150
+	title = cityflavour.150.t
+	desc = cityflavour.150.d
+	picture = GFX_news_event_sverlodovsklib
+	major = yes
+	trigger = {
+		653 = {
+			is_controlled_by = SOV
+		}
+		653 = {
+			is_owned_by = SOV
+		}
+		GER = {
+			has_war_with = SOV
+		}
+		has_global_flag = capture_of_sverlodovsk
+		NOT = {
+			has_global_flag = lib_of_sverlodovsk
+		}
+	}
+	immediate = {
+		clr_global_flag = capture_of_sverlodovsk
+		set_global_flag = lib_of_sverlodovsk
+	}
+	mean_time_to_happen = {
+		days = 2
+	}
+	option = {
+		name = cityflavour.150.a
+		trigger = {
+			NOT = {
+				TAG = GER
+				TAG = SOV
+			}
+		}
+	}
+	option = {
+		name = cityflavour.150.b
+		trigger = {
+			TAG = GER
+		}
+	}
+	option = {
+		name = cityflavour.150.c
+		trigger = {
+			TAG = SOV
+		}
+	}
+}
+
+news_event = {
+	id = cityflavour.151
+	title = cityflavour.151.t
+	desc = cityflavour.151.d
+	picture = GFX_news_event_odessafall
+	major = yes
+	trigger = {
+		OR = {
+			192 = {
+				is_controlled_by = ROM
+			}
+			192 = {
+				is_controlled_by = GER
+			}
+		}
+		192 = {
+			is_owned_by = SOV
+		}
+		GER = {
+			has_war_with = SOV
+		}
+		NOT = {
+			has_global_flag = capture_of_odessa
+		}
+	}
+	immediate = {
+		set_global_flag = capture_of_odessa
+	}
+	mean_time_to_happen = {
+		days = 2
+	}
+	option = {
+		name = cityflavour.151.a
+		trigger = {
+			NOT = {
+				TAG = GER
+				TAG = SOV
+				TAG = ROM
+			}
+		}
+	}
+	option = {
+		name = cityflavour.151.b
+		trigger = {
+			TAG = GER
+		}
+	}
+	option = {
+		name = cityflavour.151.e
+		trigger = {
+			TAG = ROM
+		}
+	}
+	option = {
+		name = cityflavour.151.c
+		trigger = {
+			TAG = SOV
+		}
+	}
+}
+
+news_event = {
+	id = cityflavour.152
+	title = cityflavour.152.t
+	desc = cityflavour.152.d
+	picture = GFX_news_event_odessalib
+	major = yes
+	trigger = {
+		192 = {
+			is_controlled_by = SOV
+		}
+		192 = {
+			is_owned_by = SOV
+		}
+		GER = {
+			has_war_with = SOV
+		}
+		has_global_flag = capture_of_odessa
+		NOT = {
+			has_global_flag = lib_of_odessa
+		}
+	}
+	immediate = {
+		clr_global_flag = capture_of_odessa
+		set_global_flag = lib_of_odessa
+	}
+	mean_time_to_happen = {
+		days = 2
+	}
+	option = {
+		name = cityflavour.152.a
+		trigger = {
+			NOT = {
+				TAG = GER
+				TAG = SOV
+			}
+		}
+	}
+	option = {
+		name = cityflavour.152.b
+		trigger = {
+			TAG = GER
+		}
+	}
+	option = {
+		name = cityflavour.152.c
+		trigger = {
+			TAG = SOV
+		}
+	}
+}
+
+news_event = {
+	id = cityflavour.153
+	title = cityflavour.153.t
+	desc = cityflavour.153.d
+	picture = GFX_news_event_konigsbergfall
+	major = yes
+	trigger = {
+		763 = {
+			is_controlled_by = SOV
+		}
+		763 = {
+			is_owned_by = GER
+		}
+		GER = {
+			has_war_with = SOV
+		}
+		NOT = {
+			has_global_flag = capture_of_konigsberg
+		}
+	}
+	immediate = {
+		set_global_flag = capture_of_konigsberg
+	}
+	mean_time_to_happen = {
+		days = 2
+	}
+	option = {
+		name = cityflavour.153.a
+		trigger = {
+			NOT = {
+				TAG = GER
+				TAG = SOV
+			}
+		}
+	}
+	option = {
+		name = cityflavour.153.b
+		trigger = {
+			TAG = GER
+		}
+	}
+	option = {
+		name = cityflavour.153.c
+		trigger = {
+			TAG = SOV
+		}
+	}
+}
+
+news_event = {
+	id = cityflavour.154
+	title = cityflavour.154.t
+	desc = cityflavour.154.d
+	picture = GFX_news_event_konigsberglib
+	major = yes
+	trigger = {
+		763 = {
+			is_controlled_by = GER
+		}
+		763 = {
+			is_owned_by = GER
+		}
+		GER = {
+			has_war_with = SOV
+		}
+		has_global_flag = capture_of_konigsberg
+		NOT = {
+			has_global_flag = lib_of_konigsberg
+		}
+	}
+	immediate = {
+		clr_global_flag = capture_of_konigsberg
+		set_global_flag = lib_of_konigsberg
+	}
+	mean_time_to_happen = {
+		days = 2
+	}
+	option = {
+		name = cityflavour.154.a
+		trigger = {
+			NOT = {
+				TAG = GER
+				TAG = SOV
+			}
+		}
+	}
+	option = {
+		name = cityflavour.154.b
+		trigger = {
+			TAG = GER
+		}
+	}
+	option = {
+		name = cityflavour.154.c
+		trigger = {
+			TAG = SOV
+		}
+	}
+}
+
+news_event = {
+	id = cityflavour.155
+	title = cityflavour.155.t
+	desc = cityflavour.155.d
+	picture = GFX_news_event_marienburg
+	major = yes
+	trigger = {
+		SOV = {
+			divisions_in_state = {
+				size > 0
+				state = 1308
+			}
+		}
+		NOT = {
+			has_global_flag = malborkbegins
+		}
+	}
+	immediate = {
+		set_global_flag = malborkbegins
+	}
+	mean_time_to_happen = {
+		days = 2
+	}
+	option = {
+		name = cityflavour.155.a
+		trigger = {
+			NOT = {
+				TAG = GER
+				TAG = SOV
+			}
+		}
+	}
+	option = {
+		name = cityflavour.155.b
+		trigger = {
+			TAG = GER
+		}
+	}
+	option = {
+		name = cityflavour.155.c
+		trigger = {
+			TAG = SOV
+		}
+	}
+}
+
+news_event = {
+	id = cityflavour.156
+	title = cityflavour.156.t
+	desc = cityflavour.156.d
+	picture = GFX_news_event_falldanizg
+	major = yes
+	trigger = {
+		85 = {
+			is_controlled_by = SOV
+		}
+		85 = {
+			is_owned_by = GER
+		}
+		GER = {
+			has_war_with = SOV
+		}
+		NOT = {
+			has_global_flag = capture_of_danzig
+		}
+	}
+	immediate = {
+		set_global_flag = capture_of_danzig
+	}
+	mean_time_to_happen = {
+		days = 2
+	}
+	option = {
+		name = cityflavour.156.a
+		trigger = {
+			NOT = {
+				TAG = GER
+				TAG = SOV
+			}
+		}
+	}
+	option = {
+		name = cityflavour.156.b
+		trigger = {
+			TAG = GER
+		}
+	}
+	option = {
+		name = cityflavour.156.c
+		trigger = {
+			TAG = SOV
+		}
+	}
+}
+
+news_event = {
+	id = cityflavour.157
+	title = cityflavour.157.t
+	desc = cityflavour.157.d
+	picture = GFX_news_event_danziglib
+	major = yes
+	trigger = {
+		85 = {
+			is_controlled_by = GER
+		}
+		85 = {
+			is_owned_by = GER
+		}
+		GER = {
+			has_war_with = SOV
+		}
+		has_global_flag = capture_of_danzig
+		NOT = {
+			has_global_flag = lib_of_danzig
+		}
+	}
+	immediate = {
+		clr_global_flag = capture_of_danzig
+		set_global_flag = lib_of_danzig
+	}
+	mean_time_to_happen = {
+		days = 2
+	}
+	option = {
+		name = cityflavour.157.a
+		trigger = {
+			NOT = {
+				TAG = GER
+				TAG = SOV
+			}
+		}
+	}
+	option = {
+		name = cityflavour.157.b
+		trigger = {
+			TAG = GER
+		}
+	}
+	option = {
+		name = cityflavour.157.c
+		trigger = {
+			TAG = SOV
+		}
+	}
+}
+
+news_event = {
+	id = cityflavour.158
+	title = cityflavour.158.t
+	desc = cityflavour.158.d
+	picture = GFX_news_event_fallbreslau
+	major = yes
+	trigger = {
+		66 = {
+			is_controlled_by = SOV
+		}
+		66 = {
+			is_owned_by = GER
+		}
+		GER = {
+			has_war_with = SOV
+		}
+		NOT = {
+			has_global_flag = capture_of_bres
+		}
+	}
+	immediate = {
+		set_global_flag = capture_of_bres
+	}
+	mean_time_to_happen = {
+		days = 2
+	}
+	option = {
+		name = cityflavour.158.a
+		trigger = {
+			NOT = {
+				TAG = GER
+				TAG = SOV
+			}
+		}
+	}
+	option = {
+		name = cityflavour.158.b
+		trigger = {
+			TAG = GER
+		}
+	}
+	option = {
+		name = cityflavour.158.c
+		trigger = {
+			TAG = SOV
+		}
+	}
+}
+
+news_event = {
+	id = cityflavour.159
+	title = cityflavour.159.t
+	desc = cityflavour.159.d
+	picture = GFX_news_event_breslaulib
+	major = yes
+	trigger = {
+		66 = {
+			is_controlled_by = GER
+		}
+		66 = {
+			is_owned_by = GER
+		}
+		GER = {
+			has_war_with = SOV
+		}
+		has_global_flag = capture_of_bres
+		NOT = {
+			has_global_flag = lib_of_bres
+		}
+	}
+	immediate = {
+		clr_global_flag = capture_of_bres
+		set_global_flag = lib_of_bres
+	}
+	mean_time_to_happen = {
+		days = 2
+	}
+	option = {
+		name = cityflavour.159.a
+		trigger = {
+			NOT = {
+				TAG = GER
+				TAG = CZE
+			}
+		}
+	}
+	option = {
+		name = cityflavour.159.b
+		trigger = {
+			TAG = GER
+		}
+	}
+	option = {
+		name = cityflavour.159.c
+		trigger = {
+			TAG = CZE
+		}
+	}
+}
+
+news_event = {
+	id = cityflavour.160
+	title = cityflavour.160.t
+	desc = cityflavour.160.d
+	picture = GFX_news_event_brnofall
+	major = yes
+	trigger = {
+		75 = {
+			is_controlled_by = GER
+		}
+		75 = {
+			is_owned_by = CZE
+		}
+		GER = {
+			has_war_with = CZE
+		}
+		NOT = {
+			has_global_flag = capture_of_brno
+		}
+	}
+	immediate = {
+		set_global_flag = capture_of_brno
+	}
+	mean_time_to_happen = {
+		days = 2
+	}
+	option = {
+		name = cityflavour.160.a
+		trigger = {
+			NOT = {
+				TAG = GER
+				TAG = CZE
+			}
+		}
+	}
+	option = {
+		name = cityflavour.160.b
+		trigger = {
+			TAG = GER
+		}
+	}
+	option = {
+		name = cityflavour.160.c
+		trigger = {
+			TAG = CZE
+		}
+	}
+}
+
+news_event = {
+	id = cityflavour.161
+	title = cityflavour.161.t
+	desc = cityflavour.161.d
+	picture = GFX_news_event_brnolib
+	major = yes
+	trigger = {
+		75 = {
+			is_controlled_by = CZE
+		}
+		75 = {
+			is_owned_by = CZE
+		}
+		GER = {
+			has_war_with = CZE
+		}
+		has_global_flag = capture_of_brno
+		NOT = {
+			has_global_flag = lib_of_brno
+		}
+	}
+	immediate = {
+		clr_global_flag = capture_of_brno
+		set_global_flag = lib_of_brno
+	}
+	mean_time_to_happen = {
+		days = 2
+	}
+	option = {
+		name = cityflavour.161.a
+		trigger = {
+			NOT = {
+				TAG = GER
+				TAG = SOV
+			}
+		}
+	}
+	option = {
+		name = cityflavour.161.b
+		trigger = {
+			TAG = GER
+		}
+	}
+	option = {
+		name = cityflavour.161.c
+		trigger = {
+			TAG = SOV
+		}
+	}
+}
+
+news_event = {
+	id = cityflavour.162
+	title = cityflavour.162.t
+	desc = cityflavour.162.d
+	picture = GFX_news_event_exautobahn
+	major = yes
+	trigger = {
+		has_global_flag = autobahnstartpolcorridor
+	}
+	immediate = {
+		set_global_flag = autobahnstartpolcorridor
+	}
+	mean_time_to_happen = {
+		days = 2
+	}
+	option = {
+		name = cityflavour.162.a
+		trigger = {
+			NOT = {
+				TAG = GER
+				TAG = POL
+			}
+		}
+	}
+	option = {
+		name = cityflavour.162.b
+		trigger = {
+			TAG = GER
+		}
+		add_political_power = 25
+		add_stability = 0.025
+	}
+	option = {
+		name = cityflavour.162.c
+		trigger = {
+			TAG = POL
+		}
+		add_political_power = -25
+		add_stability = -0.02
+		add_war_support = -0.01
+	}
+}
+
+news_event = {
+	id = cityflavour.163
+	title = cityflavour.163.t
+	desc = cityflavour.163.d
+	picture = GFX_news_event_exautobahnfinished
+	major = yes
+	trigger = {
+		has_global_flag = autobahnfinish
+	}
+	immediate = {
+		clr_global_flag = autobahnstart
+		set_global_flag = autobahnfinish
+	}
+	mean_time_to_happen = {
+		days = 2
+	}
+	option = {
+		name = cityflavour.163.a
+		trigger = {
+			NOT = {
+				TAG = GER
+				TAG = POL
+			}
+		}
+	}
+	option = {
+		name = cityflavour.163.b
+		trigger = {
+			TAG = GER
+		}
+	}
+	option = {
+		name = cityflavour.163.c
+		trigger = {
+			TAG = POL
+		}
+	}
+}
+
+news_event = {
+	id = cityflavour.164
+	title = cityflavour.164.t
+	desc = cityflavour.164.d
+	picture = GFX_news_event_festungdanzigg
+	major = yes
+	trigger = {
+		SOV = {
+			OR = {
+				divisions_in_state = {
+					size > 0
+					state = 1308
+				}
+				divisions_in_state = {
+					size > 0
+					state = 807
+				}
+				divisions_in_state = {
+					size > 0
+					state = 1356
+				}
+			}
+		}
+		GER = {
+			has_war_with = SOV
+		}
+		NOT = {
+			has_global_flag = festungdanzig
+		}
+	}
+	immediate = {
+		set_global_flag = festungdanzig
+	}
+	mean_time_to_happen = {
+		days = 2
+	}
+	option = {
+		name = cityflavour.164.a
+		trigger = {
+			NOT = {
+				TAG = GER
+				TAG = SOV
+			}
+		}
+	}
+	option = {
+		name = cityflavour.164.b
+		trigger = {
+			TAG = GER
+		}
+	}
+	option = {
+		name = cityflavour.164.c
+		trigger = {
+			TAG = SOV
+		}
+	}
+}
+
+news_event = {
+	id = cityflavour.165
+	title = cityflavour.165.t
+	desc = cityflavour.165.d
+	picture = GFX_news_event_festungkonigsberg
+	major = yes
+	trigger = {
+		SOV = {
+			OR = {
+				divisions_in_state = {
+					size > 0
+					state = 763
+				}
+			}
+		}
+		NOT = {
+			has_global_flag = festung_konigsberg
+		}
+		GER = {
+			has_war_with = SOV
+		}
+	}
+	immediate = {
+		set_global_flag = festung_konigsberg
+	}
+	mean_time_to_happen = {
+		days = 2
+	}
+	option = {
+		name = cityflavour.165.a
+		trigger = {
+			NOT = {
+				TAG = GER
+				TAG = SOV
+			}
+		}
+	}
+	option = {
+		name = cityflavour.165.b
+		trigger = {
+			TAG = GER
+		}
+	}
+	option = {
+		name = cityflavour.165.c
+		trigger = {
+			TAG = SOV
+		}
+	}
+}
+
+news_event = {
+	id = cityflavour.166
+	title = cityflavour.166.t
+	desc = cityflavour.166.d
+	picture = GFX_news_event_festungposen
+	major = yes
+	trigger = {
+		SOV = {
+			OR = {
+				divisions_in_state = {
+					size > 0
+					state = 86
+				}
+			}
+		}
+		NOT = {
+			has_global_flag = festungposen
+		}
+		GER = {
+			has_war_with = SOV
+		}
+	}
+	immediate = {
+		set_global_flag = festungposen
+	}
+	mean_time_to_happen = {
+		days = 2
+	}
+	option = {
+		name = cityflavour.166.a
+		trigger = {
+			NOT = {
+				TAG = GER
+				TAG = SOV
+			}
+		}
+	}
+	option = {
+		name = cityflavour.166.b
+		trigger = {
+			TAG = GER
+		}
+	}
+	option = {
+		name = cityflavour.166.c
+		trigger = {
+			TAG = SOV
+		}
+	}
+}
+
+news_event = {
+	id = cityflavour.167
+	title = cityflavour.167.t
+	desc = cityflavour.167.d
+	picture = GFX_news_event_krakaufall
+	major = yes
+	trigger = {
+		88 = {
+			is_controlled_by = GER
+		}
+		88 = {
+			is_owned_by = POL
+		}
+		GER = {
+			has_war_with = POL
+		}
+		NOT = {
+			has_global_flag = capture_of_krakow
+		}
+	}
+	immediate = {
+		set_global_flag = capture_of_krakow
+	}
+	mean_time_to_happen = {
+		days = 2
+	}
+	option = {
+		name = cityflavour.167.a
+		trigger = {
+			NOT = {
+				TAG = GER
+				TAG = SOV
+			}
+		}
+	}
+	option = {
+		name = cityflavour.167.b
+		trigger = {
+			TAG = GER
+		}
+	}
+	option = {
+		name = cityflavour.167.c
+		trigger = {
+			TAG = SOV
+		}
+	}
+}
+
+news_event = {
+	id = cityflavour.168
+	title = cityflavour.168.t
+	desc = cityflavour.168.d
+	picture = GFX_news_event_krakaulib
+	major = yes
+	trigger = {
+		88 = {
+			is_controlled_by = POL
+		}
+		88 = {
+			is_owned_by = POL
+		}
+		GER = {
+			has_war_with = POL
+		}
+		has_global_flag = capture_of_krakow
+		NOT = {
+			has_global_flag = lib_of_krakow
+		}
+	}
+	immediate = {
+		clr_global_flag = capture_of_krakow
+		set_global_flag = lib_of_krakow
+	}
+	mean_time_to_happen = {
+		days = 2
+	}
+	option = {
+		name = cityflavour.168.a
+		trigger = {
+			NOT = {
+				TAG = GER
+				TAG = SOV
+			}
+		}
+	}
+	option = {
+		name = cityflavour.168.b
+		trigger = {
+			TAG = GER
+		}
+	}
+	option = {
+		name = cityflavour.168.c
+		trigger = {
+			TAG = SOV
+		}
+	}
+}
+
+news_event = {
+	id = cityflavour.169
+	title = cityflavour.169.t
+	desc = cityflavour.169.d
+	picture = GFX_news_event_krakaulibsov
+	major = yes
+	trigger = {
+		66 = {
+			is_controlled_by = SOV
+		}
+		66 = {
+			is_owned_by = RPO
+		}
+		GER = {
+			has_war_with = SOV
+		}
+		NOT = {
+			has_global_flag = lib_of_krakowsov
+		}
+		has_global_flag = capture_of_krakow
+	}
+	immediate = {
+		clr_global_flag = capture_of_krakow
+		set_global_flag = lib_of_krakowsov
+	}
+	mean_time_to_happen = {
+		days = 2
+	}
+	option = {
+		name = cityflavour.169.a
+		trigger = {
+			NOT = {
+				TAG = GER
+				TAG = SOV
+			}
+		}
+	}
+	option = {
+		name = cityflavour.169.b
+		trigger = {
+			TAG = GER
+		}
+	}
+	option = {
+		name = cityflavour.169.c
+		trigger = {
+			TAG = SOV
+		}
+	}
+}
+
+
+news_event = {
+	id = cityflavour.171
+	title = cityflavour.171.t
+	desc = cityflavour.171.d
+	picture = GFX_news_event_posenfall
+	major = yes
+	trigger = {
+		86 = {
+			is_controlled_by = SOV
+		}
+		86 = {
+			is_owned_by = GER
+		}
+		GER = {
+			has_war_with = SOV
+		}
+		NOT = {
+			has_global_flag = capture_of_posen
+		}
+	}
+	immediate = {
+		set_global_flag = capture_of_posen
+		clr_global_flag = lib_of_posen
+	}
+	mean_time_to_happen = {
+		days = 2
+	}
+	option = {
+		name = cityflavour.171.a
+		trigger = {
+			NOT = {
+				TAG = GER
+				TAG = SOV
+			}
+		}
+	}
+	option = {
+		name = cityflavour.171.b
+		trigger = {
+			TAG = GER
+		}
+	}
+	option = {
+		name = cityflavour.171.c
+		trigger = {
+			TAG = SOV
+		}
+	}
+}
+
+news_event = {
+	id = cityflavour.172
+	title = cityflavour.172.t
+	desc = cityflavour.172.d
+	picture = GFX_news_event_posenlib
+	major = yes
+	trigger = {
+		86 = {
+			is_controlled_by = GER
+		}
+		86 = {
+			is_owned_by = GER
+		}
+		GER = {
+			has_war_with = SOV
+		}
+		has_global_flag = capture_of_posen
+		NOT = {
+			has_global_flag = lib_of_posen
+		}
+	}
+	immediate = {
+		clr_global_flag = capture_of_posen
+		set_global_flag = lib_of_posen
+	}
+	mean_time_to_happen = {
+		days = 2
+	}
+	option = {
+		name = cityflavour.172.a
+		trigger = {
+			NOT = {
+				TAG = GER
+				TAG = SOV
+			}
+		}
+	}
+	option = {
+		name = cityflavour.172.b
+		trigger = {
+			TAG = GER
+		}
+	}
+	option = {
+		name = cityflavour.172.c
+		trigger = {
+			TAG = SOV
+		}
+	}
+}
+
+news_event = {
+	id = cityflavour.173
+	title = cityflavour.173.t
+	desc = cityflavour.173.d
+	picture = GFX_news_event_poznanfall
+	major = yes
+	fire_only_once = no	#!
+	trigger = {
+		86 = {
+			is_controlled_by = GER
+		}
+		86 = {
+			is_owned_by = POL
+		}
+		GER = {
+			has_war_with = POL
+		}
+		NOT = {
+			has_global_flag = capture_of_poznan
+		}
+	}
+	immediate = {
+		set_global_flag = capture_of_poznan
+		clr_global_flag = lib_of_poznan
+	}
+	mean_time_to_happen = {
+		days = 2
+	}
+	option = {
+		name = cityflavour.173.a
+		trigger = {
+			NOT = {
+				TAG = GER
+				TAG = POL
+			}
+		}
+	}
+	option = {
+		name = cityflavour.173.b
+		trigger = {
+			TAG = GER
+		}
+	}
+	option = {
+		name = cityflavour.173.c
+		trigger = {
+			TAG = POL
+		}
+	}
+}
+
+news_event = {
+	id = cityflavour.174
+	title = cityflavour.174.t
+	desc = cityflavour.174.d
+	picture = GFX_news_event_poznanlib
+	major = yes
+	fire_only_once = no	#!
+	trigger = {
+		86 = {
+			is_controlled_by = POL
+		}
+		86 = {
+			is_owned_by = POL
+		}
+		GER = {
+			has_war_with = POL
+		}
+		has_global_flag = capture_of_poznan
+		NOT = {
+			has_global_flag = lib_of_poznan
+		}
+	}
+	immediate = {
+		clr_global_flag = capture_of_poznan
+		set_global_flag = lib_of_poznan
+	}
+	mean_time_to_happen = {
+		days = 2
+	}
+	option = {
+		name = cityflavour.174.a
+		trigger = {
+			NOT = {
+				TAG = GER
+				TAG = POL
+			}
+		}
+	}
+	option = {
+		name = cityflavour.174.b
+		trigger = {
+			TAG = GER
+		}
+	}
+	option = {
+		name = cityflavour.174.c
+		trigger = {
+			TAG = POL
+		}
+	}
+}
+
+news_event = {
+	id = cityflavour.175
+	title = cityflavour.175.t
+	desc = cityflavour.175.d
+	picture = GFX_news_event_pragfall
+	major = yes
+	trigger = {
+		9 = {
+			is_controlled_by = GER
+		}
+		9 = {
+			is_owned_by = CZE
+		}
+		GER = {
+			has_war_with = CZE
+		}
+		NOT = {
+			has_global_flag = capture_of_prag
+		}
+	}
+	immediate = {
+		set_global_flag = capture_of_prag
+	}
+	mean_time_to_happen = {
+		days = 2
+	}
+	option = {
+		name = cityflavour.175.a
+		trigger = {
+			NOT = {
+				TAG = GER
+				TAG = CZE
+			}
+		}
+	}
+	option = {
+		name = cityflavour.175.b
+		trigger = {
+			TAG = GER
+		}
+	}
+	option = {
+		name = cityflavour.175.c
+		trigger = {
+			TAG = CZE
+		}
+	}
+}
+
+news_event = {
+	id = cityflavour.176
+	title = cityflavour.176.t
+	desc = cityflavour.176.d
+	picture = GFX_news_event_praglib
+	major = yes
+	trigger = {
+		9 = {
+			is_controlled_by = CZE
+		}
+		9 = {
+			is_owned_by = CZE
+		}
+		GER = {
+			has_war_with = CZE
+		}
+		has_global_flag = capture_of_prag
+		NOT = {
+			has_global_flag = lib_of_prag
+		}
+	}
+	immediate = {
+		clr_global_flag = capture_of_prag
+		set_global_flag = lib_of_prag
+	}
+	mean_time_to_happen = {
+		days = 2
+	}
+	option = {
+		name = cityflavour.176.a
+		trigger = {
+			NOT = {
+				TAG = GER
+				TAG = CZE
+			}
+		}
+	}
+	option = {
+		name = cityflavour.176.b
+		trigger = {
+			TAG = GER
+		}
+	}
+	option = {
+		name = cityflavour.176.c
+		trigger = {
+			TAG = CZE
+		}
+	}
+}
+
+news_event = {
+	id = cityflavour.177
+	title = cityflavour.177.t
+	desc = cityflavour.177.d
+	picture = GFX_news_event_praugelib
+	major = yes
+	trigger = {
+		9 = {
+			is_controlled_by = SOV
+		}
+		OR = {
+			9 = {
+				is_owned_by = RBM
+			}
+			9 = {
+				is_owned_by = GER
+			}
+		}
+		GER = {
+			has_war_with = SOV
+		}
+		NOT = {
+			has_global_flag = lib_of_prauge
+		}
+	}
+	immediate = {
+		set_global_flag = lib_of_prauge
+	}
+	mean_time_to_happen = {
+		days = 2
+	}
+	option = {
+		name = cityflavour.177.a
+		trigger = {
+			NOT = {
+				TAG = GER
+				TAG = POL
+			}
+		}
+	}
+	option = {
+		name = cityflavour.177.b
+		trigger = {
+			TAG = GER
+		}
+	}
+	option = {
+		name = cityflavour.177.c
+		trigger = {
+			TAG = POL
+		}
+	}
+}
+
+news_event = {
+	id = cityflavour.178
+	title = cityflavour.178.t
+	desc = cityflavour.178.d
+	picture = GFX_news_event_praugetaken
+	major = yes
+	trigger = {
+		NOT = {
+			has_global_flag = praugetaken
+		}
+		OR = {
+			9 = {
+				is_owned_by = GER
+			}
+			9 = {
+				is_owned_by = RBM
+			}
+		}
+	}
+	immediate = {
+		set_global_flag = praugetaken
+	}
+	mean_time_to_happen = {
+		days = 2
+	}
+	option = {
+		name = cityflavour.178.a
+		trigger = {
+			NOT = {
+				TAG = GER
+				TAG = POL
+			}
+		}
+	}
+	option = {
+		name = cityflavour.178.b
+		trigger = {
+			TAG = GER
+		}
+	}
+	option = {
+		name = cityflavour.178.c
+		trigger = {
+			TAG = POL
+		}
+	}
+}
+
+
+news_event = {
+	id = cityflavour.180
+	title = cityflavour.180.t
+	desc = cityflavour.180.d
+	picture = GFX_news_event_ribbentroppinwarsaw
+	major = yes
+	trigger = {
+		NOT = {
+			has_global_flag = ribbentropinwarsaw
+		}
+		date > 1939.01.25
+	}
+	immediate = {
+		set_global_flag = ribbentropinwarsaw
+	}
+	mean_time_to_happen = {
+		days = 2
+	}
+	option = {
+		name = cityflavour.180.a
+		trigger = {
+			NOT = {
+				TAG = GER
+				TAG = POL
+			}
+		}
+	}
+	option = {
+		name = cityflavour.180.b
+		trigger = {
+			TAG = GER
+		}
+	}
+	option = {
+		name = cityflavour.180.c
+		trigger = {
+			TAG = POL
+		}
+	}
+}
+
+news_event = {
+	id = cityflavour.181
+	title = cityflavour.181.t
+	desc = cityflavour.181.d
+	picture = GFX_news_event_warshaufall
+	major = yes
+	trigger = {
+		10 = {
+			is_controlled_by = GER
+		}
+		10 = {
+			is_owned_by = POL
+		}
+		GER = {
+			has_war_with = POL
+		}
+		NOT = {
+			has_global_flag = capture_of_warszawa
+		}
+	}
+	immediate = {
+		clr_global_flag = lib_of_warshau
+		set_global_flag = capture_of_warszawa
+	}
+	mean_time_to_happen = {
+		days = 2
+	}
+	option = {
+		name = cityflavour.181.a
+		trigger = {
+			NOT = {
+				TAG = GER
+				TAG = POL
+			}
+		}
+	}
+	option = {
+		name = cityflavour.181.b
+		trigger = {
+			TAG = GER
+		}
+	}
+	option = {
+		name = cityflavour.181.c
+		trigger = {
+			TAG = POL
+		}
+	}
+}
+
+news_event = {
+	id = cityflavour.182
+	title = cityflavour.182.t
+	desc = cityflavour.182.d
+	picture = GFX_news_event_warshaulib
+	major = yes
+	trigger = {
+		10 = {
+			is_controlled_by = SOV
+		}
+		OR = {
+			10 = {
+				is_owned_by = RPO
+			}
+			10 = {
+				is_owned_by = GER
+			}
+		}
+		GER = {
+			has_war_with = SOV
+		}
+		has_global_flag = capture_of_warszawa
+		NOT = {
+			has_global_flag = lib_of_warshau
+		}
+	}
+	immediate = {
+		set_global_flag = lib_of_warshau
+		clr_global_flag = capture_of_warszawa
+	}
+	mean_time_to_happen = {
+		days = 2
+	}
+	option = {
+		name = cityflavour.182.a
+		trigger = {
+			NOT = {
+				TAG = GER
+				TAG = SOV
+			}
+		}
+	}
+	option = {
+		name = cityflavour.182.b
+		trigger = {
+			TAG = GER
+		}
+	}
+	option = {
+		name = cityflavour.182.c
+		trigger = {
+			TAG = SOV
+		}
+	}
+}
+
+news_event = {
+	id = cityflavour.183
+	title = cityflavour.183.t
+	desc = cityflavour.183.d
+	picture = GFX_news_event_warszawalib
+	major = yes
+	trigger = {
+		10 = {
+			is_controlled_by = POL
+		}
+		10 = {
+			is_owned_by = POL
+		}
+		GER = {
+			has_war_with = POL
+		}
+		has_global_flag = capture_of_warszawa
+	}
+	immediate = {
+		clr_global_flag = capture_of_warszawa
+		set_global_flag = lib_of_warszawa
+	}
+	mean_time_to_happen = {
+		days = 2
+	}
+	option = {
+		name = cityflavour.183.a
+		trigger = {
+			NOT = {
+				TAG = GER
+				TAG = POL
+			}
+		}
+	}
+	option = {
+		name = cityflavour.183.b
+		trigger = {
+			TAG = GER
+		}
+	}
+	option = {
+		name = cityflavour.183.c
+		trigger = {
+			TAG = POL
+		}
+	}
+}
+
+news_event = {
+	id = cityflavour.184
+	title = cityflavour.184.t
+	desc = cityflavour.184.d
+	picture = GFX_news_event_zaolziezajtete
+	major = yes
+	trigger = {
+		NOT = {
+			has_global_flag = zaolzietaken
+		}
+		72 = {
+			is_controlled_by = POL
+		}
+		72 = {
+			is_owned_by = POL
+		}
+	}
+	immediate = {
+		set_global_flag = zaolzietaken
+	}
+	mean_time_to_happen = {
+		days = 2
+	}
+	option = {
+		name = cityflavour.184.a
+		trigger = {
+			NOT = {
+				TAG = GER
+				TAG = POL
+				TAG = CZE
+			}
+		}
+	}
+	option = {
+		name = cityflavour.184.b
+		trigger = {
+			TAG = GER
+		}
+	}
+	option = {
+		name = cityflavour.184.c
+		trigger = {
+			TAG = POL
+		}
+	}
+	option = {
+		name = cityflavour.184.e
+		trigger = {
+			TAG = CZE
+		}
+	}
+}
+
+news_event = {
+	id = cityflavour.185
+	title = cityflavour.185.t
+	desc = cityflavour.185.d
+	picture = GFX_news_event_stettinfall
+	major = yes
+	trigger = {
+		1346 = {
+			is_controlled_by = SOV
+		}
+		1346 = {
+			is_owned_by = GER
+		}
+		GER = {
+			has_war_with = SOV
+		}
+		NOT = {
+			has_global_flag = capture_of_stettin
+		}
+	}
+	immediate = {
+		set_global_flag = capture_of_stettin
+	}
+	mean_time_to_happen = {
+		days = 2
+	}
+	option = {
+		name = cityflavour.185.a
+		trigger = {
+			NOT = {
+				TAG = GER
+				TAG = POL
+			}
+		}
+	}
+	option = {
+		name = cityflavour.185.b
+		trigger = {
+			TAG = GER
+		}
+	}
+	option = {
+		name = cityflavour.185.c
+		trigger = {
+			TAG = POL
+		}
+	}
+}
+
+news_event = {
+	id = cityflavour.186
+	title = cityflavour.186.t
+	desc = cityflavour.186.d
+	picture = GFX_news_event_stettinlib
+	major = yes
+	trigger = {
+		1346 = {
+			is_controlled_by = GER
+		}
+		1346 = {
+			is_owned_by = GER
+		}
+		GER = {
+			has_war_with = SOV
+		}
+		has_global_flag = capture_of_stettin
+		NOT = {
+			has_global_flag = lib_of_stettin
+		}
+	}
+	immediate = {
+		clr_global_flag = capture_of_stettin
+		set_global_flag = lib_of_stettin
+	}
+	mean_time_to_happen = {
+		days = 2
+	}
+	option = {
+		name = cityflavour.186.a
+		trigger = {
+			NOT = {
+				TAG = GER
+				TAG = SOV
+			}
+		}
+	}
+	option = {
+		name = cityflavour.186.b
+		trigger = {
+			TAG = GER
+		}
+	}
+	option = {
+		name = cityflavour.186.c
+		trigger = {
+			TAG = SOV
+		}
+	}
+}
+
+news_event = {
+	id = cityflavour.187
+	title = cityflavour.187.t
+	desc = cityflavour.187.d
+	picture = GFX_news_event_germansbypasssudeten
+	major = yes
+	trigger = {
+		GER = {
+			OR = {
+				divisions_in_state = {
+					size > 0
+					state = 9
+				}
+			#	divisions_in_state = {
+				#	size > 0
+			#		state = 1383
+			#	}
+				divisions_in_state = {
+					size > 0
+					state = 75
+				}
+			}
+		}
+		GER = {
+			has_war_with = CZE
+		}
+		NOT = {
+			has_global_flag = germansbypassedsudetenland
+		}
+	}
+	immediate = {
+		set_global_flag = germansbypassedsudetenland
+	}
+	mean_time_to_happen = {
+		days = 2
+	}
+	option = {
+		name = cityflavour.187.a
+		trigger = {
+			NOT = {
+				TAG = GER
+				TAG = CZE
+			}
+		}
+	}
+	option = {
+		name = cityflavour.187.b
+		trigger = {
+			TAG = GER
+		}
+	}
+	option = {
+		name = cityflavour.187.c
+		trigger = {
+			TAG = CZE
+		}
+	}
+}
+
+news_event = {
+	id = cityflavour.188
+	title = cityflavour.188.t
+	desc = cityflavour.188.d
+	picture = GFX_news_event_zurichfall
+	major = yes
+	trigger = {
+		151 = {
+			is_controlled_by = GER
+		}
+		151 = {
+			is_owned_by = SWI
+		}
+		GER = {
+			has_war_with = SWI
+		}
+		NOT = {
+			has_global_flag = capture_of_zurich
+		}
+	}
+	immediate = {
+		set_global_flag = capture_of_zurich
+	}
+	mean_time_to_happen = {
+		days = 2
+	}
+	option = {
+		name = cityflavour.188.a
+		trigger = {
+			NOT = {
+				TAG = GER
+				TAG = SWI
+			}
+		}
+	}
+	option = {
+		name = cityflavour.188.b
+		trigger = {
+			TAG = GER
+		}
+	}
+	option = {
+		name = cityflavour.188.c
+		trigger = {
+			TAG = SWI
+		}
+	}
+}
+
+news_event = {
+	id = cityflavour.189
+	title = cityflavour.189.t
+	desc = cityflavour.189.d
+	picture = GFX_news_event_zurichlib
+	major = yes
+	trigger = {
+		151 = {
+			is_controlled_by = SWI
+		}
+		151 = {
+			is_owned_by = SWI
+		}
+		GER = {
+			has_war_with = SWI
+		}
+		NOT = {
+			has_global_flag = lib_of_zurich
+		}
+		has_global_flag = capture_of_zurich
+	}
+	immediate = {
+		set_global_flag = lib_of_zurich
+		clr_global_flag = capture_of_zurich
+	}
+	mean_time_to_happen = {
+		days = 2
+	}
+	option = {
+		name = cityflavour.189.a
+		trigger = {
+			NOT = {
+				TAG = GER
+				TAG = SWI
+			}
+		}
+	}
+	option = {
+		name = cityflavour.189.b
+		trigger = {
+			TAG = GER
+		}
+	}
+	option = {
+		name = cityflavour.189.c
+		trigger = {
+			TAG = SWI
+		}
+	}
+}
+
+news_event = {
+	id = cityflavour.190
+	title = cityflavour.190.t
+	desc = cityflavour.190.d
+	picture = GFX_news_event_bernefall
+	major = yes
+	trigger = {
+		3 = {
+			is_controlled_by = GER
+		}
+		3 = {
+			is_owned_by = SWI
+		}
+		GER = {
+			has_war_with = SWI
+		}
+		NOT = {
+			has_global_flag = capture_of_berne
+		}
+	}
+	immediate = {
+		set_global_flag = capture_of_berne
+	}
+	mean_time_to_happen = {
+		days = 2
+	}
+	option = {
+		name = cityflavour.190.a
+		trigger = {
+			NOT = {
+				TAG = GER
+				TAG = SWI
+			}
+		}
+	}
+	option = {
+		name = cityflavour.190.b
+		trigger = {
+			TAG = GER
+		}
+	}
+	option = {
+		name = cityflavour.190.c
+		trigger = {
+			TAG = SWI
+		}
+	}
+}
+
+news_event = {
+	id = cityflavour.191
+	title = cityflavour.191.t
+	desc = cityflavour.191.d
+	picture = GFX_news_event_bernelib
+	major = yes
+	trigger = {
+		151 = {
+			is_controlled_by = SWI
+		}
+		151 = {
+			is_owned_by = SWI
+		}
+		GER = {
+			has_war_with = SWI
+		}
+		NOT = {
+			has_global_flag = lib_of_berne
+		}
+		has_global_flag = capture_of_berne
+	}
+	immediate = {
+		set_global_flag = lib_of_berne
+		clr_global_flag = capture_of_berne
+	}
+	mean_time_to_happen = {
+		days = 2
+	}
+	option = {
+		name = cityflavour.191.a
+		trigger = {
+			NOT = {
+				TAG = GER
+				TAG = SWI
+			}
+		}
+	}
+	option = {
+		name = cityflavour.191.b
+		trigger = {
+			TAG = GER
+		}
+	}
+	option = {
+		name = cityflavour.191.c
+		trigger = {
+			TAG = SWI
+		}
+	}
+}
+
+news_event = {
+	id = cityflavour.192
+	title = cityflavour.192.t
+	desc = cityflavour.192.d
+	picture = GFX_news_event_Vipurri_fall
+	major = yes
+	trigger = {
+		146 = {
+			is_controlled_by = SOV
+		}
+		146 = {
+			is_owned_by = FIN
+		}
+		SOV = {
+			has_war_with = FIN
+		}
+		NOT = {
+			has_global_flag = capture_of_vipurri
+		}
+	}
+	immediate = {
+		set_global_flag = capture_of_vipurri
+	}
+	mean_time_to_happen = {
+		days = 2
+	}
+	option = {
+		name = cityflavour.192.a
+		trigger = {
+			NOT = {
+				TAG = FIN
+				TAG = SOV
+			}
+		}
+	}
+	option = {
+		name = cityflavour.192.b
+		trigger = {
+			TAG = SOV
+		}
+	}
+	option = {
+		name = cityflavour.192.c
+		trigger = {
+			TAG = FIN
+		}
+	}
+}
+
+news_event = {
+	id = cityflavour.193
+	title = cityflavour.193.t
+	desc = cityflavour.193.d
+	picture = GFX_news_event_Vipurri_liberation
+	major = yes
+	trigger = {
+		146 = {
+			is_controlled_by = FIN
+		}
+		OR = {
+			146 = {
+				is_owned_by = FIN
+			}
+			146 = {
+				is_owned_by = SOV
+			}
+		}
+		FIN = {
+			has_war_with = SOV
+		}
+		NOT = {
+			has_global_flag = lib_of_vipurri
+		}
+		has_global_flag = capture_of_vipurri
+	}
+	immediate = {
+		set_global_flag = lib_of_vipurri
+		clr_global_flag = capture_of_vipurri
+	}
+	mean_time_to_happen = {
+		days = 2
+	}
+	option = {
+		name = cityflavour.193.a
+		trigger = {
+			NOT = {
+				TAG = FIN
+				TAG = SOV
+			}
+		}
+	}
+	option = {
+		name = cityflavour.193.b
+		trigger = {
+			TAG = SOV
+		}
+	}
+	option = {
+		name = cityflavour.193.c
+		trigger = {
+			TAG = FIN
+		}
+	}
+}
+
+###Soviet additions
+news_event = {
+	id = cityflavour.194
+	title = cityflavour.194.t
+	desc = cityflavour.194.d
+	picture = GFX_news_event_fall_gomel
+	major = yes
+	trigger = {
+		241 = {
+			is_controlled_by = GER
+		}
+		241 = {
+			is_owned_by = SOV
+		}
+		GER = {
+			has_war_with = SOV
+		}
+		NOT = {
+			has_global_flag = fall_of_Gomel
+		}
+	}
+	immediate = {
+		set_global_flag = fall_of_Gomel
+		clr_global_flag = lib_of_Gomel
+	}
+	mean_time_to_happen = {
+		days = 2
+	}
+	option = {
+		name = cityflavour.194.a
+		trigger = {
+			NOT = {
+				TAG = GER
+				TAG = SOV
+			}
+		}
+	}
+	option = {
+		name = cityflavour.194.b
+		trigger = {
+			TAG = SOV
+		}
+	}
+	option = {
+		name = cityflavour.194.c
+		trigger = {
+			TAG = GER
+		}
+	}
+}
+
+news_event = {
+	id = cityflavour.1
+	title = cityflavour.1.t
+	desc = cityflavour.1.d
+	picture = GFX_news_event_liberation_gomel
+	major = yes
+	trigger = {
+		241 = {
+			is_controlled_by = SOV
+		}
+		241 = {
+			is_owned_by = SOV
+		}
+		GER = {
+			has_war_with = SOV
+		}
+		has_global_flag = fall_of_Gomel
+	}
+	immediate = {
+		set_global_flag = lib_of_Gomel
+		clr_global_flag = fall_of_Gomel
+	}
+	mean_time_to_happen = {
+		days = 2
+	}
+	option = {
+		name = cityflavour.1.a
+		trigger = {
+			NOT = {
+				TAG = GER
+				TAG = SOV
+			}
+		}
+	}
+	option = {
+		name = cityflavour.1.b
+		trigger = {
+			TAG = SOV
+		}
+	}
+	option = {
+		name = cityflavour.1.c
+		trigger = {
+			TAG = GER
+		}
+	}
+}
+
+news_event = {
+	id = cityflavour.2
+	title = cityflavour.2.t
+	desc = cityflavour.2.d
+	picture = GFX_news_event_fall_kursk
+	major = yes
+	trigger = {
+		220 = {
+			is_controlled_by = GER
+		}
+		220 = {
+			is_owned_by = SOV
+		}
+		GER = {
+			has_war_with = SOV
+		}
+		NOT = {
+			has_global_flag = fall_of_kursk
+		}
+	}
+	immediate = {
+		set_global_flag = fall_of_kursk
+		clr_global_flag = liv_of_kursk
+	}
+	mean_time_to_happen = {
+		days = 2
+	}
+	option = {
+		name = cityflavour.2.a
+		trigger = {
+			NOT = {
+				TAG = GER
+				TAG = SOV
+			}
+		}
+	}
+	option = {
+		name = cityflavour.2.b
+		trigger = {
+			TAG = SOV
+		}
+	}
+	option = {
+		name = cityflavour.2.c
+		trigger = {
+			TAG = GER
+		}
+	}
+}
+
+news_event = {
+	id = cityflavour.3
+	title = cityflavour.3.t
+	desc = cityflavour.3.d
+	picture = GFX_news_event_liberation_kursk
+	major = yes
+	trigger = {
+		220 = {
+			is_controlled_by = SOV
+		}
+		220 = {
+			is_owned_by = SOV
+		}
+		GER = {
+			has_war_with = SOV
+		}
+		NOT = {
+			has_global_flag = liv_of_kursk
+		}
+		has_global_flag = fall_of_kursk
+	}
+	immediate = {
+		set_global_flag = liv_of_kursk
+		clr_global_flag = fall_of_kursk
+	}
+	mean_time_to_happen = {
+		days = 2
+	}
+	option = {
+		name = cityflavour.3.a
+		trigger = {
+			NOT = {
+				TAG = GER
+				TAG = SOV
+			}
+		}
+	}
+	option = {
+		name = cityflavour.3.b
+		trigger = {
+			TAG = SOV
+		}
+	}
+	option = {
+		name = cityflavour.3.c
+		trigger = {
+			TAG = GER
+		}
+	}
+}
+
+news_event = {
+	id = cityflavour.4
+	title = cityflavour.4.t
+	desc = cityflavour.4.d
+	picture = GFX_news_event_fall_novgorod
+	major = yes
+	trigger = {
+		263 = {
+			is_controlled_by = GER
+		}
+		263 = {
+			is_owned_by = SOV
+		}
+		GER = {
+			has_war_with = SOV
+		}
+		NOT = {
+			has_global_flag = fall_of_Novgorod
+		}
+	}
+	immediate = {
+		set_global_flag = fall_of_Novgorod
+		clr_global_flag = lib_of_Novgorod
+	}
+	mean_time_to_happen = {
+		days = 2
+	}
+	option = {
+		name = cityflavour.4.a
+		trigger = {
+			NOT = {
+				TAG = GER
+				TAG = SOV
+			}
+		}
+	}
+	option = {
+		name = cityflavour.4.b
+		trigger = {
+			TAG = SOV
+		}
+	}
+	option = {
+		name = cityflavour.4.c
+		trigger = {
+			TAG = GER
+		}
+	}
+}
+
+news_event = {
+	id = cityflavour.5
+	title = cityflavour.5.t
+	desc = cityflavour.5.d
+	picture = GFX_news_event_liberation_novgorod
+	major = yes
+	trigger = {
+		263 = {
+			is_controlled_by = SOV
+		}
+		263 = {
+			is_owned_by = SOV
+		}
+		GER = {
+			has_war_with = SOV
+		}
+		has_global_flag = fall_of_Novgorod
+		NOT = {
+			has_global_flag = lib_of_Novgorod
+		}
+	}
+	immediate = {
+		set_global_flag = lib_of_Novgorod
+		clr_global_flag = fall_of_Novgorod
+	}
+	mean_time_to_happen = {
+		days = 2
+	}
+	option = {
+		name = cityflavour.5.a
+		trigger = {
+			NOT = {
+				TAG = GER
+				TAG = SOV
+			}
+		}
+	}
+	option = {
+		name = cityflavour.5.b
+		trigger = {
+			TAG = SOV
+		}
+	}
+	option = {
+		name = cityflavour.5.c
+		trigger = {
+			TAG = GER
+		}
+	}
+}
+
+news_event = {
+	id = cityflavour.6
+	title = cityflavour.6.t
+	desc = cityflavour.6.d
+	picture = GFX_news_event_fall_stalino
+	major = yes
+	trigger = {
+		227 = {
+			is_controlled_by = GER
+		}
+		227 = {
+			is_owned_by = SOV
+		}
+		GER = {
+			has_war_with = SOV
+		}
+		NOT = {
+			has_global_flag = fall_of_Stalino
+		}
+	}
+	immediate = {
+		set_global_flag = fall_of_Stalino
+		clr_global_flag = lib_of_Stalino
+	}
+	mean_time_to_happen = {
+		days = 2
+	}
+	option = {
+		name = cityflavour.6.a
+		trigger = {
+			NOT = {
+				TAG = GER
+				TAG = SOV
+			}
+		}
+	}
+	option = {
+		name = cityflavour.6.b
+		trigger = {
+			TAG = SOV
+		}
+	}
+	option = {
+		name = cityflavour.6.c
+		trigger = {
+			TAG = GER
+		}
+	}
+}
+
+news_event = {
+	id = cityflavour.7
+	title = cityflavour.7.t
+	desc = cityflavour.7.d
+	picture = GFX_news_event_liberation_stalino
+	major = yes
+	trigger = {
+		227 = {
+			is_controlled_by = SOV
+		}
+		227 = {
+			is_owned_by = SOV
+		}
+		GER = {
+			has_war_with = SOV
+		}
+		has_global_flag = fall_of_Stalino
+		NOT = {
+			has_global_flag = lib_of_Stalino
+		}
+	}
+	immediate = {
+		set_global_flag = lib_of_Stalino
+		clr_global_flag = fall_of_Stalino
+	}
+	mean_time_to_happen = {
+		days = 2
+	}
+	option = {
+		name = cityflavour.7.a
+		trigger = {
+			NOT = {
+				TAG = GER
+				TAG = SOV
+			}
+		}
+	}
+	option = {
+		name = cityflavour.7.b
+		trigger = {
+			TAG = SOV
+		}
+	}
+	option = {
+		name = cityflavour.7.c
+		trigger = {
+			TAG = GER
+		}
+	}
+}
+
+news_event = {
+	id = cityflavour.8
+	title = cityflavour.8.t
+	desc = cityflavour.8.d
+	picture = GFX_news_event_fall_Voroshilovgrad
+	major = yes
+	trigger = {
+		228 = {
+			is_controlled_by = GER
+		}
+		228 = {
+			is_owned_by = SOV
+		}
+		GER = {
+			has_war_with = SOV
+		}
+		NOT = {
+			has_global_flag = fall_of_Voroshilovgrad
+		}
+	}
+	immediate = {
+		set_global_flag = fall_of_Voroshilovgrad
+		clr_global_flag = lib_of_Voroshilovgrad
+	}
+	mean_time_to_happen = {
+		days = 2
+	}
+	option = {
+		name = cityflavour.8.a
+		trigger = {
+			NOT = {
+				TAG = GER
+				TAG = SOV
+			}
+		}
+	}
+	option = {
+		name = cityflavour.8.b
+		trigger = {
+			TAG = SOV
+		}
+	}
+	option = {
+		name = cityflavour.8.c
+		trigger = {
+			TAG = GER
+		}
+	}
+}
+
+news_event = {
+	id = cityflavour.9
+	title = cityflavour.9.t
+	desc = cityflavour.9.d
+	picture = GFX_news_event_liberation_Voroshilovgrad
+	major = yes
+	trigger = {
+		228 = {
+			is_controlled_by = SOV
+		}
+		228 = {
+			is_owned_by = SOV
+		}
+		GER = {
+			has_war_with = SOV
+		}
+		has_global_flag = fall_of_Voroshilovgrad
+		NOT = {
+			has_global_flag = lib_of_Voroshilovgrad
+		}
+	}
+	immediate = {
+		set_global_flag = lib_of_Voroshilovgrad
+		clr_global_flag = fall_of_Voroshilovgrad
+	}
+	mean_time_to_happen = {
+		days = 2
+	}
+	option = {
+		name = cityflavour.9.a
+		trigger = {
+			NOT = {
+				TAG = GER
+				TAG = SOV
+			}
+		}
+	}
+	option = {
+		name = cityflavour.9.b
+		trigger = {
+			TAG = SOV
+		}
+	}
+	option = {
+		name = cityflavour.9.c
+		trigger = {
+			TAG = GER
+		}
+	}
+}
+###JAPANUPDATE### WIP
+news_event = {
+	id = cityflavour.11
+	title = cityflavour.11.t
+	desc = cityflavour.11.d
+	picture = GFX_news_event_fallquingdao
+	major = yes
+	trigger = {
+		743 = {
+			is_controlled_by = JAP
+		}
+		743 = {
+			is_owned_by = CHI
+		}
+		JAP = {
+			has_war_with = CHI
+		}
+		NOT = {
+			has_global_flag = fall_of_Quingdao
+		}
+	}
+	immediate = {
+		set_global_flag = fall_of_Quingdao
+		clr_global_flag = lib_of_Quingdao
+	}
+	mean_time_to_happen = {
+		days = 2
+	}
+	option = {
+		name = cityflavour.11.a
+		trigger = {
+			NOT = {
+				TAG = JAP
+				TAG = CHI
+			}
+		}
+	}
+	option = {
+		name = cityflavour.11.b
+		trigger = {
+			TAG = CHI
+		}
+	}
+	option = {
+		name = cityflavour.11.c
+		trigger = {
+			TAG = JAP
+		}
+	}
+}
+
+news_event = {
+	id = cityflavour.10
+	title = cityflavour.10.t
+	desc = cityflavour.10.d
+	picture = GFX_news_event_libquingdao
+	major = yes
+	trigger = {
+		743 = {
+			is_controlled_by = CHI
+		}
+		743 = {
+			is_owned_by = CHI
+		}
+		JAP = {
+			has_war_with = CHI
+		}
+		has_global_flag = fall_of_Quingdao
+		NOT = {
+			has_global_flag = lib_of_Quingdao
+		}
+	}
+	immediate = {
+		set_global_flag = lib_of_Quingdao
+		clr_global_flag = fall_of_Quingdao
+	}
+	mean_time_to_happen = {
+		days = 2
+	}
+	option = {
+		name = cityflavour.10.a
+		trigger = {
+			NOT = {
+				TAG = JAP
+				TAG = CHI
+			}
+		}
+	}
+	option = {
+		name = cityflavour.10.b
+		trigger = {
+			TAG = CHI
+		}
+	}
+	option = {
+		name = cityflavour.10.c
+		trigger = {
+			TAG = JAP
+		}
+	}
+}
+
+# news_event = {
+# 	id = cityflavour.12
+# 	title = cityflavour.12.t
+# 	desc = cityflavour.12.d
+# 	picture = GFX_news_event_fallshijaszhuang
+# 	major = yes
+# 	trigger = {
+# 		854 = {
+# 			is_controlled_by = JAP
+# 		}
+# 		854 = {
+# 			is_owned_by = CHI
+# 		}
+# 		JAP = {
+# 			has_war_with = CHI
+# 		}
+# 		NOT = {
+# 			has_global_flag = fall_of_shijaszhuang
+# 		}
+# 	}
+# 	immediate = {
+# 		set_global_flag = fall_of_shijaszhuang
+# 		clr_global_flag = lib_of_shijaszhuang
+# 	}
+# 	mean_time_to_happen = {
+# 		days = 2
+# 	}
+# 	option = {
+# 		name = cityflavour.12.a
+# 		trigger = {
+# 			NOT = {
+# 				TAG = JAP
+# 				TAG = CHI
+# 			}
+# 		}
+# 	}
+# 	option = {
+# 		name = cityflavour.12.b
+# 		trigger = {
+# 			TAG = CHI
+# 		}
+# 	}
+# 	option = {
+# 		name = cityflavour.12.c
+# 		trigger = {
+# 			TAG = JAP
+# 		}
+# 	}
+# }
+
+# news_event = {
+# 	id = cityflavour.13
+# 	title = cityflavour.13.t
+# 	desc = cityflavour.13.d
+# 	picture = GFX_news_event_libshij
+# 	major = yes
+# 	trigger = {
+# 		854 = {
+# 			is_controlled_by = CHI
+# 		}
+# 		854 = {
+# 			is_owned_by = CHI
+# 		}
+# 		JAP = {
+# 			has_war_with = CHI
+# 		}
+# 		has_global_flag = fall_of_shijaszhuang
+# 		NOT = {
+# 			has_global_flag = lib_of_shijaszhuang
+# 		}
+# 	}
+# 	immediate = {
+# 		set_global_flag = lib_of_shijaszhuang
+# 		clr_global_flag = fall_of_shijaszhuang
+# 	}
+# 	mean_time_to_happen = {
+# 		days = 2
+# 	}
+# 	option = {
+# 		name = cityflavour.13.a
+# 		trigger = {
+# 			NOT = {
+# 				TAG = JAP
+# 				TAG = CHI
+# 			}
+# 		}
+# 	}
+# 	option = {
+# 		name = cityflavour.13.b
+# 		trigger = {
+# 			TAG = CHI
+# 		}
+# 	}
+# 	option = {
+# 		name = cityflavour.13.c
+# 		trigger = {
+# 			TAG = JAP
+# 		}
+# 	}
+# }
+
+news_event = {
+	id = cityflavour.14
+	title = cityflavour.14.t
+	desc = cityflavour.14.d
+	picture = GFX_news_event_fallzhengzhou
+	major = yes
+	trigger = {
+		607 = {
+			is_controlled_by = JAP
+		}
+		607 = {
+			is_owned_by = CHI
+		}
+		JAP = {
+			has_war_with = CHI
+		}
+		NOT = {
+			has_global_flag = fall_of_zhengzhou
+		}
+	}
+	immediate = {
+		set_global_flag = fall_of_zhengzhou
+		clr_global_flag = lib_of_zhengzhou
+	}
+	mean_time_to_happen = {
+		days = 2
+	}
+	option = {
+		name = cityflavour.14.a
+		trigger = {
+			NOT = {
+				TAG = JAP
+				TAG = CHI
+			}
+		}
+	}
+	option = {
+		name = cityflavour.14.b
+		trigger = {
+			TAG = CHI
+		}
+	}
+	option = {
+		name = cityflavour.14.c
+		trigger = {
+			TAG = JAP
+		}
+	}
+}
+
+news_event = {
+	id = cityflavour.15
+	title = cityflavour.15.t
+	desc = cityflavour.15.d
+	picture = GFX_news_event_libzheng
+	major = yes
+	trigger = {
+		607 = {
+			is_controlled_by = CHI
+		}
+		607 = {
+			is_owned_by = CHI
+		}
+		JAP = {
+			has_war_with = CHI
+		}
+		has_global_flag = fall_of_zhengzhou
+		NOT = {
+			has_global_flag = lib_of_zhengzhou
+		}
+	}
+	immediate = {
+		set_global_flag = lib_of_zhengzhou
+		clr_global_flag = fall_of_zhengzhou
+	}
+	mean_time_to_happen = {
+		days = 2
+	}
+	option = {
+		name = cityflavour.15.a
+		trigger = {
+			NOT = {
+				TAG = JAP
+				TAG = CHI
+			}
+		}
+	}
+	option = {
+		name = cityflavour.15.b
+		trigger = {
+			TAG = CHI
+		}
+	}
+	option = {
+		name = cityflavour.15.c
+		trigger = {
+			TAG = JAP
+		}
+	}
+}
+
+news_event = {
+	id = cityflavour.16
+	title = cityflavour.16.t
+	desc = cityflavour.16.d
+	picture = GFX_news_event_fallweifang
+	major = yes
+	trigger = {
+		597 = {
+			is_controlled_by = JAP
+		}
+		597 = {
+			is_owned_by = CHI
+		}
+		JAP = {
+			has_war_with = CHI
+		}
+		NOT = {
+			has_global_flag = fall_of_weifang
+		}
+	}
+	immediate = {
+		set_global_flag = fall_of_weifang
+		clr_global_flag = lib_of_weifang
+	}
+	mean_time_to_happen = {
+		days = 2
+	}
+	option = {
+		name = cityflavour.16.a
+		trigger = {
+			NOT = {
+				TAG = JAP
+				TAG = CHI
+			}
+		}
+	}
+	option = {
+		name = cityflavour.16.b
+		trigger = {
+			TAG = CHI
+		}
+	}
+	option = {
+		name = cityflavour.16.c
+		trigger = {
+			TAG = JAP
+		}
+	}
+}
+
+news_event = {
+	id = cityflavour.17
+	title = cityflavour.17.t
+	desc = cityflavour.17.d
+	picture = GFX_news_event_libweifang
+	major = yes
+	trigger = {
+		597 = {
+			is_controlled_by = CHI
+		}
+		597 = {
+			is_owned_by = CHI
+		}
+		JAP = {
+			has_war_with = CHI
+		}
+		has_global_flag = fall_of_weifang
+		NOT = {
+			has_global_flag = lib_of_weifang
+		}
+	}
+	immediate = {
+		set_global_flag = lib_of_weifang
+		clr_global_flag = fall_of_weifang
+	}
+	mean_time_to_happen = {
+		days = 2
+	}
+	option = {
+		name = cityflavour.17.a
+		trigger = {
+			NOT = {
+				TAG = JAP
+				TAG = CHI
+			}
+		}
+	}
+	option = {
+		name = cityflavour.17.b
+		trigger = {
+			TAG = CHI
+		}
+	}
+	option = {
+		name = cityflavour.17.c
+		trigger = {
+			TAG = JAP
+		}
+	}
+}
+
+news_event = {
+	id = cityflavour.18
+	title = cityflavour.18.t
+	desc = cityflavour.18.d
+	picture = GFX_news_event_fallhefei
+	major = yes
+	trigger = {
+		606 = {
+			is_controlled_by = JAP
+		}
+		606 = {
+			is_owned_by = CHI
+		}
+		JAP = {
+			has_war_with = CHI
+		}
+		NOT = {
+			has_global_flag = fall_of_hefei
+		}
+	}
+	immediate = {
+		set_global_flag = fall_of_hefei
+		clr_global_flag = lib_of_hefei
+	}
+	mean_time_to_happen = {
+		days = 2
+	}
+	option = {
+		name = cityflavour.18.a
+		trigger = {
+			NOT = {
+				TAG = JAP
+				TAG = CHI
+			}
+		}
+	}
+	option = {
+		name = cityflavour.18.b
+		trigger = {
+			TAG = CHI
+		}
+	}
+	option = {
+		name = cityflavour.18.c
+		trigger = {
+			TAG = JAP
+		}
+	}
+}
+
+news_event = {
+	id = cityflavour.19
+	title = cityflavour.19.t
+	desc = cityflavour.19.d
+	picture = GFX_news_event_libhefei
+	major = yes
+	trigger = {
+		606 = {
+			is_controlled_by = CHI
+		}
+		606 = {
+			is_owned_by = CHI
+		}
+		JAP = {
+			has_war_with = CHI
+		}
+		has_global_flag = fall_of_hefei
+		NOT = {
+			has_global_flag = lib_of_hefei
+		}
+	}
+	immediate = {
+		set_global_flag = lib_of_hefei
+		clr_global_flag = fall_of_hefei
+	}
+	mean_time_to_happen = {
+		days = 2
+	}
+	option = {
+		name = cityflavour.19.a
+		trigger = {
+			NOT = {
+				TAG = JAP
+				TAG = CHI
+			}
+		}
+	}
+	option = {
+		name = cityflavour.19.b
+		trigger = {
+			TAG = CHI
+		}
+	}
+	option = {
+		name = cityflavour.19.c
+		trigger = {
+			TAG = JAP
+		}
+	}
+}
+
+news_event = {
+	id = cityflavour.20
+	title = cityflavour.20.t
+	desc = cityflavour.20.d
+	picture = GFX_news_event_fallxian
+	major = yes
+	trigger = {
+		744 = {
+			is_controlled_by = JAP
+		}
+		744 = {
+			is_owned_by = CHI
+		}
+		JAP = {
+			has_war_with = CHI
+		}
+		NOT = {
+			has_global_flag = fall_of_xian
+		}
+	}
+	immediate = {
+		set_global_flag = fall_of_xian
+		clr_global_flag = lib_of_xian
+	}
+	mean_time_to_happen = {
+		days = 2
+	}
+	option = {
+		name = cityflavour.20.a
+		trigger = {
+			NOT = {
+				TAG = JAP
+				TAG = CHI
+			}
+		}
+	}
+	option = {
+		name = cityflavour.20.b
+		trigger = {
+			TAG = CHI
+		}
+	}
+	option = {
+		name = cityflavour.20.c
+		trigger = {
+			TAG = JAP
+		}
+	}
+}
+
+news_event = {
+	id = cityflavour.21
+	title = cityflavour.21.t
+	desc = cityflavour.21.d
+	picture = GFX_news_event_libxian
+	major = yes
+	trigger = {
+		744 = {
+			is_controlled_by = CHI
+		}
+		744 = {
+			is_owned_by = CHI
+		}
+		JAP = {
+			has_war_with = CHI
+		}
+		has_global_flag = fall_of_xian
+		NOT = {
+			has_global_flag = lib_of_xian
+		}
+	}
+	immediate = {
+		set_global_flag = lib_of_xian
+		clr_global_flag = fall_of_xian
+	}
+	mean_time_to_happen = {
+		days = 2
+	}
+	option = {
+		name = cityflavour.21.a
+		trigger = {
+			NOT = {
+				TAG = JAP
+				TAG = CHI
+			}
+		}
+	}
+	option = {
+		name = cityflavour.21.b
+		trigger = {
+			TAG = CHI
+		}
+	}
+	option = {
+		name = cityflavour.21.c
+		trigger = {
+			TAG = JAP
+		}
+	}
+}
+
+# news_event = {
+# 	id = cityflavour.22
+# 	title = cityflavour.22.t
+# 	desc = cityflavour.22.d
+# 	picture = GFX_news_event_fallshanghai
+# 	major = yes
+# 	trigger = {
+# 		882 = {
+# 			is_controlled_by = JAP
+# 		}
+# 		882 = {
+# 			is_owned_by = CHI
+# 		}
+# 		JAP = {
+# 			has_war_with = CHI
+# 		}
+# 		NOT = {
+# 			has_global_flag = fall_of_shanghai
+# 		}
+# 	}
+# 	immediate = {
+# 		set_global_flag = fall_of_shanghai
+# 		clr_global_flag = lib_of_shanghai
+# 	}
+# 	mean_time_to_happen = {
+# 		days = 2
+# 	}
+# 	option = {
+# 		name = cityflavour.22.a
+# 		trigger = {
+# 			NOT = {
+# 				TAG = JAP
+# 				TAG = CHI
+# 			}
+# 		}
+# 	}
+# 	option = {
+# 		name = cityflavour.22.b
+# 		trigger = {
+# 			TAG = CHI
+# 		}
+# 	}
+# 	option = {
+# 		name = cityflavour.22.c
+# 		trigger = {
+# 			TAG = JAP
+# 		}
+# 	}
+# }
+
+# news_event = {
+# 	id = cityflavour.23
+# 	title = cityflavour.23.t
+# 	desc = cityflavour.23.d
+# 	picture = GFX_news_event_libshanghai
+# 	major = yes
+# 	trigger = {
+# 		882 = {
+# 			is_controlled_by = CHI
+# 		}
+# 		882 = {
+# 			is_owned_by = CHI
+# 		}
+# 		JAP = {
+# 			has_war_with = CHI
+# 		}
+# 		has_global_flag = fall_of_shanghai
+# 		NOT = {
+# 			has_global_flag = lib_of_shanghai
+# 		}
+# 	}
+# 	immediate = {
+# 		set_global_flag = lib_of_shanghai
+# 		clr_global_flag = fall_of_shanghai
+# 	}
+# 	mean_time_to_happen = {
+# 		days = 2
+# 	}
+# 	option = {
+# 		name = cityflavour.23.a
+# 		trigger = {
+# 			NOT = {
+# 				TAG = JAP
+# 				TAG = CHI
+# 			}
+# 		}
+# 	}
+# 	option = {
+# 		name = cityflavour.23.b
+# 		trigger = {
+# 			TAG = CHI
+# 		}
+# 	}
+# 	option = {
+# 		name = cityflavour.23.c
+# 		trigger = {
+# 			TAG = JAP
+# 		}
+# 	}
+# }
+
+news_event = {
+	id = cityflavour.24
+	title = cityflavour.24.t
+	desc = cityflavour.24.d
+	picture = GFX_news_event_fallguangzhou
+	major = yes
+	trigger = {
+		592 = {
+			is_controlled_by = JAP
+		}
+		592 = {
+			is_owned_by = CHI
+		}
+		JAP = {
+			has_war_with = CHI
+		}
+		NOT = {
+			has_global_flag = fall_of_guangzhou
+		}
+	}
+	immediate = {
+		set_global_flag = fall_of_guangzhou
+		clr_global_flag = lib_of_guangzhou
+	}
+	mean_time_to_happen = {
+		days = 2
+	}
+	option = {
+		name = cityflavour.24.a
+		trigger = {
+			NOT = {
+				TAG = JAP
+				TAG = CHI
+			}
+		}
+	}
+	option = {
+		name = cityflavour.24.b
+		trigger = {
+			TAG = CHI
+		}
+	}
+	option = {
+		name = cityflavour.24.c
+		trigger = {
+			TAG = JAP
+		}
+	}
+}
+
+news_event = {
+	id = cityflavour.25
+	title = cityflavour.25.t
+	desc = cityflavour.25.d
+	picture = GFX_news_event_libguangzhou
+	major = yes
+	trigger = {
+		592 = {
+			is_controlled_by = CHI
+		}
+		592 = {
+			is_owned_by = CHI
+		}
+		JAP = {
+			has_war_with = CHI
+		}
+		has_global_flag = fall_of_guangzhou
+		NOT = {
+			has_global_flag = lib_of_guangzhou
+		}
+	}
+	immediate = {
+		set_global_flag = lib_of_guangzhou
+		clr_global_flag = fall_of_guangzhou
+	}
+	mean_time_to_happen = {
+		days = 2
+	}
+	option = {
+		name = cityflavour.25.a
+		trigger = {
+			NOT = {
+				TAG = JAP
+				TAG = CHI
+			}
+		}
+	}
+	option = {
+		name = cityflavour.25.b
+		trigger = {
+			TAG = CHI
+		}
+	}
+	option = {
+		name = cityflavour.25.c
+		trigger = {
+			TAG = JAP
+		}
+	}
+}
+
+news_event = {
+	id = cityflavour.26
+	title = cityflavour.26.t
+	desc = cityflavour.26.d
+	picture = GFX_news_event_fall_bozen
+	major = yes
+	trigger = {
+		39 = {
+			is_controlled_by = GER
+		}
+		39 = {
+			is_owned_by = ITA
+		}
+		GER = {
+			has_war_with = ITA
+		}
+		NOT = {
+			has_global_flag = fall_of_bozen
+		}
+	}
+	immediate = {
+		set_global_flag = fall_of_bozen
+		clr_global_flag = lib_of_bozen
+	}
+	mean_time_to_happen = {
+		days = 2
+	}
+	option = {
+		name = cityflavour.26.a
+		trigger = {
+			NOT = {
+				TAG = ITA
+				TAG = GER
+			}
+		}
+	}
+	option = {
+		name = cityflavour.26.b
+		trigger = {
+			TAG = GER
+		}
+	}
+	option = {
+		name = cityflavour.26.c
+		trigger = {
+			TAG = ITA
+		}
+	}
+}
+
+news_event = {
+	id = cityflavour.27
+	title = cityflavour.27.t
+	desc = cityflavour.27.d
+	picture = GFX_news_event_fall_torino
+	major = yes
+	trigger = {
+		158 = {
+			is_controlled_by = GER
+		}
+		158 = {
+			is_owned_by = ITA
+		}
+		GER = {
+			has_war_with = ITA
+		}
+		NOT = {
+			has_global_flag = fall_of_torino
+		}
+	}
+	immediate = {
+		set_global_flag = fall_of_torino
+	}
+	mean_time_to_happen = {
+		days = 2
+	}
+	option = {
+		name = cityflavour.27.a
+		trigger = {
+			NOT = {
+				TAG = ITA
+				TAG = GER
+			}
+		}
+	}
+	option = {
+		name = cityflavour.27.b
+		trigger = {
+			TAG = GER
+		}
+	}
+	option = {
+		name = cityflavour.27.c
+		trigger = {
+			TAG = ITA
+		}
+	}
+}
+
+news_event = {
+	id = cityflavour.28
+	title = cityflavour.28.t
+	desc = cityflavour.28.d
+	picture = GFX_news_event_fall_bolonga
+	major = yes
+	trigger = {
+		161 = {
+			is_controlled_by = GER
+		}
+		161 = {
+			is_owned_by = ITA
+		}
+		GER = {
+			has_war_with = ITA
+		}
+		NOT = {
+			has_global_flag = fall_of_bolonga
+		}
+	}
+	immediate = {
+		set_global_flag = fall_of_bolonga
+	}
+	mean_time_to_happen = {
+		days = 2
+	}
+	option = {
+		name = cityflavour.28.a
+		trigger = {
+			NOT = {
+				TAG = ITA
+				TAG = GER
+			}
+		}
+	}
+	option = {
+		name = cityflavour.28.b
+		trigger = {
+			TAG = GER
+		}
+	}
+	option = {
+		name = cityflavour.28.c
+		trigger = {
+			TAG = ITA
+		}
+	}
+}
+
+news_event = {
+	id = cityflavour.29
+	title = cityflavour.29.t
+	desc = cityflavour.29.d
+	picture = GFX_news_event_fall_naples
+	major = yes
+	trigger = {
+		117 = {
+			is_controlled_by = GER
+		}
+		117 = {
+			is_owned_by = ITA
+		}
+		GER = {
+			has_war_with = ITA
+		}
+		NOT = {
+			has_global_flag = fall_of_naples
+		}
+	}
+	immediate = {
+		set_global_flag = fall_of_naples
+	}
+	mean_time_to_happen = {
+		days = 2
+	}
+	option = {
+		name = cityflavour.29.a
+		trigger = {
+			NOT = {
+				TAG = ITA
+				TAG = GER
+			}
+		}
+	}
+	option = {
+		name = cityflavour.29.b
+		trigger = {
+			TAG = GER
+		}
+	}
+	option = {
+		name = cityflavour.29.c
+		trigger = {
+			TAG = ITA
+		}
+		if = {
+			limit = {
+				NOT = {
+					has_country_flag = ITA_sicily_defenders_rised
+				}
+			}
+			division_template = {
+				name = "Roma Militia"
+				division_names_group = ITA_ARM_01
+				#template_counter = 67
+				# Represents lesser-equipped colonial units
+				regiments = {
+					militia = {
+						x = 0
+						y = 0
+					}
+					militia = {
+						x = 0
+						y = 1
+					}
+					militia = {
+						x = 0
+						y = 2
+					}
+					militia = {
+						x = 1
+						y = 0
+					}
+				}
+				priority = 0
+			}
+			115 = {
+				create_unit = {
+					division = "division_template = \"Roma Militia\" start_experience_factor = 0.05 start_equipment_factor = 0.5"
+					owner = ROOT
+					count = 8
+				}
+			}
+			set_country_flag = ITA_sicily_defenders_rised
+		}
+		else = {
+			add_political_power = 5
+			army_experience = 5
+		}
+	}
+}
+
+news_event = {
+	id = cityflavour.30
+	title = cityflavour.30.t
+	desc = cityflavour.30.d
+	picture = GFX_news_event_fall_palermo
+	major = yes
+	trigger = {
+		115 = {
+			is_controlled_by = GER
+		}
+		115 = {
+			is_owned_by = ITA
+		}
+		GER = {
+			has_war_with = ITA
+		}
+		NOT = {
+			has_global_flag = fall_of_palermo
+		}
+	}
+	immediate = {
+		set_global_flag = fall_of_palermo
+	}
+	mean_time_to_happen = {
+		days = 2
+	}
+	option = {
+		name = cityflavour.30.a
+		trigger = {
+			NOT = {
+				TAG = ITA
+				TAG = GER
+			}
+		}
+	}
+	option = {
+		name = cityflavour.30.b
+		trigger = {
+			TAG = GER
+		}
+		air_experience = 5
+	}
+	option = {
+		name = cityflavour.30.c
+		trigger = {
+			TAG = ITA
+		}
+	}
+}
+
+news_event = {
+	id = cityflavour.31
+	title = cityflavour.31.t
+	desc = cityflavour.31.d
+	picture = GFX_news_event_fall_taranto
+	major = yes
+	trigger = {
+		849 = {
+			is_controlled_by = GER
+		}
+		849 = {
+			is_owned_by = ITA
+		}
+		GER = {
+			has_war_with = ITA
+		}
+		NOT = {
+			has_global_flag = fall_of_taranto
+		}
+	}
+	immediate = {
+		set_global_flag = fall_of_taranto
+	}
+	mean_time_to_happen = {
+		days = 2
+	}
+	option = {
+		name = cityflavour.31.a
+		trigger = {
+			NOT = {
+				TAG = ITA
+				TAG = GER
+			}
+		}
+	}
+	option = {
+		name = cityflavour.31.b
+		trigger = {
+			TAG = GER
+		}
+	}
+	option = {
+		name = cityflavour.31.c
+		trigger = {
+			TAG = ITA
+		}
+	}
+}
+
+news_event = {
+	id = cityflavour.32
+	title = cityflavour.32.t
+	desc = cityflavour.32.d
+	picture = GFX_news_event_fall_trieste
+	major = yes
+	trigger = {
+		736 = {
+			is_controlled_by = GER
+		}
+		736 = {
+			is_owned_by = ITA
+		}
+		GER = {
+			has_war_with = ITA
+		}
+		NOT = {
+			has_global_flag = fall_of_trieste
+		}
+	}
+	immediate = {
+		set_global_flag = fall_of_trieste
+	}
+	mean_time_to_happen = {
+		days = 2
+	}
+	option = {
+		name = cityflavour.32.a
+		trigger = {
+			NOT = {
+				TAG = ITA
+				TAG = GER
+			}
+		}
+	}
+	option = {
+		name = cityflavour.32.b
+		trigger = {
+			TAG = GER
+		}
+	}
+	option = {
+		name = cityflavour.32.c
+		trigger = {
+			TAG = ITA
+		}
+	}
+}
+
+news_event = {
+	id = cityflavour.33
+	title = cityflavour.33.t
+	desc = cityflavour.33.d
+	picture = GFX_news_event_fall_tripoli
+	major = yes
+	trigger = {
+		AND = {
+			448 = {
+				is_controlled_by = GER
+			}
+			ITA = {
+				448 = {
+					is_controlled_by_ROOT_or_subject = yes
+				}
+			}
+		}
+		GER = {
+			has_war_with = ITA
+		}
+		NOT = {
+			has_global_flag = fall_of_tripoliger
+		}
+	}
+	immediate = {
+		set_global_flag = fall_of_tripoliger
+	}
+	mean_time_to_happen = {
+		days = 2
+	}
+	option = {
+		name = cityflavour.33.a
+		trigger = {
+			NOT = {
+				TAG = ITA
+				TAG = GER
+			}
+		}
+	}
+	option = {
+		name = cityflavour.33.b
+		trigger = {
+			TAG = GER
+		}
+	}
+	option = {
+		name = cityflavour.33.c
+		trigger = {
+			TAG = ITA
+		}
+	}
+}
+
+news_event = {
+	id = cityflavour.34
+	title = cityflavour.34.t
+	desc = cityflavour.34.d
+	picture = GFX_news_event_fall_venice
+	major = yes
+	trigger = {
+		939 = {
+			is_controlled_by = GER
+		}
+		939 = {
+			is_owned_by = ITA
+		}
+		GER = {
+			has_war_with = ITA
+		}
+		NOT = {
+			has_global_flag = fall_of_venice
+		}
+	}
+	immediate = {
+		set_global_flag = fall_of_venice
+	}
+	mean_time_to_happen = {
+		days = 2
+	}
+	option = {
+		name = cityflavour.34.a
+		trigger = {
+			NOT = {
+				TAG = ITA
+				TAG = GER
+			}
+		}
+	}
+	option = {
+		name = cityflavour.34.b
+		trigger = {
+			TAG = GER
+		}
+	}
+	option = {
+		name = cityflavour.34.c
+		trigger = {
+			TAG = ITA
+		}
+	}
+}
+
+news_event = {
+	id = cityflavour.35
+	title = cityflavour.35.t
+	desc = cityflavour.35.d
+	picture = GFX_news_event_fall_milan
+	major = yes
+	trigger = {
+		159 = {
+			is_controlled_by = GER
+		}
+		159 = {
+			is_owned_by = ITA
+		}
+		GER = {
+			has_war_with = ITA
+		}
+		NOT = {
+			has_global_flag = fall_of_milan
+		}
+	}
+	immediate = {
+		set_global_flag = fall_of_milan
+	}
+	mean_time_to_happen = {
+		days = 2
+	}
+	option = {
+		name = cityflavour.35.a
+		trigger = {
+			NOT = {
+				TAG = ITA
+				TAG = GER
+			}
+		}
+	}
+	option = {
+		name = cityflavour.35.b
+		trigger = {
+			TAG = GER
+		}
+	}
+	option = {
+		name = cityflavour.35.c
+		trigger = {
+			TAG = ITA
+		}
+	}
+}
+
+news_event = {
+	id = cityflavour.36
+	title = cityflavour.36.t
+	desc = cityflavour.36.d
+	picture = GFX_news_event_fall_firenze
+	major = yes
+	trigger = {
+		162 = {
+			is_controlled_by = GER
+		}
+		162 = {
+			is_owned_by = ITA
+		}
+		GER = {
+			has_war_with = ITA
+		}
+		NOT = {
+			has_global_flag = fall_of_firenze
+		}
+	}
+	immediate = {
+		set_global_flag = fall_of_firenze
+	}
+	mean_time_to_happen = {
+		days = 2
+	}
+	option = {
+		name = cityflavour.36.a
+		trigger = {
+			NOT = {
+				TAG = ITA
+				TAG = GER
+			}
+		}
+	}
+	option = {
+		name = cityflavour.36.b
+		trigger = {
+			TAG = GER
+		}
+	}
+	option = {
+		name = cityflavour.36.c
+		trigger = {
+			TAG = ITA
+		}
+		if = {
+			limit = {
+				NOT = {
+					has_country_flag = ITA_roma_defenders_rised
+				}
+			}
+			add_ideas = {
+				 ITA_hold_rome
+			}
+			division_template = {
+				name = "Roma Militia"
+				division_names_group = ITA_ARM_01
+				#template_counter = 67
+				# Represents lesser-equipped colonial units
+				regiments = {
+					militia = {
+						x = 0
+						y = 0
+					}
+					militia = {
+						x = 0
+						y = 1
+					}
+					militia = {
+						x = 0
+						y = 2
+					}
+					militia = {
+						x = 1
+						y = 0
+					}
+				}
+				priority = 0
+			}
+			2 = {
+				create_unit = {
+					division = "division_template = \"Roma Militia\" start_experience_factor = 0.05 start_equipment_factor = 0.5"
+					owner = ITA
+					count = 12
+				}
+			}
+			1343 = {
+				create_unit = {
+					division = "division_template = \"Roma Militia\" start_experience_factor = 0.05 start_equipment_factor = 0.5"
+					owner = ITA
+					count = 8
+				}
+			}
+			set_country_flag = ITA_roma_defenders_rised
+		}
+		else = {
+			add_political_power = 5
+			army_experience = 5
+		}
+	}
+}
+
+news_event = {
+	id = cityflavour.37
+	title = cityflavour.37.t
+	desc = cityflavour.37.d
+	picture = GFX_news_event_ger_enter_sicily
+	major = yes
+	trigger = {
+		GER = {
+			divisions_in_state = {
+				size > 0
+				state = 115
+			}
+		}
+		GER = {
+			has_war_with = ITA
+		}
+		NOT = {
+			has_global_flag = germans_in_sicily
+		}
+	}
+	immediate = {
+		set_global_flag = germans_in_sicily
+	}
+	mean_time_to_happen = {
+		days = 2
+	}
+	option = {
+		name = cityflavour.37.a
+		trigger = {
+			NOT = {
+				TAG = ITA
+				TAG = GER
+			}
+		}
+	}
+	option = {
+		name = cityflavour.37.b
+		trigger = {
+			TAG = GER
+		}
+	}
+	option = {
+		name = cityflavour.37.c
+		trigger = {
+			TAG = ITA
+		}
+	}
+}
+
+news_event = {
+	id = cityflavour.38
+	title = cityflavour.38.t
+	desc = cityflavour.38.d
+	picture = GFX_news_event_istanbul_fall
+	major = yes
+	trigger = {
+		797 = {
+			is_controlled_by = GER
+		}
+		797 = {
+			is_owned_by = PREV
+		}
+		GER = {
+			has_war_with = PREV
+		}
+		NOT = {
+			has_global_flag = fall_of_istanbul
+		}
+	}
+	immediate = {
+		set_global_flag = fall_of_istanbul
+	}
+	mean_time_to_happen = {
+		days = 2
+	}
+	option = {
+		name = cityflavour.38.a
+		trigger = {
+			NOT = {
+				TAG = PREV
+				TAG = GER
+			}
+		}
+	}
+	option = {
+		name = cityflavour.38.b
+		trigger = {
+			TAG = GER
+		}
+	}
+	option = {
+		name = cityflavour.38.c
+		trigger = {
+			TAG = PREV
+		}
+	}
+}
+
+news_event = {
+	id = cityflavour.39
+	title = cityflavour.39.t
+	desc = cityflavour.39.d
+	picture = GFX_news_event_sarajevo_fall
+	major = yes
+	trigger = {
+		901 = {
+			is_controlled_by = GER
+		}
+		901 = {
+			is_owned_by = PREV
+		}
+		GER = {
+			has_war_with = PREV
+		}
+		GER = {
+			has_war_with = PREV
+		}
+		NOT = {
+			has_global_flag = fall_of_sarajevo
+		}
+	}
+	immediate = {
+		set_global_flag = fall_of_sarajevo
+	}
+	mean_time_to_happen = {
+		days = 2
+	}
+	option = {
+		name = cityflavour.39.a
+		trigger = {
+			NOT = {
+				TAG = PREV
+				TAG = GER
+			}
+		}
+	}
+	option = {
+		name = cityflavour.39.b
+		trigger = {
+			TAG = GER
+		}
+	}
+	option = {
+		name = cityflavour.39.c
+		trigger = {
+			TAG = PREV
+		}
+	}
+}
+
+news_event = {
+	id = cityflavour.40
+	title = cityflavour.40.t
+	desc = cityflavour.40.d
+	picture = GFX_news_event_sardinia_fall
+	major = yes
+	trigger = {
+		114 = {
+			is_controlled_by = GER
+		}
+		114 = {
+			is_owned_by = ITA
+		}
+		GER = {
+			has_war_with = ITA
+		}
+		NOT = {
+			has_global_flag = fall_of_sardinia
+		}
+	}
+	immediate = {
+		set_global_flag = fall_of_sardinia
+	}
+	mean_time_to_happen = {
+		days = 2
+	}
+	option = {
+		name = cityflavour.40.a
+		trigger = {
+			NOT = {
+				TAG = ITA
+				TAG = GER
+			}
+		}
+	}
+	option = {
+		name = cityflavour.40.b
+		trigger = {
+			TAG = GER
+		}
+	}
+	option = {
+		name = cityflavour.40.c
+		trigger = {
+			TAG = ITA
+		}
+	}
+}
+
+news_event = {
+	id = cityflavour.41
+	title = cityflavour.41.t
+	desc = cityflavour.41.d
+	picture = GFX_news_event_thesaloniki_fall
+	major = yes
+	trigger = {
+		731 = {
+			is_controlled_by = GER
+		}
+		731 = {
+			is_owned_by = PREV
+		}
+		GER = {
+			has_war_with = PREV
+		}
+		NOT = {
+			has_global_flag = fall_of_thesaloniki
+		}
+	}
+	immediate = {
+		set_global_flag = fall_of_thesaloniki
+	}
+	mean_time_to_happen = {
+		days = 2
+	}
+	option = {
+		name = cityflavour.41.a
+		trigger = {
+			NOT = {
+				TAG = PREV
+				TAG = GER
+			}
+		}
+	}
+	option = {
+		name = cityflavour.41.b
+		trigger = {
+			TAG = GER
+		}
+	}
+	option = {
+		name = cityflavour.41.c
+		trigger = {
+			TAG = PREV
+		}
+	}
+}
+
+news_event = {
+	id = cityflavour.42
+	title = cityflavour.42.t
+	desc = cityflavour.42.d
+	picture = GFX_news_event_tirane_fall
+	major = yes
+	trigger = {
+		44 = {
+			is_controlled_by = GER
+		}
+		44 = {
+			is_owned_by = PREV
+		}
+		GER = {
+			has_war_with = PREV
+		}
+		NOT = {
+			has_global_flag = fall_of_tirane
+		}
+	}
+	immediate = {
+		set_global_flag = fall_of_tirane
+	}
+	mean_time_to_happen = {
+		days = 2
+	}
+	option = {
+		name = cityflavour.42.a
+		trigger = {
+			NOT = {
+				TAG = PREV
+				TAG = GER
+			}
+		}
+	}
+	option = {
+		name = cityflavour.42.b
+		trigger = {
+			TAG = GER
+		}
+	}
+	option = {
+		name = cityflavour.42.c
+		trigger = {
+			TAG = PREV
+		}
+	}
+}
+
+news_event = {
+	id = cityflavour.43
+	title = cityflavour.43.t
+	desc = cityflavour.43.d
+	picture = GFX_news_event_zagreb_fall
+	major = yes
+	trigger = {
+		109 = {
+			is_controlled_by = GER
+		}
+		109 = {
+			is_owned_by = PREV
+		}
+		GER = {
+			has_war_with = PREV
+		}
+		NOT = {
+			has_global_flag = fall_of_zagreb
+		}
+	}
+	immediate = {
+		set_global_flag = fall_of_zagreb
+	}
+	mean_time_to_happen = {
+		days = 2
+	}
+	option = {
+		name = cityflavour.43.a
+		trigger = {
+			NOT = {
+				TAG = PREV
+				TAG = GER
+			}
+		}
+	}
+	option = {
+		name = cityflavour.43.b
+		trigger = {
+			TAG = GER
+		}
+	}
+	option = {
+		name = cityflavour.43.c
+		trigger = {
+			TAG = PREV
+		}
+	}
+}
+
+news_event = {
+	id = cityflavour.44
+	title = cityflavour.44.t
+	desc = cityflavour.44.d
+	picture = GFX_news_event_elalamain_taken
+	major = yes
+	trigger = {
+		OR = {
+			GER = {
+				divisions_in_state = {
+					size > 0
+					state = 447
+				}
+			}
+			ITA = {
+				divisions_in_state = {
+					size > 0
+					state = 447
+				}
+			}
+		}
+		ENG = {
+			controls_state = 447
+			OR = {
+				has_war_with = ITA
+				has_war_with = GER
+			}
+		}
+		NOT = {
+			has_global_flag = elalamainfall
+		}
+	}
+	immediate = {
+		set_global_flag = elalamainfall
+	}
+	mean_time_to_happen = {
+		days = 2
+	}
+	option = {
+		name = cityflavour.44.a
+		trigger = {
+			NOT = {
+				TAG = ENG
+				TAG = GER
+				TAG = ITA
+			}
+		}
+	}
+	option = {
+		name = cityflavour.44.b
+		trigger = {
+			OR = {
+				TAG = GER
+				TAG = ITA
+			}
+		}
+	}
+	
+}
+news_event = {
+	id = cityflavour.45
+	title = cityflavour.45.t
+	desc = cityflavour.45.d
+	picture = GFX_news_event_alessandriafall
+	major = yes
+	trigger = {
+		OR = {
+			447 = {
+				is_controlled_by = GER
+			}
+			447 = {
+				is_controlled_by = ITA
+			}
+		}
+		447 = {
+			is_owned_by = ENG
+		}
+		ROOT = {
+			has_war_with = ENG
+		}
+		NOT = {
+			has_global_flag = alessandriafall
+		}
+	}
+	immediate = {
+		set_global_flag = alessandriafall
+	}
+	mean_time_to_happen = {
+		days = 2
+	}
+	option = {
+		name = cityflavour.45.a
+		trigger = {
+			NOT = {
+				TAG = PREV
+				TAG = GER
+				TAG = ITA
+			}
+		}
+	}
+	option = {
+		name = cityflavour.45.b
+		trigger = {
+			OR = {
+				TAG = GER
+				TAG = ITA
+			}
+		}
+		447 = {
+			damage_building = {
+				type = naval_base
+				damage = 0.25
+			}
+		}
+	}
+	option = {
+		name = cityflavour.45.c
+		trigger = {
+			TAG = ENG
+		}
+	}
+}
+
+news_event = {
+	id = cityflavour.46
+	title = cityflavour.46.t
+	desc = cityflavour.46.d
+	picture = GFX_news_event_brzescfall
+	major = yes
+	trigger = {
+		OR = {
+			94 = {
+				is_controlled_by = GER
+			}
+		}
+		94 = {
+			is_owned_by = POL
+		}
+		GER = {
+			has_war_with = POL
+		}
+		NOT = {
+			has_global_flag = brzescfallger
+		}
+	}
+	immediate = {
+		set_global_flag = brzescfallger
+	}
+	mean_time_to_happen = {
+		days = 2
+	}
+	option = {
+		name = cityflavour.46.a
+		trigger = {
+			NOT = {
+				TAG = POL
+				TAG = GER
+			}
+		}
+	}
+	option = {
+		name = cityflavour.46.b
+		trigger = {
+			TAG = GER
+		}
+	}
+	option = {
+		name = cityflavour.46.c
+		trigger = {
+			TAG = POL
+		}
+	}
+}
+
+news_event = {
+	id = cityflavour.47
+	title = cityflavour.47.t
+	desc = cityflavour.47.d
+	picture = GFX_news_event_brzescfallsov
+	major = yes
+	trigger = {
+		OR = {
+			94 = {
+				is_controlled_by = SOV
+			}
+		}
+		94 = {
+			is_owned_by = POL
+		}
+		SOV = {
+			has_war_with = POL
+		}
+		NOT = {
+			has_global_flag = brzescfallsov
+		}
+	}
+	immediate = {
+		set_global_flag = brzescfallsov
+	}
+	mean_time_to_happen = {
+		days = 2
+	}
+	option = {
+		name = cityflavour.47.a
+		trigger = {
+			NOT = {
+				TAG = POL
+				TAG = SOV
+			}
+		}
+	}
+	option = {
+		name = cityflavour.47.b
+		trigger = {
+			TAG = SOV
+		}
+	}
+	option = {
+		name = cityflavour.47.c
+		trigger = {
+			TAG = POL
+		}
+	}
+}
+
+news_event = {
+	id = cityflavour.48
+	title = cityflavour.48.t
+	desc = cityflavour.48.d
+	picture = GFX_news_event_brestlitfallger
+	major = yes
+	trigger = {
+		OR = {
+			94 = {
+				is_controlled_by = GER
+			}
+		}
+		94 = {
+			is_owned_by = SOV
+		}
+		GER = {
+			has_war_with = SOV
+		}
+		NOT = {
+			has_global_flag = brzescfallbarbarossa
+		}
+	}
+	immediate = {
+		set_global_flag = brzescfallbarbarossa
+	}
+	mean_time_to_happen = {
+		days = 2
+	}
+	option = {
+		name = cityflavour.48.a
+		trigger = {
+			NOT = {
+				TAG = SOV
+				TAG = GER
+			}
+		}
+	}
+	option = {
+		name = cityflavour.48.b
+		trigger = {
+			TAG = GER
+		}
+	}
+	option = {
+		name = cityflavour.48.c
+		trigger = {
+			TAG = SOV
+		}
+	}
+}
+
+news_event = {
+	id = cityflavour.49
+	title = cityflavour.49.t
+	desc = cityflavour.49.d
+	picture = GFX_news_event_brestlitlibsov
+	major = yes
+	trigger = {
+		OR = {
+			94 = {
+				is_controlled_by = SOV
+			}
+		}
+		94 = {
+			is_owned_by = SOV
+		}
+		GER = {
+			has_war_with = SOV
+		}
+		NOT = {
+			has_global_flag = brzesclibbarbarossa
+		}
+		has_global_flag = brzescfallbarbarossa
+	}
+	immediate = {
+		clr_global_flag = brzescfallbarbarossa
+		set_global_flag = brzesclibbarbarossa
+	}
+	mean_time_to_happen = {
+		days = 2
+	}
+	option = {
+		name = cityflavour.49.a
+		trigger = {
+			NOT = {
+				TAG = SOV
+				TAG = GER
+			}
+		}
+	}
+	option = {
+		name = cityflavour.49.b
+		trigger = {
+			TAG = GER
+		}
+	}
+	option = {
+		name = cityflavour.49.c
+		trigger = {
+			TAG = SOV
+		}
+	}
+}
+
+news_event = {
+	id = cityflavour.50
+	title = cityflavour.50.t
+	desc = cityflavour.50.d
+	picture = GFX_news_event_lwowfall
+	major = yes
+	trigger = {
+		OR = {
+			91 = {
+				is_controlled_by = GER
+			}
+		}
+		91 = {
+			is_owned_by = POL
+		}
+		GER = {
+			has_war_with = POL
+		}
+		NOT = {
+			has_global_flag = lwowfallger
+		}
+	}
+	immediate = {
+		set_global_flag = lwowfallger
+	}
+	mean_time_to_happen = {
+		days = 2
+	}
+	option = {
+		name = cityflavour.50.a
+		trigger = {
+			NOT = {
+				TAG = POL
+				TAG = GER
+			}
+		}
+	}
+	option = {
+		name = cityflavour.50.b
+		trigger = {
+			TAG = GER
+		}
+	}
+	option = {
+		name = cityflavour.50.c
+		trigger = {
+			TAG = POL
+		}
+	}
+}
+
+news_event = {
+	id = cityflavour.51
+	title = cityflavour.51.t
+	desc = cityflavour.51.d
+	picture = GFX_news_event_lwowfallsov
+	major = yes
+	trigger = {
+		OR = {
+			91 = {
+				is_controlled_by = SOV
+			}
+		}
+		91 = {
+			is_owned_by = POL
+		}
+		SOV = {
+			has_war_with = POL
+		}
+		NOT = {
+			has_global_flag = lwowfallsov
+		}
+	}
+	immediate = {
+		set_global_flag = lwowfallsov
+	}
+	mean_time_to_happen = {
+		days = 2
+	}
+	option = {
+		name = cityflavour.51.a
+		trigger = {
+			NOT = {
+				TAG = POL
+				TAG = SOV
+			}
+		}
+	}
+	option = {
+		name = cityflavour.51.b
+		trigger = {
+			TAG = POL
+		}
+	}
+	option = {
+		name = cityflavour.51.c
+		trigger = {
+			TAG = SOV
+		}
+	}
+}
+
+news_event = {
+	id = cityflavour.52
+	title = cityflavour.52.t
+	desc = cityflavour.52.d
+	picture = GFX_news_event_lwowlib
+	major = yes
+	trigger = {
+		OR = {
+			91 = {
+				is_controlled_by = POL
+			}
+		}
+		91 = {
+			is_owned_by = POL
+		}
+		OR = {
+			GER = {
+				has_war_with = POL
+			}
+			SOV = {
+				has_war_with = POL
+			}
+		}
+		OR = {
+			has_global_flag = lwowfallsov
+			has_global_flag = lwowfallger
+		}
+		NOT = {
+			has_global_flag = lwowlib
+		}
+	}
+	immediate = {
+		set_global_flag = lwowlib
+		clr_global_flag = lwowfallsov
+		clr_global_flag = lwowfallger
+	}
+	mean_time_to_happen = {
+		days = 2
+	}
+	option = {
+		name = cityflavour.52.a
+		trigger = {
+			NOT = {
+				TAG = POL
+				TAG = GER
+				TAG = SOV
+			}
+		}
+	}
+	option = {
+		name = cityflavour.52.b
+		trigger = {
+			OR = {
+				TAG = GER
+				TAG = SOV
+			}
+		}
+	}
+	option = {
+		name = cityflavour.52.c
+		trigger = {
+			TAG = POL
+		}
+	}
+}
+
+news_event = {
+	id = cityflavour.53
+	title = cityflavour.53.t
+	desc = cityflavour.53.d
+	picture = GFX_news_event_lemberglib
+	major = yes
+	trigger = {
+		OR = {
+			91 = {
+				is_controlled_by = SOV
+			}
+		}
+		91 = {
+			is_owned_by = SOV
+		}
+		GER = {
+			has_war_with = SOV
+		}
+		NOT = {
+			has_global_flag = lvovlibsov
+		}
+		has_global_flag = lvovfallger
+	}
+	immediate = {
+		set_global_flag = lvovlibsov
+		clr_global_flag = lvovfallger
+	}
+	mean_time_to_happen = {
+		days = 2
+	}
+	option = {
+		name = cityflavour.53.a
+		trigger = {
+			NOT = {
+				TAG = SOV
+				TAG = GER
+			}
+		}
+	}
+	option = {
+		name = cityflavour.53.b
+		trigger = {
+			TAG = GER
+		}
+	}
+	option = {
+		name = cityflavour.53.c
+		trigger = {
+			TAG = SOV
+		}
+	}
+}
+
+news_event = {
+	id = cityflavour.54
+	title = cityflavour.54.t
+	desc = cityflavour.54.d
+	picture = GFX_news_event_fall_lvov
+	major = yes
+	trigger = {
+		OR = {
+			91 = {
+				is_controlled_by = GER
+			}
+		}
+		91 = {
+			is_owned_by = SOV
+		}
+		GER = {
+			has_war_with = SOV
+		}
+		NOT = {
+			has_global_flag = lvovfallger
+		}
+	}
+	immediate = {
+		set_global_flag = lvovfallger
+	}
+	mean_time_to_happen = {
+		days = 2
+	}
+	option = {
+		name = cityflavour.54.a
+		trigger = {
+			NOT = {
+				TAG = SOV
+				TAG = GER
+			}
+		}
+	}
+	option = {
+		name = cityflavour.54.b
+		trigger = {
+			TAG = GER
+		}
+	}
+	option = {
+		name = cityflavour.54.c
+		trigger = {
+			TAG = SOV
+		}
+	}
+}

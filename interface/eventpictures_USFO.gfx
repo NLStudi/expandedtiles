@@ -1,0 +1,1693 @@
+spriteTypes = {
+	spriteType = {
+		name = "GFX_molotovribo"
+		texturefile = "gfx/event_pictures/report_event_molot.dds"
+	}
+	spriteType = {
+		name = "GFX_romexpansioo"
+		texturefile = "gfx/event_pictures/rom_expansionismmmm.dds"
+	}
+	spriteType = {
+		name = "GFX_news_event_schmeling1"
+		texturefile = "gfx/event_pictures/news_event_schmeling1.dds"
+	}
+
+	spriteType = {
+		name = "GFX_news_event_meister"
+		texturefile = "gfx/event_pictures/news_event_Meister.dds"
+	}
+
+spriteType = {
+		name = "GFX_news_event_westwallstart"
+		texturefile = "gfx/event_pictures/news_event_westwallstart.dds"
+	}
+
+	spriteType = {
+		name = "GFX_news_event_westwallfinished"
+		texturefile = "gfx/event_pictures/news_event_westwallfinished.dds"
+	}
+
+	spriteType = {
+		name = "GFX_news_event_schmeling2"
+		texturefile = "gfx/event_pictures/news_event_schmeling2.dds"
+	}
+	spriteType = {
+		name = "GFX_news_event_fallweiss"
+		texturefile = "gfx/event_pictures/news_event_fallweiss.dds"
+	}
+	spriteType = {
+		name = "GFX_news_event_fallgelb"
+		texturefile = "gfx/event_pictures/news_event_fallgelb.dds"
+	}
+	spriteType = {
+		name = "GFX_news_event_fallrot"
+		texturefile = "gfx/event_pictures/news_event_fallrot.dds"
+	}
+	spriteType = {
+		name = "GFX_news_event_HorstWessel"
+		texturefile = "gfx/event_pictures/news_event_HorstWessel.dds"
+	}
+
+	spriteType = {
+		name = "GFX_news_event_Reichsluft"
+		texturefile = "gfx/event_pictures/news_event_Reichsluft.dds"
+	}
+
+	spriteType = {
+		name = "GFX_news_event_Schlageter"
+		texturefile = "gfx/event_pictures/news_event_Schlageter.dds"
+	}
+
+	spriteType = {
+		name = "GFX_news_event_Kanzlei1"
+		texturefile = "gfx/event_pictures/news_event_Kanzlei1.dds"
+	}
+
+	spriteType = {
+		name = "GFX_news_event_Kanzlei2"
+		texturefile = "gfx/event_pictures/news_event_Kanzlei2.dds"
+	}
+
+	spriteType = {
+		name = "GFX_news_event_Goering1"
+		texturefile = "gfx/event_pictures/news_event_Goering1.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_news_event_antarktis2"
+		texturefile = "gfx/event_pictures/news_event_antarktis2.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_news_event_blomberg"
+		texturefile = "gfx/event_pictures/news_event_blomberg.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_news_event_carlvon1"
+		texturefile = "gfx/event_pictures/news_event_carlvon1.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_news_event_GD1"
+		texturefile = "gfx/event_pictures/news_event_GD1.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_news_event_geburtstag"
+		texturefile = "gfx/event_pictures/news_event_geburtstag.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_news_event_kehlstein"
+		texturefile = "gfx/event_pictures/news_event_kehlstein.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_news_event_ludendorf"
+		texturefile = "gfx/event_pictures/news_event_ludendorf.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_news_event_raeder"
+		texturefile = "gfx/event_pictures/news_event_raeder.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_news_event_rekordfahrt"
+		texturefile = "gfx/event_pictures/news_event_rekordfahrt.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_news_event_sturmflut"
+		texturefile = "gfx/event_pictures/news_event_sturmflut.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_news_event_unitas"
+		texturefile = "gfx/event_pictures/news_event_unitas.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_news_event_vierjahresplan"
+		texturefile = "gfx/event_pictures/news_event_vierjahresplan.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_news_event_winterspiele"
+		texturefile = "gfx/event_pictures/news_event_winterspiele.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_news_event_antarktis"
+		texturefile = "gfx/event_pictures/news_event_antarktis.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_news_event_carlvon2"
+		texturefile = "gfx/event_pictures/news_event_carlvon2.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_news_event_hossbach"
+		texturefile = "gfx/event_pictures/news_event_hossbach.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_news_event_kriegderwelten"
+		texturefile = "gfx/event_pictures/news_event_kriegderwelten.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_news_event_reichswerke"
+		texturefile = "gfx/event_pictures/news_event_reichswerke.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_news_event_elbrus"
+		texturefile = "gfx/event_pictures/news_event_elbrus.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_news_event_emeal"
+		texturefile = "gfx/event_pictures/news_event_emeal.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_news_event_fallschirm"
+		texturefile = "gfx/event_pictures/news_event_fallschirm.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_news_event_gleiwitz"
+		texturefile = "gfx/event_pictures/news_event_gleiwitz.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_news_event_gold"
+		texturefile = "gfx/event_pictures/news_event_gold.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_news_event_GustloffShip"
+		texturefile = "gfx/event_pictures/news_event_GustloffShip.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_news_event_laboe"
+		texturefile = "gfx/event_pictures/news_event_laboe.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_news_event_laux"
+		texturefile = "gfx/event_pictures/news_event_laux.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_news_event_prinzenerlass"
+		texturefile = "gfx/event_pictures/news_event_prinzenerlass.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_news_event_PrinzWilhelm"
+		texturefile = "gfx/event_pictures/news_event_PrinzWilhelm.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_news_event_prora"
+		texturefile = "gfx/event_pictures/news_event_prora.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_news_event_RP1936"
+		texturefile = "gfx/event_pictures/news_event_RP1936.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_news_event_RP1937"
+		texturefile = "gfx/event_pictures/news_event_RP1937.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_news_event_RP1938"
+		texturefile = "gfx/event_pictures/news_event_RP1938.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_news_event_sewastopol"
+		texturefile = "gfx/event_pictures/news_event_sewastopol.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_news_event_tannenberg"
+		texturefile = "gfx/event_pictures/news_event_tannenberg.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_news_event_telegramm"
+		texturefile = "gfx/event_pictures/news_event_telegramm.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_news_event_WilhelmFuneral"
+		texturefile = "gfx/event_pictures/news_event_WilhelmFuneral.dds"
+	}
+	spriteType = {
+			name = "GFX_news_event_athensger"
+			texturefile = "gfx/event_pictures/news_event_athensfall.dds"
+		}
+	spriteType = {
+		name = "GFX_news_event_belgradeger"
+		texturefile = "gfx/event_pictures/news_event_belgradefall.dds"
+	}
+	spriteType = {
+		name = "GFX_news_event_bostonger"
+		texturefile = "gfx/event_pictures/news_event_bostonfall.dds"
+	}
+	spriteType = {
+		name = "GFX_news_event_brusselsger"
+		texturefile = "gfx/event_pictures/news_event_brusselsfall.dds"
+	}
+	spriteType = {
+		name = "GFX_news_event_budapestger"
+		texturefile = "gfx/event_pictures/news_event_budapestfall.dds"
+	}
+	spriteType = {
+		name = "GFX_news_event_copenhagenger"
+		texturefile = "gfx/event_pictures/news_event_copenhagenfall.dds"
+	}
+	spriteType = {
+		name = "GFX_news_event_delhiger"
+		texturefile = "gfx/event_pictures/news_event_delhifall.dds"
+	}
+	spriteType = {
+		name = "GFX_news_event_detroitger"
+		texturefile = "gfx/event_pictures/news_event_detroitfall.dds"
+	}
+	spriteType = {
+		name = "GFX_news_event_edinburghger"
+		texturefile = "gfx/event_pictures/news_event_edinbugghfall.dds"
+	}
+	spriteType = {
+		name = "GFX_news_event_haugeger"
+		texturefile = "gfx/event_pictures/news_event_haugefall.dds"
+	}
+	spriteType = {
+		name = "GFX_news_event_jerusalemger"
+		texturefile = "gfx/event_pictures/news_event_jerusalemfall.dds"
+	}
+	spriteType = {
+		name = "GFX_news_event_lakehurstger"
+		texturefile = "gfx/event_pictures/news_event_lakehurstfall.dds"
+	}
+	spriteType = {
+		name = "GFX_news_event_losangelesger"
+		texturefile = "gfx/event_pictures/news_event_losangelesfall.dds"
+	}
+	spriteType = {
+		name = "GFX_news_event_meccager"
+		texturefile = "gfx/event_pictures/news_event_meccafall.dds"
+	}
+	spriteType = {
+		name = "GFX_news_event_mongoliager"
+		texturefile = "gfx/event_pictures/news_event_mongoliafall.dds"
+	}
+	spriteType = {
+		name = "GFX_news_event_osloger"
+		texturefile = "gfx/event_pictures/news_event_oslofall.dds"
+	}
+	spriteType = {
+		name = "GFX_news_event_ottawager"
+		texturefile = "gfx/event_pictures/news_event_ottawafall.dds"
+	}
+	spriteType = {
+		name = "GFX_news_event_philadelphiager"
+		texturefile = "gfx/event_pictures/news_event_philadelphiafall.dds"
+	}
+	spriteType = {
+		name = "GFX_news_event_rigager"
+		texturefile = "gfx/event_pictures/news_event_rigafall.dds"
+	}
+	spriteType = {
+		name = "GFX_news_event_rigafallger"
+		texturefile = "gfx/event_pictures/news_event_rigafight.dds"
+	}
+	spriteType = {
+		name = "GFX_news_event_romeger"
+		texturefile = "gfx/event_pictures/news_event_romefall.dds"
+	}
+	spriteType = {
+		name = "GFX_news_event_stockholmger"
+		texturefile = "gfx/event_pictures/news_event_stockholmfall.dds"
+	}
+	spriteType = {
+		name = "GFX_news_event_tallinger"
+		texturefile = "gfx/event_pictures/news_event_tallinfall.dds"
+	}
+	spriteType = {
+		name = "GFX_news_event_tallinfallger"
+		texturefile = "gfx/event_pictures/news_event_tallinfight.dds"
+	}
+	spriteType = {
+		name = "GFX_news_event_teheranger"
+		texturefile = "gfx/event_pictures/news_event_teheranfall.dds"
+	}
+	spriteType = {
+		name = "GFX_news_event_tokyoger"
+		texturefile = "gfx/event_pictures/news_event_tokyofall.dds"
+	}
+	spriteType = {
+		name = "GFX_news_event_uralger"
+		texturefile = "gfx/event_pictures/news_event_uralfall.dds"
+	}
+	spriteType = {
+		name = "GFX_news_event_vilnusger"
+		texturefile = "gfx/event_pictures/news_event_vilnusfall.dds"
+	}
+	spriteType = {
+		name = "GFX_news_event_vladivostokger"
+		texturefile = "gfx/event_pictures/news_event_vladivostokfall.dds"
+	}
+	spriteType = {
+		name = "GFX_news_event_warplanning"
+		texturefile = "gfx/event_pictures/war_planning_ger.dds"
+	}
+	spriteType = {
+		name = "GFX_news_event_beiger"
+		texturefile = "gfx/event_pictures/beige_ger.dds"
+	}
+	spriteType = {
+		name = "GFX_news_event_sovietinterventionbal"
+		texturefile = "gfx/event_pictures/news_event_sovietinterventionbal.dds"
+	}
+	spriteType = {
+		name = "GFX_news_event_plspeaceger"
+		texturefile = "gfx/event_pictures/news_event_plspeace.dds"
+	}
+	spriteType = {
+		name = "GFX_news_event_arkchangelslib"
+		texturefile = "gfx/event_pictures/news_event_arkchangelslib.dds"
+	}
+	spriteType = {
+		name = "GFX_news_event_babiyar"
+		texturefile = "gfx/event_pictures/news_event_babiyar.dds"
+	}
+	spriteType = {
+		name = "GFX_news_event_barbarossa"
+		texturefile = "gfx/event_pictures/news_event_barbarossa.dds"
+	}
+	spriteType = {
+		name = "GFX_news_event_bialystokfall"
+		texturefile = "gfx/event_pictures/news_event_bialystokfall.dds"
+	}
+	spriteType = {
+		name = "GFX_news_event_bretonestablished"
+		texturefile = "gfx/event_pictures/news_event_bretonestablished.dds"
+	}
+	spriteType = {
+		name = "GFX_news_event_burgundyjoinsagainstsov"
+		texturefile = "gfx/event_pictures/news_event_burgundyjoinsagainstsov.dds"
+	}
+	spriteType = {
+		name = "GFX_news_event_chelabinskfall"
+		texturefile = "gfx/event_pictures/news_event_chelabinskfall.dds"
+	}
+	spriteType = {
+		name = "GFX_news_event_chelabinsklib"
+		texturefile = "gfx/event_pictures/news_event_chelabinsklib.dds"
+	}
+	spriteType = {
+		name = "GFX_news_event_decentralizationofafrika"
+		texturefile = "gfx/event_pictures/news_event_decentralizationofafrika.dds"
+	}
+	spriteType = {
+		name = "GFX_news_event_fallarkchangelsk"
+		texturefile = "gfx/event_pictures/news_event_fallarkchangelsk.dds"
+	}
+	spriteType = {
+		name = "GFX_news_event_gorkyfall"
+		texturefile = "gfx/event_pictures/news_event_gorkyfall.dds"
+	}
+	spriteType = {
+		name = "GFX_news_event_gorkylib"
+		texturefile = "gfx/event_pictures/news_event_gorkylib.dds"
+	}
+	spriteType = {
+		name = "GFX_news_event_irkutskfall"
+		texturefile = "gfx/event_pictures/news_event_irkutskfall.dds"
+	}
+	spriteType = {
+		name = "GFX_news_event_irkutsklib"
+		texturefile = "gfx/event_pictures/news_event_irkutsklib.dds"
+	}
+	spriteType = {
+		name = "GFX_news_event_khabarovskfall"
+		texturefile = "gfx/event_pictures/news_event_khabarovskfall.dds"
+	}
+	spriteType = {
+		name = "GFX_news_event_khabarovsklib"
+		texturefile = "gfx/event_pictures/news_event_khabarovsklib.dds"
+	}
+	spriteType = {
+		name = "GFX_news_event_kharkovfall"
+		texturefile = "gfx/event_pictures/news_event_kharkovfall.dds"
+	}
+	spriteType = {
+		name = "GFX_news_event_kharkovfall2"
+		texturefile = "gfx/event_pictures/news_event_kharkovfall2.dds"
+	}
+	spriteType = {
+		name = "GFX_news_event_kharkovlib1"
+		texturefile = "gfx/event_pictures/news_event_kharkovlib1.dds"
+	}
+	spriteType = {
+		name = "GFX_news_event_kharkovlib2"
+		texturefile = "gfx/event_pictures/news_event_kharkovlib2.dds"
+	}
+	spriteType = {
+		name = "GFX_news_event_kievbegins"
+		texturefile = "gfx/event_pictures/news_event_kievbegins.dds"
+	}
+	spriteType = {
+		name = "GFX_news_event_kievfallbetter"
+		texturefile = "gfx/event_pictures/news_event_kievfallbetter.dds"
+	}
+	spriteType = {
+		name = "GFX_news_event_kievlib"
+		texturefile = "gfx/event_pictures/news_event_kievlib.dds"
+	}
+	spriteType = {
+		name = "GFX_news_event_kiubyshevlib"
+		texturefile = "gfx/event_pictures/news_event_kiubyshevlib.dds"
+	}
+	spriteType = {
+		name = "GFX_news_event_kuibyshevfall"
+		texturefile = "gfx/event_pictures/news_event_kuibyshevfall.dds"
+	}
+	spriteType = {
+		name = "GFX_news_event_leningraddivisionspawn"
+		texturefile = "gfx/event_pictures/news_event_leningraddivisionspawn.dds"
+	}
+	spriteType = {
+		name = "GFX_news_event_minskfall"
+		texturefile = "gfx/event_pictures/news_event_minskfall.dds"
+	}
+	spriteType = {
+		name = "GFX_news_event_minsklib"
+		texturefile = "gfx/event_pictures/news_event_minsklib.dds"
+	}
+	spriteType = {
+		name = "GFX_news_event_mittelafrikaestablished"
+		texturefile = "gfx/event_pictures/news_event_mittelafrikaestablished.dds"
+	}
+	spriteType = {
+		name = "GFX_news_event_moscowlib"
+		texturefile = "gfx/event_pictures/news_event_moscowlib.dds"
+	}
+	spriteType = {
+		name = "GFX_news_event_moscowspawndivisions"
+		texturefile = "gfx/event_pictures/news_event_moscowspawndivisions.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_news_event_murmanskfall"
+		texturefile = "gfx/event_pictures/news_event_murmanskfall.dds"
+	}
+	spriteType = {
+		name = "GFX_news_event_murmansklib"
+		texturefile = "gfx/event_pictures/news_event_murmansklib.dds"
+	}
+	spriteType = {
+		name = "GFX_news_event_orelfall"
+		texturefile = "gfx/event_pictures/news_event_orelfall.dds"
+	}
+	spriteType = {
+		name = "GFX_news_event_orelfall2"
+		texturefile = "gfx/event_pictures/news_event_orelfall2.dds"
+	}
+	spriteType = {
+		name = "GFX_news_event_orellib"
+		texturefile = "gfx/event_pictures/news_event_orellib.dds"
+	}
+	spriteType = {
+		name = "GFX_news_event_rkenglandestablished"
+		texturefile = "gfx/event_pictures/news_event_rkenglandestablished.dds"
+	}
+	spriteType = {
+		name = "GFX_news_event_rostovfall"
+		texturefile = "gfx/event_pictures/news_event_rostovfall.dds"
+	}
+	spriteType = {
+		name = "GFX_news_event_rostovlib1"
+		texturefile = "gfx/event_pictures/news_event_rostovlib1.dds"
+	}
+	spriteType = {
+		name = "GFX_news_event_rostovlib2"
+		texturefile = "gfx/event_pictures/news_event_rostovlib2.dds"
+	}
+	spriteType = {
+		name = "GFX_news_event_rzhevbegins"
+		texturefile = "gfx/event_pictures/news_event_rzhevbegins.dds"
+	}
+	spriteType = {
+		name = "GFX_news_event_rzhevfall"
+		texturefile = "gfx/event_pictures/news_event_rzhevfall.dds"
+	}
+	spriteType = {
+		name = "GFX_news_event_sevastopollib"
+		texturefile = "gfx/event_pictures/news_event_sevastopollib.dds"
+	}
+	spriteType = {
+		name = "GFX_news_event_smolenskfall"
+		texturefile = "gfx/event_pictures/news_event_smolenskfall.dds"
+	}
+	spriteType = {
+		name = "GFX_news_event_stalingradbegins"
+		texturefile = "gfx/event_pictures/news_event_stalingradbegins.dds"
+	}
+	spriteType = {
+		name = "GFX_news_event_stalingradlib"
+		texturefile = "gfx/event_pictures/news_event_stalingradlib.dds"
+	}
+	spriteType = {
+		name = "GFX_news_event_stalingradspawndivision"
+		texturefile = "gfx/event_pictures/news_event_stalingradspawndivision.dds"
+	}
+	spriteType = {
+		name = "GFX_news_event_sverlodovskfall"
+		texturefile = "gfx/event_pictures/news_event_sverlodovskfall.dds"
+	}
+	spriteType = {
+		name = "GFX_news_event_sverlodovsklib"
+		texturefile = "gfx/event_pictures/news_event_sverlodovsklib.dds"
+	}
+	spriteType = {
+		name = "GFX_news_event_odessafall"
+		texturefile = "gfx/event_pictures/news_event_odessafall.dds"
+	}
+	spriteType = {
+		name = "GFX_news_event_odessalib"
+		texturefile = "gfx/event_pictures/news_event_odessalib.dds"
+	}
+	spriteType = {
+		name = "GFX_news_event_smolensklib"
+		texturefile = "gfx/event_pictures/news_event_smolensklib.dds"
+	}
+	spriteType = {
+		name = "GFX_news_event_fallmoskva"
+		texturefile = "gfx/event_pictures/news_event_fallmoskva.dds"
+	}
+	spriteType = {
+		name = "GFX_news_event_rzhevliberation"
+		texturefile = "gfx/event_pictures/news_event_rzhevliberation.dds"
+	}
+	spriteType = {
+		name = "GFX_news_event_sevastopolfall"
+		texturefile = "gfx/event_pictures/news_event_sevastopolfall.dds"
+	}
+	spriteType = {
+		name = "GFX_news_event_stalingradfall"
+		texturefile = "gfx/event_pictures/news_event_stalingradfall.dds"
+	}
+	spriteType = {
+		name = "GFX_news_event_konigsbergfall"
+		texturefile = "gfx/event_pictures/news_event_konigsbergfall.dds"
+	}
+	spriteType = {
+		name = "GFX_news_event_konigsberglib"
+		texturefile = "gfx/event_pictures/news_event_konigsberglib.dds"
+	}
+	spriteType = {
+		name = "GFX_news_event_marienburg"
+		texturefile = "gfx/event_pictures/news_event_marienburg.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_news_event_afrikagebrisjager"
+		texturefile = "gfx/event_pictures/news_event_afrikagebrisjager.dds"
+	}
+	spriteType = {
+		name = "GFX_news_event_afrikahj"
+		texturefile = "gfx/event_pictures/news_event_afrikahj.dds"
+	}
+	spriteType = {
+		name = "GFX_news_event_breslaulib"
+		texturefile = "gfx/event_pictures/news_event_breslaulib.dds"
+	}
+	spriteType = {
+		name = "GFX_news_event_afrikaimmigration"
+		texturefile = "gfx/event_pictures/news_event_afrikaimmigration.dds"
+	}
+	spriteType = {
+		name = "GFX_news_event_afrikaofficers"
+		texturefile = "gfx/event_pictures/news_event_afrikaofficers.dds"
+	}
+	spriteType = {
+		name = "GFX_news_event_brnofall"
+		texturefile = "gfx/event_pictures/news_event_brnofall.dds"
+	}
+	spriteType = {
+		name = "GFX_news_event_brnolib"
+		texturefile = "gfx/event_pictures/news_event_brnolib.dds"
+	}
+	spriteType = {
+		name = "GFX_news_event_conference_jap"
+		texturefile = "gfx/event_pictures/news_event_conference_jap.dds"
+	}
+	spriteType = {
+		name = "GFX_news_event_danziglib"
+		texturefile = "gfx/event_pictures/news_event_danziglib.dds"
+	}
+	spriteType = {
+		name = "GFX_news_event_exautobahn"
+		texturefile = "gfx/event_pictures/news_event_exautobahn.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_news_event_exautobahnfinished"
+		texturefile = "gfx/event_pictures/news_event_exautobahnfinished.dds"
+	}
+	spriteType = {
+		name = "GFX_news_event_fallbreslau"
+		texturefile = "gfx/event_pictures/news_event_fallbreslau.dds"
+	}
+	spriteType = {
+		name = "GFX_news_event_falldanizg"
+		texturefile = "gfx/event_pictures/news_event_falldanizg.dds"
+	}
+	spriteType = {
+		name = "GFX_news_event_festungdanzigg"
+		texturefile = "gfx/event_pictures/news_event_festungdanzigg.dds"
+	}
+	spriteType = {
+		name = "GFX_news_event_festungkonigsberg"
+		texturefile = "gfx/event_pictures/news_event_festungkonigsberg.dds"
+	}
+	spriteType = {
+		name = "GFX_news_event_festungposen"
+		texturefile = "gfx/event_pictures/news_event_festungposen.dds"
+	}
+	spriteType = {
+		name = "GFX_news_event_generals_size_power_sov"
+		texturefile = "gfx/event_pictures/news_event_generals_size_power_sov.dds"
+	}
+	spriteType = {
+		name = "GFX_news_event_krakaufall"
+		texturefile = "gfx/event_pictures/news_event_krakaufall.dds"
+	}
+	spriteType = {
+		name = "GFX_news_event_krakaulib"
+		texturefile = "gfx/event_pictures/news_event_krakaulib.dds"
+	}
+	spriteType = {
+		name = "GFX_news_event_krakaulibsov"
+		texturefile = "gfx/event_pictures/news_event_krakaulibsov.dds"
+	}
+	spriteType = {
+		name = "GFX_news_event_laying_claims_jap"
+		texturefile = "gfx/event_pictures/news_event_laying_claims_jap.dds"
+	}
+	spriteType = {
+		name = "GFX_news_event_munchenconference"
+		texturefile = "gfx/event_pictures/news_event_munchenconference.dds"
+	}
+	spriteType = {
+		name = "GFX_news_event_posenfall"
+		texturefile = "gfx/event_pictures/news_event_posenfall.dds"
+	}
+	spriteType = {
+		name = "GFX_news_event_posenlib"
+		texturefile = "gfx/event_pictures/news_event_posenlib.dds"
+	}
+	spriteType = {
+		name = "GFX_news_event_poznanfall"
+		texturefile = "gfx/event_pictures/news_event_poznanfall.dds"
+	}
+	spriteType = {
+		name = "GFX_news_event_poznanlib"
+		texturefile = "gfx/event_pictures/news_event_poznanlib.dds"
+	}
+	spriteType = {
+		name = "GFX_news_event_pragfall"
+		texturefile = "gfx/event_pictures/news_event_pragfall.dds"
+	}
+	spriteType = {
+		name = "GFX_news_event_praglib"
+		texturefile = "gfx/event_pictures/news_event_praglib.dds"
+	}
+	spriteType = {
+		name = "GFX_news_event_praugelib"
+		texturefile = "gfx/event_pictures/news_event_praugelib.dds"
+	}
+	spriteType = {
+		name = "GFX_news_event_praugetaken"
+		texturefile = "gfx/event_pictures/news_event_praugetaken.dds"
+	}
+	spriteType = {
+		name = "GFX_news_event_ribbentroppbeckpact"
+		texturefile = "gfx/event_pictures/news_event_ribbentroppbeckpact.dds"
+	}
+	spriteType = {
+		name = "GFX_news_event_ribbentroppinwarsaw"
+		texturefile = "gfx/event_pictures/news_event_ribbentroppinwarsaw.dds"
+	}
+	spriteType = {
+		name = "GFX_news_event_tv_establishedreich"
+		texturefile = "gfx/event_pictures/news_event_tv_establishedreich.dds"
+	}
+	spriteType = {
+		name = "GFX_news_event_warshaufall"
+		texturefile = "gfx/event_pictures/news_event_warshaufall.dds"
+	}
+	spriteType = {
+		name = "GFX_news_event_warshaulib"
+		texturefile = "gfx/event_pictures/news_event_warshaulib.dds"
+	}
+	spriteType = {
+		name = "GFX_news_event_warszawalib"
+		texturefile = "gfx/event_pictures/news_event_warszawalib.dds"
+	}
+	spriteType = {
+		name = "GFX_news_event_zaolziezajtete"
+		texturefile = "gfx/event_pictures/news_event_zaolziezajtete.dds"
+	}
+	spriteType = {
+		name = "GFX_news_event_stettinfall"
+		texturefile = "gfx/event_pictures/news_event_stettinfall.dds"
+	}
+	spriteType = {
+		name = "GFX_news_event_stettinlib"
+		texturefile = "gfx/event_pictures/news_event_stettinlib.dds"
+	}
+	spriteType = {
+		name = "GFX_news_event_germansbypasssudeten"
+		texturefile = "gfx/event_pictures/news_event_germansbypasssudeten.dds"
+	}
+	spriteType = {
+		name = "GFX_news_event_fallgrun"
+		texturefile = "gfx/event_pictures/news_event_fallgrun.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_news_event_bernefall"
+		texturefile = "gfx/event_pictures/news_event_bernefall.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_news_event_bernelib"
+		texturefile = "gfx/event_pictures/news_event_bernelib.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_news_event_zurichfall"
+		texturefile = "gfx/event_pictures/news_event_zurichfall.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_news_event_zurichlib"
+		texturefile = "gfx/event_pictures/news_event_zurichlib.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_news_event_Vipurri_fall"
+		texturefile = "gfx/event_pictures/news_event_Vipurri_fall.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_news_event_Vipurri_liberation"
+		texturefile = "gfx/event_pictures/news_event_Vipurri_liberation.dds"
+	}
+	
+	
+	spriteType = {
+		name = "GFX_country_event_moskauresources"
+		texturefile = "gfx/event_pictures/moskau.dds"
+	}
+	spriteType = {
+		name = "GFX_country_event_ukraineresources"
+		texturefile = "gfx/event_pictures/Ukraine.dds"
+	}
+	spriteType = {
+		name = "GFX_country_event_kaukasusresources"
+		texturefile = "gfx/event_pictures/report_baku.dds"
+	}
+	spriteType = {
+		name = "GFX_country_event_uralresources"
+		texturefile = "gfx/event_pictures/hinterural.dds"
+	}
+	spriteType = {
+		name = "GFX_country_event_wolgaresources"
+		texturefile = "gfx/event_pictures/Wolga.dds"
+	}
+	spriteType = {
+		name = "GFX_country_event_massloot"
+		texturefile = "gfx/event_pictures/masslootings.dds"
+	}
+	spriteType = {
+		name = "GFX_country_event_kaukasusghetto"
+		texturefile = "gfx/event_pictures/kaukasusghetto.dds"
+	}
+	spriteType = {
+		name = "GFX_country_event_wolgaghetto"
+		texturefile = "gfx/event_pictures/wolgaghetto.dds"
+	}
+	spriteType = {
+		name = "GFX_country_event_ostlandghetto"
+		texturefile = "gfx/event_pictures/ostlandghetto.dds"
+	}
+	spriteType = {
+		name = "GFX_country_event_kiewghetto"
+		texturefile = "gfx/event_pictures/kiewghetto.dds"
+	}
+	spriteType = {
+		name = "GFX_country_event_moskaughetto"
+		texturefile = "gfx/event_pictures/moskaughetto.dds"
+	}
+	spriteType = {
+		name = "GFX_news_event_RONAandROA"
+		texturefile = "gfx/event_pictures/news_event_RONAandROA.dds"
+	}
+	spriteType = {
+		name = "GFX_news_event_vlasovcollabrise"
+		texturefile = "gfx/event_pictures/news_event_vlasovcollabrise.dds"
+	}
+	spriteType = {
+		name = "GFX_news_event_romaniaattack"
+		texturefile = "gfx/event_pictures/news_event_romaniaattack.dds"
+	}
+	spriteType = {
+		name = "GFX_news_event_taifun"
+		texturefile = "gfx/event_pictures/news_event_taifun.dds"
+	}
+	spriteType = {
+		name = "GFX_news_event_kreml"
+		texturefile = "gfx/event_pictures/news_event_kreml.dds"
+	}
+	spriteType = {
+		name = "GFX_news_event_fallblau"
+		texturefile = "gfx/event_pictures/news_event_fallblau.dds"
+	}
+	spriteType = {
+		name = "GFX_news_event_margharete"
+		texturefile = "gfx/event_pictures/news_event_margharete.dds"
+	}
+	spriteType = {
+		name = "GFX_news_event_fruhlings"
+		texturefile = "gfx/event_pictures/news_event_fruhlings.dds"
+	}
+	spriteType = {
+		name = "GFX_news_event_berlin_defense"
+		texturefile = "gfx/event_pictures/news_event_berlin_defense.dds"
+	}
+	spriteType = {
+		name = "GFX_news_event_alpenfestung"
+		texturefile = "gfx/event_pictures/news_event_alpenfestung.dds"
+	}
+	spriteType = {
+		name = "GFX_news_event_alpenfestung_finish"
+		texturefile = "gfx/event_pictures/news_event_alpenfestung_finish.dds"
+	}
+	spriteType = {
+		name = "GFX_news_event_power_plants_destr"
+		texturefile = "gfx/event_pictures/news_event_power_plants_destr.dds"
+	}
+	spriteType = {
+		name = "GFX_news_event_moscov_strike"
+		texturefile = "gfx/event_pictures/news_event_moscov_strike.dds"
+	}
+	spriteType = {
+		name = "GFX_news_event_uranuss"
+		texturefile = "gfx/event_pictures/news_event_uranuss.dds"
+	}
+	spriteType = {
+		name = "GFX_news_event_generals_size_power_sov"
+		texturefile = "gfx/event_pictures/news_event_generals_size_power_sov.dds"
+	}
+	spriteType = {
+		name = "GFX_news_event_bagration"
+		texturefile = "gfx/event_pictures/news_event_bagration.dds"
+	}
+	spriteType = {
+		name = "GFX_news_event_baltic_deutch"
+		texturefile = "gfx/event_pictures/news_event_baltic_deutch.dds"
+	}
+	spriteType = {
+		name = "GFX_news_event_looting"
+		texturefile = "gfx/event_pictures/news_event_looting.dds"
+	}
+	spriteType = {
+		name = "GFX_news_event_schwarzmeerdeutsch"
+		texturefile = "gfx/event_pictures/news_event_schwarzmeerdeutsch.dds"
+	}
+	spriteType = {
+		name = "GFX_news_event_sewastopolmuseum"
+		texturefile = "gfx/event_pictures/news_event_sewastopolmuseum.dds"
+	}
+	spriteType = {
+		name = "GFX_news_event_edelweissmuseum"
+		texturefile = "gfx/event_pictures/news_event_edelweissmuseum.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_news_event_kulturkampfbeings"
+		texturefile = "gfx/event_pictures/news_event_kulturkampfbeings.dds"
+	}
+	spriteType = {
+		name = "GFX_news_event_construction_begin_KDF"
+		texturefile = "gfx/event_pictures/news_event_construction_begin_KDF.dds"
+	}
+	spriteType = {
+		name = "GFX_news_news_event_construction_begin_xd"
+		texturefile = "gfx/event_pictures/news_event_construction_begin_xd.dds"
+	}
+	
+	
+	spriteType = {
+		name = "GFX_news_event_citadel"
+		texturefile = "gfx/event_pictures/news_event_citadel.dds"
+	}
+	spriteType = {
+		name = "GFX_news_event_laying_claims_jap"
+		texturefile = "gfx/event_pictures/news_event_laying_claims_jap.dds"
+	}
+	spriteType = {
+		name = "GFX_report_event_chineseports"
+		texturefile = "gfx/event_pictures/report_event_chineseports.dds"
+	}
+	spriteType = {
+		name = "GFX_news_event_sinkiang_armistice"
+		texturefile = "gfx/event_pictures/news_event_sinkiang_armistice.dds"
+	}
+
+	spriteType = {
+		name = "GFX_news_event_sinkiang_totalwar"
+		texturefile = "gfx/event_pictures/news_event_sinkiang_totalwar.dds"
+	}
+	spriteType = {
+		name = "GFX_news_event_sinkiang_littlewar"
+		texturefile = "gfx/event_pictures/news_event_sinkiang_littlewar.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_report_event_molotov_rib_expanded1"
+		texturefile = "gfx/event_pictures/report_mrexp1.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_report_event_molotov_rib_expanded2"
+		texturefile = "gfx/event_pictures/report_mrexp2.dds"
+	}
+	spriteType = {
+		name = "GFX_report_event_molotov_rib_expanded3"
+		texturefile = "gfx/event_pictures/report_mrexp3.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_report_event_redfleetturmoil"
+		texturefile = "gfx/event_pictures/report_event_redfleetturmoil.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_report_counteroffensive"
+		texturefile = "gfx/event_pictures/report_counteroffensive.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_report_sevastopol"
+		texturefile = "gfx/event_pictures/report_sevastopol.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_report_stalingrad"
+		texturefile = "gfx/event_pictures/report_stalingrad.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_report_moskva"
+		texturefile = "gfx/event_pictures/report_moskva.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_report_fareasternarmy"
+		texturefile = "gfx/event_pictures/report_fareasternarmy.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_report_leningrad"
+		texturefile = "gfx/event_pictures/report_leningrad.dds"
+	}
+	
+	
+	spriteType = {
+		name = "GFX_news_event_reichswerkeexpansionaustria"
+		texturefile = "gfx/event_pictures/news_event_reichswerkeexpansionaustria.dds"
+	}
+	spriteType = {
+		name = "GFX_news_event_reichswerkeexpansionczechia"
+		texturefile = "gfx/event_pictures/news_event_reichswerkeexpansionczechia.dds"
+	}
+	spriteType = {
+		name = "GFX_news_event_reichswerkeexpansionost"
+		texturefile = "gfx/event_pictures/news_event_reichswerkeexpansionost.dds"
+	}
+
+###Bombings
+spriteType = {
+	name = "GFX_report_event_rotterdamblitz"
+	texturefile = "gfx/event_pictures/report_event_rotterdamblitz.dds"
+}
+spriteType = {
+	name = "GFX_report_event_Citybombed"
+	texturefile = "gfx/event_pictures/report_event_Citybombed.dds"
+}
+spriteType = {
+	name = "GFX_report_event_Refineriesbombed"
+	texturefile = "gfx/event_pictures/report_event_Refineriesbombed.dds"
+}
+
+spriteType = {
+	name = "GFX_report_event_Industrybombed"
+	texturefile = "gfx/event_pictures/report_event_Industrybombed.dds"
+}
+
+spriteType = {
+	name = "GFX_report_event_antiairraidger"
+	texturefile = "gfx/event_pictures/report_event_antiairraidger.dds"
+}
+
+spriteType = {
+	name = "GFX_report_event_failedbombing"
+	texturefile = "gfx/event_pictures/report_event_failedbombing.dds"
+}
+
+
+	##JAPANUPDATE
+	
+	
+	spriteType = {
+		name = "GFX_report_event_Trencin"
+		texturefile = "gfx/event_pictures/report_event_Trencin.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_news_event_fallquingdao"
+		texturefile = "gfx/event_pictures/news_event_fallquingdao.dds"
+	}
+	spriteType = {
+		name = "GFX_news_event_libquingdao"
+		texturefile = "gfx/event_pictures/news_event_libquingdao.dds"
+	}
+	spriteType = {
+		name = "GFX_news_event_fallshijaszhuang"
+		texturefile = "gfx/event_pictures/news_event_fallshijaszhuang.dds"
+	}
+	spriteType = {
+		name = "GFX_news_event_libshij"
+		texturefile = "gfx/event_pictures/news_event_libshij.dds"
+	}
+	spriteType = {
+		name = "GFX_news_event_fallzhengzhou"
+		texturefile = "gfx/event_pictures/news_event_fallzhengzhou.dds"
+	}
+	spriteType = {
+		name = "GFX_news_event_libzheng"
+		texturefile = "gfx/event_pictures/news_event_libzheng.dds"
+	}
+	spriteType = {
+		name = "GFX_news_event_fallweifang"
+		texturefile = "gfx/event_pictures/news_event_fallweifang.dds"
+	}
+	spriteType = {
+		name = "GFX_news_event_libweifang"
+		texturefile = "gfx/event_pictures/news_event_libweifang.dds"
+	}
+	spriteType = {
+		name = "GFX_news_event_fallhefei"
+		texturefile = "gfx/event_pictures/news_event_fallhefei.dds"
+	}
+	spriteType = {
+		name = "GFX_news_event_libhefei"
+		texturefile = "gfx/event_pictures/news_event_libhefei.dds"
+	}
+	
+	
+		spriteType = {
+		name = "GFX_news_event_fallxian"
+		texturefile = "gfx/event_pictures/news_event_fallxian.dds"
+	}
+	
+		spriteType = {
+		name = "GFX_news_event_libxian"
+		texturefile = "gfx/event_pictures/news_event_libxian.dds"
+	}
+	
+		spriteType = {
+		name = "GFX_news_event_fallshanghai"
+		texturefile = "gfx/event_pictures/news_event_fallshanghai.dds"
+	}
+	
+		spriteType = {
+		name = "GFX_news_event_libshanghai"
+		texturefile = "gfx/event_pictures/news_event_libshanghai.dds"
+	}
+	###
+	spriteType = {
+		name = "GFX_news_event_chongquingfall"
+		texturefile = "gfx/event_pictures/news_event_chongquing.dds"
+	}
+	
+		spriteType = {
+		name = "GFX_news_event_chongquinglib"
+		texturefile = "gfx/event_pictures/news_event_chongquinglib.dds"
+	}
+
+	
+		spriteType = {
+		name = "GFX_report_event_ReichswerkeTscheschen"
+		texturefile = "gfx/event_pictures/report_event_ReichswerkeTscheschen.dds"
+	}
+	
+		spriteType = {
+		name = "GFX_report_event_Reichswerkeosterreich"
+		texturefile = "gfx/event_pictures/report_event_Reichswerkeosterreich.dds"
+	}
+	
+		spriteType = {
+		name = "GFX_report_event_Reichswerkeostland"
+		texturefile = "gfx/event_pictures/report_event_Reichswerkeostland.dds"
+	}
+	
+		spriteType = {
+		name = "GFX_news_event_liberation_kursk"
+		texturefile = "gfx/event_pictures/news_event_liberation_kursk.dds"
+	}
+	
+
+
+
+		spriteType = {
+		name = "GFX_news_event_liberation_gomel"
+		texturefile = "gfx/event_pictures/news_event_liberation_gomel.dds"
+	}
+	
+		spriteType = {
+		name = "GFX_news_event_libhefei"
+		texturefile = "gfx/event_pictures/news_event_libhefei.dds"
+	
+	}
+	
+		spriteType = {
+		name = "GFX_news_event_liberation_novgorod"
+		texturefile = "gfx/event_pictures/news_event_liberation_novgorod.dds"
+	}
+	
+		spriteType = {
+		name = "GFX_news_event_liberation_stalino"
+		texturefile = "gfx/event_pictures/news_event_liberation_stalino.dds"
+	}
+		spriteType = {
+		name = "GFX_news_event_liberation_Voroshilovgrad"
+		texturefile = "gfx/event_pictures/news_event_liberation_Voroshilovgrad.dds"
+	}
+	
+		spriteType = {
+		name = "GFX_news_event_fall_gomel"
+		texturefile = "gfx/event_pictures/news_event_fall_gomel.dds"
+	}
+		spriteType = {
+		name = "GFX_news_event_fall_kursk"
+		texturefile = "gfx/event_pictures/news_event_fall_kursk.dds"
+	}
+	
+		spriteType = {
+		name = "GFX_news_event_fall_novgorod"
+		texturefile = "gfx/event_pictures/news_event_fall_novgorod.dds"
+	}
+		spriteType = {
+		name = "GFX_news_event_fall_stalino"
+		texturefile = "gfx/event_pictures/news_event_fall_stalino.dds"
+	}
+	
+		spriteType = {
+		name = "GFX_news_event_fall_Voroshilovgrad"
+		texturefile = "gfx/event_pictures/news_event_fall_Voroshilovgrad.dds"
+	}
+		spriteType = {
+		name = "GFX_news_event_libhefei"
+		texturefile = "gfx/event_pictures/news_event_libhefei.dds"
+	}
+	
+		spriteType = {
+		name = "GFX_news_event_libhefei"
+		texturefile = "gfx/event_pictures/news_event_libhefei.dds"
+	}
+		spriteType = {
+		name = "GFX_news_event_libhefei"
+		texturefile = "gfx/event_pictures/news_event_libhefei.dds"
+	}
+	
+		spriteType = {
+		name = "GFX_news_event_libhefei"
+		texturefile = "gfx/event_pictures/news_event_libhefei.dds"
+	}
+	spriteType = {
+		name = "GFX_news_event_arabrevolt"
+		texturefile = "gfx/event_pictures/news_event_arabrevolt.dds"
+	}
+
+	spriteType = {
+		name = "GFX_country_event_Chinafall"
+		texturefile = "gfx/event_pictures/report_event_Chinafall.dds"
+	}
+	spriteType = {
+		name = "GFX_report_event_eng_demands"
+		texturefile = "gfx/event_pictures/report_event_eng_demands.dds"
+	}
+
+	spriteType = {
+		name = "GFX_report_event_jap_accepts"
+		texturefile = "gfx/event_pictures/report_event_jap_accepts.dds"
+	}
+
+	spriteType = {
+		name = "GFX_report_event_jap_rejects"
+		texturefile = "gfx/event_pictures/report_event_jap_rejects.dds"
+	}
+	spriteType = {
+		name = "GFX_report_event_jap_negotiates"
+		texturefile = "gfx/event_pictures/report_event_jap_negotiates.dds"
+	}
+
+	spriteType = {
+		name = "GFX_report_event_jap_parade"
+		texturefile = "gfx/event_pictures/report_event_jap_parade.dds"
+	}
+
+	spriteType = {
+		name = "GFX_news_event_sovcult"
+		texturefile = "gfx/event_pictures/news_event_sovcult.dds"
+	}
+	spriteType = {
+		name = "GFX_report_event_molotovcult"
+		texturefile = "gfx/event_pictures/report_event_molotovcult.dds"
+	}
+	spriteType = {
+		name = "GFX_report_event_chkalovcult"
+		texturefile = "gfx/event_pictures/report_event_chklaovcult.dds"
+	}
+
+	spriteType = {
+		name = "GFX_report_event_ger_arcticsoldiers"
+		texturefile = "gfx/event_pictures/report_event_ger_arcticsoldiers.dds"
+	}
+
+	spriteType = {
+		name = "GFX_report_event_jap_arcticsoldier"
+		texturefile = "gfx/event_pictures/report_event_jap_arcticsoldier.dds"
+	}
+	spriteType = {
+		name = "GFX_report_event_gerjap_negotiations"
+		texturefile = "gfx/event_pictures/report_event_gerjap_negotiations.dds"
+	}
+	spriteType = {
+		name = "GFX_report_event_ant_bases_attack"
+		texturefile = "gfx/event_pictures/report_event_ant_bases_attack.dds"
+	}
+	spriteType = {
+		name = "GFX_report_event_chkalovcult"
+		texturefile = "gfx/event_pictures/report_event_chklaovcult.dds"
+	}
+	spriteType = {
+		name = "GFX_report_event_fra_ant_established"
+		texturefile = "gfx/event_pictures/report_event_fra_ant_established.dds"
+	}
+
+	spriteType = {
+		name = "GFX_report_event_ger_ant_established"
+		texturefile = "gfx/event_pictures/report_event_ger_ant_established.dds"
+	}
+
+	spriteType = {
+		name = "GFX_report_event_eng_ant_adm_est"
+		texturefile = "gfx/event_pictures/report_event_eng_ant_adm_est.dds"
+	}
+
+	spriteType = {
+		name = "GFX_report_event_usa_dependency_est"
+		texturefile = "gfx/event_pictures/report_event_usa_dependency_est.dds"
+	}
+
+	spriteType = {
+		name = "GFX_report_event_jap_dependency_est"
+		texturefile = "gfx/event_pictures/report_event_jap_dependency_est.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_news_event_achse"
+		texturefile = "gfx/event_pictures/news_event_achse.dds"
+	}
+	spriteType = {
+		name = "GFX_news_event_fall_bozen"
+		texturefile = "gfx/event_pictures/news_event_fall_bozen.dds"
+	}
+	spriteType = {
+		name = "GFX_news_event_fall_bolonga"
+		texturefile = "gfx/event_pictures/news_event_fall_bolonga.dds"
+	}
+	spriteType = {
+		name = "GFX_news_event_fall_naples"
+		texturefile = "gfx/event_pictures/news_event_fall_naples.dds"
+	}
+	spriteType = {
+		name = "GFX_news_event_fall_palermo"
+		texturefile = "gfx/event_pictures/news_event_fall_palermo.dds"
+	}
+	spriteType = {
+		name = "GFX_news_event_fall_taranto"
+		texturefile = "gfx/event_pictures/news_event_fall_taranto.dds"
+	}
+	spriteType = {
+		name = "GFX_news_event_fall_trieste"
+		texturefile = "gfx/event_pictures/news_event_fall_trieste.dds"
+	}
+	spriteType = {
+		name = "GFX_news_event_fall_tripoli"
+		texturefile = "gfx/event_pictures/news_event_fall_tripoli.dds"
+	}
+	spriteType = {
+		name = "GFX_news_event_fall_venice"
+		texturefile = "gfx/event_pictures/news_event_fall_venice.dds"
+	}
+	spriteType = {
+		name = "GFX_news_event_fall_milan"
+		texturefile = "gfx/event_pictures/news_event_fall_milan.dds"
+	}
+	spriteType = {
+		name = "GFX_news_event_fall_firenze"
+		texturefile = "gfx/event_pictures/news_event_fall_firenze.dds"
+	}
+	spriteType = {
+		name = "GFX_news_event_ger_enter_sicily"
+		texturefile = "gfx/event_pictures/news_event_ger_enter_sicily.dds"
+	}
+	spriteType = {
+		name = "GFX_news_event_istanbul_fall"
+		texturefile = "gfx/event_pictures/news_event_istanbul_fall.dds"
+	}
+	spriteType = {
+		name = "GFX_news_event_sarajevo_fall"
+		texturefile = "gfx/event_pictures/news_event_sarajevo_fall.dds"
+	}
+	spriteType = {
+		name = "GFX_news_event_sardinia_fall"
+		texturefile = "gfx/event_pictures/news_event_sardinia_fall.dds"
+	}
+	spriteType = {
+		name = "GFX_news_event_tirane_fall"
+		texturefile = "gfx/event_pictures/news_event_tirane_fall.dds"
+	}
+
+	spriteType = {
+		name = "GFX_news_event_elalamain_taken"
+		texturefile = "gfx/event_pictures/news_event_elalamain_taken.dds"
+	}
+
+	spriteType = {
+		name = "GFX_news_event_zagreb_fall"
+		texturefile = "gfx/event_pictures/news_event_zagreb_fall.dds"
+	}
+
+	spriteType = {
+		name = "GFX_news_event_thesaloniki_fall"
+		texturefile = "gfx/event_pictures/news_event_thesaloniki_fall.dds"
+	}
+	spriteType = {
+		name = "GFX_news_event_alessandriafall"
+		texturefile = "gfx/event_pictures/news_event_alessandriafall.dds"
+	}
+	spriteType = {
+		name = "GFX_report_event_benito_comemorate_Ger"
+		texturefile = "gfx/event_pictures/report_event_benito_comemorate_Ger.dds"
+	}
+	spriteType = {
+		name = "GFX_report_event_liberate_eth"
+		texturefile = "gfx/event_pictures/report_event_liberate_eth.dds"
+	}
+	spriteType = {
+		name = "GFX_news_event_engattacketh"
+		texturefile = "gfx/event_pictures/news_event_engattacketh.dds"
+	}
+
+	spriteType = {
+		name = "GFX_news_event_fall_torino"
+		texturefile = "gfx/event_pictures/news_event_fall_torino.dds"
+	}
+
+
+	spriteType = {
+		name = "GFX_news_event_lwowfall"
+		texturefile = "gfx/event_pictures/news_event_lwowfall.dds"
+	}
+	spriteType = {
+		name = "GFX_news_event_lwowfallsov"
+		texturefile = "gfx/event_pictures/news_event_lwowfallsov.dds"
+	}
+	spriteType = {
+		name = "GFX_news_event_lemberglib"
+		texturefile = "gfx/event_pictures/news_event_lemberglib.dds"
+	}
+	spriteType = {
+		name = "GFX_news_event_lwowlib"
+		texturefile = "gfx/event_pictures/news_event_lwowlib.dds"
+	}
+
+	
+	spriteType = {
+		name = "GFX_news_event_brzescfall"
+		texturefile = "gfx/event_pictures/news_event_brzescfall.dds"
+	}
+
+	spriteType = {
+		name = "GFX_news_event_brestlitfallger"
+		texturefile = "gfx/event_pictures/news_event_brestlitfallger.dds"
+	}
+	spriteType = {
+		name = "GFX_news_event_brzescfallsov"
+		texturefile = "gfx/event_pictures/news_event_brzescfallsov.dds"
+	}
+
+	spriteType = {
+		name = "GFX_news_event_brestlitlibsov"
+		texturefile = "gfx/event_pictures/news_event_brestlitlibsov.dds"
+	}
+
+	spriteType = {
+		name = "GFX_news_event_fall_lvov"
+		texturefile = "gfx/event_pictures/news_event_fall_lvov.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_report_Lenin_body_situation"
+		texturefile = "gfx/event_pictures/report_Lenin_body_situation.dds"
+	}
+
+	spriteType = {
+		name = "GFX_report_Moscow_situation"
+		texturefile = "gfx/event_pictures/report_Moscow_situation.dds"
+	}
+
+	spriteType = {
+		name = "GFX_news_event_stalindead"
+		texturefile = "gfx/event_pictures/news_event_stalindead.dds"
+	}
+
+	spriteType = {
+		name = "GFX_news_event_Stalinsurvives"
+		texturefile = "gfx/event_pictures/news_event_Stalinsurvives.dds"
+	}
+	spriteType = {
+		name = "GFX_report_power_struggle_SOV"
+		texturefile = "gfx/event_pictures/report_power_struggle_SOV.dds"
+	}
+
+	spriteType = {
+		name = "GFX_news_event_separatistpeace"
+		texturefile = "gfx/event_pictures/news_event_separatistpeace.dds"
+	}
+
+	spriteType = {
+		name = "GFX_report_event_ost_peacedeal"
+		texturefile = "gfx/event_pictures/report_event_ost_peacedeal.dds"
+	}
+
+	spriteType = {
+		name = "GFX_news_event_totalwar_barbarossa"
+		texturefile = "gfx/event_pictures/news_event_totalwar_barbarossa.dds"
+	}
+
+	spriteType = {
+		name = "GFX_report_event_nkvdway"
+		texturefile = "gfx/event_pictures/report_event_nkvdway.dds"
+	}
+	
+
+	spriteType = {
+		name = "GFX_report_event_stalinway"
+		texturefile = "gfx/event_pictures/report_event_stalinway.dds"
+	}
+	spriteType = {
+		name = "GFX_report_event_voroshilovway"
+		texturefile = "gfx/event_pictures/report_event_voroshilovway.dds"
+	}
+
+	spriteType = {
+		name = "GFX_report_event_AA_linereached"
+		texturefile = "gfx/event_pictures/report_event_AA_linereached.dds"
+	}
+	spriteType = {
+		name = "GFX_news_event_GER_SOV_victory_barbarossa"
+		texturefile = "gfx/event_pictures/news_event_GER_SOV_victory_barbarossa.dds"
+	}
+
+	spriteType = {
+		name = "GFX_news_event_GER_SOV_fight_on_barbarossa"
+		texturefile = "gfx/event_pictures/news_event_GER_SOV_fight_on_barbarossa.dds"
+	}
+	spriteType = {
+		name = "GFX_report_event_Uralreached"
+		texturefile = "gfx/event_pictures/report_event_Uralreached.dds"
+	}
+
+	spriteType = {
+		name = "GFX_news_event_GER_SOV_fight_on_behind_urals"
+		texturefile = "gfx/event_pictures/news_event_GER_SOV_fight_on_behind_urals.dds"
+	}
+
+	spriteType = {
+		name = "GFX_news_event_Germans_landinenglandww2"
+		texturefile = "gfx/event_pictures/news_event_Germans_landinenglandww2.dds"
+	}
+	spriteType = {
+		name = "GFX_news_event_Yankes_are_comingtobritain"
+		texturefile = "gfx/event_pictures/news_event_Yankes_are_comingtobritain.dds"
+	}
+
+	spriteType = {
+		name = "GFX_news_event_GER_total_vicotry_allies"
+		texturefile = "gfx/event_pictures/news_event_GER_total_vicotry_allies.dds"
+	}
+
+	spriteType = {
+		name = "GFX_news_event_Beriasuccesion"
+		texturefile = "gfx/event_pictures/news_event_Beriasuccesion.dds"
+	}
+	spriteType = {
+		name = "GFX_news_event_Voroshilovsuccesion"
+		texturefile = "gfx/event_pictures/news_event_Voroshilovsuccesion.dds"
+	}
+	spriteType = {
+		name = "GFX_news_event_Molotovsucession"
+		texturefile = "gfx/event_pictures/news_event_Molotovsucession.dds"
+	}
+	spriteType = {
+		name = "GFX_news_event_Kaganovichsuccesion"
+		texturefile = "gfx/event_pictures/news_event_Kaganovichsuccesion.dds"
+	}
+	spriteType = {
+		name = "GFX_news_event_GER_total_vicotry_allies"
+		texturefile = "gfx/event_pictures/news_event_GER_total_vicotry_allies.dds"
+	}
+
+	spriteType = {
+		name = "GFX_news_event_GER_total_vicotry_allies"
+		texturefile = "gfx/event_pictures/news_event_GER_total_vicotry_allies.dds"
+	}
+	spriteType = {
+		name = "GFX_news_event_nuclear_research_rem_event"
+		texturefile = "gfx/event_pictures/news_event_nuclear_research_rem_event.dds"
+	}
+
+	spriteType = {
+		name = "GFX_report_event_nuclear_reactor_spot"
+		texturefile = "gfx/event_pictures/report_event_nuclear_reactor_spot.dds"
+	}
+
+	spriteType = {
+		name = "GFX_report_event_iraninvasionplan"
+		texturefile = "gfx/event_pictures/report_event_iraninvasionplan.dds"
+	}
+
+	spriteType = {
+		name = "GFX_news_event_Iraninvasion"
+		texturefile = "gfx/event_pictures/news_event_Iraninvasion.dds"
+	}
+
+	spriteType = {
+		name = "GFX_report_supplyiranarmyger"
+		texturefile = "gfx/event_pictures/report_supplyiranarmyger.dds"
+	}
+
+	spriteType = {
+		name = "GFX_news_event_Iranarmyfirmstand"
+		texturefile = "gfx/event_pictures/news_event_Iranarmyfirmstand.dds"
+	}
+
+	spriteType = {
+		name = "GFX_news_event_totalwar_iran"
+		texturefile = "gfx/event_pictures/news_event_totalwar_iran.dds"
+	}
+	spriteType = {
+		name = "GFX_report_event_Tangerocc"
+		texturefile = "gfx/event_pictures/report_event_Tangerocc.dds"
+	}
+	spriteType = {
+		name = "GFX_news_event_tangertaken"
+		texturefile = "gfx/event_pictures/news_event_tangertaken.dds"
+	}
+
+
+	spriteType = {
+		name = "GFX_report_pyramidenfinish"
+		texturefile = "gfx/event_pictures/report_pyramidenfinish.dds"
+	}
+	spriteType = {
+		name = "GFX_report_pyramidenstart"
+		texturefile = "gfx/event_pictures/report_pyramidenstart.dds"
+	}
+
+	spriteType = {
+		name = "GFX_report_frenchjoinitalyegypt"
+		texturefile = "gfx/event_pictures/report_frenchjoinitalyegypt.dds"
+	}
+
+	spriteType = {
+		name = "GFX_report_englishafricareinforcements"
+		texturefile = "gfx/event_pictures/report_englishafricareinforcements.dds"
+	}
+
+	spriteType = {
+		name = "GFX_news_event_Uzh_miracle"
+		texturefile = "gfx/event_pictures/news_event_Uzh_miracle.dds"
+	}
+
+	spriteType = {
+		name = "GFX_report_canal_control"
+		texturefile = "gfx/event_pictures/report_canal_control.dds"
+	}
+
+	spriteType = {
+		name = "GFX_news_event_last_Thylacine"
+		texturefile = "gfx/event_pictures/news_event_last_Thylacine.dds"
+	}
+
+	spriteType = {
+		name = "GFX_report_event_soviet_disarray"
+		texturefile = "gfx/event_pictures/report_event_soviet_disarray.dds"
+	}
+	spriteType = {
+		name = "GFX_news_event_atlantikwall_construction_start"
+		texturefile = "gfx/event_pictures/news_event_atlantikwall_construction_start.dds"
+	}
+	
+	}
+	

@@ -1,0 +1,21 @@
+state={
+	id=1071
+	name="STATE_1071"
+	provinces={ 14240 }
+	resources = {
+		steel = 2
+	}
+	manpower=30
+	state_category = small_island
+	history={
+		owner = NOR
+		add_claim_by = SOV
+
+		buildings = {
+			infrastructure = 1
+			14240 = {
+				naval_base = 1
+			}
+		}
+	}
+}

@@ -1,0 +1,18 @@
+state = {
+	id=1094
+	name="STATE_1094"
+	manpower = 1
+	state_category = wasteland
+	
+	history= {
+		owner = CHL
+		add_core_of = CHL
+		buildings = {
+			infrastructure = 0
+			14172 = {
+				naval_base = 1
+			}
+		}
+	}
+	provinces={14172 }
+}

@@ -1,0 +1,16 @@
+state={
+	id=1013
+	name="STATE_1013"
+	provinces={
+		13582 13588 13608 13633 13654 13659 13723 13724 13735 13756 13772 13794 13824 13828 13875 13883 13925 13972 13997 14020 
+}
+impassable = yes
+		history={
+		owner = ANT	
+		add_core_of = ANT
+	}
+	manpower=1
+	buildings_max_level_factor=1.000
+	state_category=wasteland
+	local_supplies=0.000
+}

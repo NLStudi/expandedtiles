@@ -1,0 +1,18 @@
+version="1.0"
+tags={
+	"Alternative History"
+	"Events"
+	"Gameplay"
+	"Historical"
+	"Map"
+	"National Focuses"
+	"Technologies"
+	"Balance"
+	"Fixes"
+	"Military"
+}
+name="Tiles 2.0"
+replace_path="map/strategicregions"
+replace_path="history/countries"
+replace_path="history/states"
+supported_version="1.18.0.0"

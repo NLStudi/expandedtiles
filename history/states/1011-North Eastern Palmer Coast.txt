@@ -1,0 +1,15 @@
+state={
+	id=1011
+	name="STATE_1011" #836
+	manpower=1
+
+	state_category = wasteland 
+	
+
+	history={
+		owner = ANT
+		add_core_of = ANT
+	}
+	
+	provinces={13660 13415 13547 }
+}

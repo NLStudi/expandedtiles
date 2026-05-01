@@ -1,0 +1,16 @@
+state={
+	id=1069
+	name="STATE_1069"
+	provinces={ 14170 }
+	manpower=30
+	state_category = small_island
+	history={
+		owner = FRA
+		buildings = {
+			infrastructure = 1
+			14170 = {
+				naval_base = 1
+			}
+		}
+	}
+}

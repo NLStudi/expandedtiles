@@ -1,0 +1,14 @@
+state={
+	id=1085
+	name="STATE_1085"
+	manpower=93
+	
+	state_category = small_island
+
+	history={
+		owner = ENG
+		#add_core_of = ENG
+	}
+	
+	provinces={ 13229 }
+}

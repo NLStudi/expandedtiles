@@ -1,6 +1,6 @@
 state={
 	id=1063
-	name="STATE_1063"
+	name = "Hobbs Station"
 	manpower=200
 	
 	state_category = wasteland 
@@ -16,5 +16,7 @@ state={
 		}
 	}
 	
-	provinces={ 13374 }
+	provinces={
+		13374
+	}
 }

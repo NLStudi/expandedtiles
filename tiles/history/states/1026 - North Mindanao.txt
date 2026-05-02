@@ -1,0 +1,28 @@
+state = {
+	id = 1026
+	name = "STATE_1026"
+	manpower = 5
+	
+	state_category = rural
+
+	history = {
+
+		owner = ANT
+		add_core_of = ANT
+
+		buildings = {
+
+			infrastructure = 1
+
+		}
+
+		victory_points = {
+			13758 1 # Cagayan de Oro
+		}
+		
+	}
+
+	provinces={ 13758 }
+
+	local_supplies = 0.0 
+}

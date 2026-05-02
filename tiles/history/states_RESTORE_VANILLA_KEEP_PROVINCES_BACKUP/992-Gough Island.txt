@@ -1,0 +1,22 @@
+state={
+	id=992
+	name = "Gough Island"
+	manpower=12
+
+	state_category = small_island
+
+	history={
+		owner = ENG
+		#add_core_of = ENG
+		buildings = {
+			infrastructure = 1
+			13231 = {
+				naval_base = 1
+			}
+		}
+	}
+	
+	provinces={
+		13231
+	}
+}

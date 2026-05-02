@@ -2,17 +2,19 @@
 state={
 	id=443
 	name="STATE_443" # Sind
-	manpower = 3887000
+	manpower = 4524236 #3887000
 	
-	state_category = rural
+	state_category = city
 
 	history={
 		owner = RAJ
+		add_core_of = RAJ
+		add_core_of = SIN
 		victory_points = {
-			3456 3 
+			3456 25 
 		}
 		buildings = {
-			infrastructure = 3 #was: 5
+			infrastructure = 2 #was: 5
 			industrial_complex = 1
 			3456 = {
 				naval_base = 4

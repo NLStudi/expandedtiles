@@ -1,6 +1,6 @@
 state={
 	id=1084
-	name="STATE_1084"
+	name = "Severnaya Zemlya"
 	manpower=1
 
 	state_category = wasteland
@@ -13,5 +13,7 @@ state={
 		add_core_of = SOV
 	}
 
-	provinces={ 14441 14498 14435 14451 14493 14486}
+	provinces={
+		14435 14441 14451 14486 14493 14498
+	}
 }

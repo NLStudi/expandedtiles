@@ -1,20 +1,38 @@
-state={
-	id=992
-	name="STATE_992"
-	manpower=12
+state = {
+	id = 992
+	name = "STATE_992"
+	
+	state_category = rural
+	manpower = 80516
+	
 
-	state_category = small_island
+	history = {
 
-	history={
-		owner = ENG
-		#add_core_of = ENG
+		owner = RAJ
+		add_core_of = YEM
+		add_core_of = FSA
+
+		victory_points = {
+			5074 2 # Aden 
+		}
+
 		buildings = {
-			infrastructure = 1
-			13231 = {
+			infrastructure = 2
+			air_base = 1
+			5074 = {
 				naval_base = 1
 			}
 		}
+
+		1939.1.1 = {
+			owner = ENG
+		}
+
 	}
-	
-	provinces={13231 }
+
+	provinces={
+		13231
+	}
+	buildings_max_level_factor = 1.000
+	local_supplies = 0.000
 }

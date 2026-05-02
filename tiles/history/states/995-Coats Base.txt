@@ -1,20 +1,40 @@
-state={
-	id=995
-	name="STATE_995"
-	manpower=200
+state = {
+	id = 995
+	name = "STATE_995"
 	
-	state_category = wasteland 
+	state_category = city
+	manpower = 1272324
+	
+	
+	history = {
 
-	history={
-		owner = ANT	
+		owner = ANT
 		add_core_of = ANT
+
 		buildings = {
-			infrastructure = 0
-			13768 = {
-				naval_base = 3
+			infrastructure = 2
+			industrial_complex = 1
+			arms_factory = 1
+			1330 = {
+				naval_base = 1
 			}
 		}
+
+		victory_points = {
+			1330 15 # Rangoon
+		}
+
+		victory_points = {
+			10344 1 # Taungoo
+		}
+
 	}
+
+	provinces={
+		13768
+	}
+
+	buildings_max_level_factor = 1.000
+	local_supplies = 6
 	
-	provinces={13768 }
 }

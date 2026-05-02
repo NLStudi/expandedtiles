@@ -1,0 +1,33 @@
+
+state={
+	id=1000
+	name = "East Azerbaijan"
+	manpower = 715857
+	resources = {
+		steel = 6
+	}
+	
+	state_category = town
+	history={
+		owner = ANT
+		controller = ANT
+		add_core_of = ANT
+
+
+
+		buildings = {
+			infrastructure = 2
+			arms_factory = 2
+		}
+		victory_points = {
+			1896 5 
+		}
+
+
+
+	}
+
+	provinces={13966}
+
+	local_supplies=4.0 
+}

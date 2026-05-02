@@ -1,6 +1,6 @@
 state={
 	id=1077
-	name="STATE_1077"
+	name = "Pribilof Islands"
 	manpower=200
 	
 	state_category = wasteland 
@@ -16,5 +16,7 @@ state={
 		}
 	}
 	
-	provinces={ 13230}
+	provinces={
+		13230
+	}
 }

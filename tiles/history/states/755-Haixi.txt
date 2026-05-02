@@ -7,16 +7,23 @@ state={
 	manpower=1000000
 	buildings_max_level_factor=1.000
 	state_category = pastoral
-	history={
+
+	history = {
+
 		owner = XSM
 		add_core_of = XSM
 		add_core_of = CHI
 		add_core_of = PRC
+
+		victory_points = {
+			10750 1 # Dulan  
+		}
+
 		buildings = {
 			infrastructure = 1
 			industrial_complex = 1
-
 		}
+
 		1938.10.25 = {
 			if = {
 				limit = {
@@ -36,5 +43,5 @@ state={
 
 	}
 
-	local_supplies=0.0 
+	local_supplies = 0.0 
 }

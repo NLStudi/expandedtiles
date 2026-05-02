@@ -1,6 +1,6 @@
 state = {
 	id = 1103
-	name = "STATE_1103"
+	name = "Nanjing"
 	manpower = 8652549
 	state_category = large_town
 	resources = {

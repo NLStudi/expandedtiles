@@ -1,0 +1,26 @@
+state={
+	id=1005
+	name = "Qataghan"
+	manpower = 925226
+	state_category = rural
+
+	resources = {
+		chromium = 3
+	}
+
+	provinces={13977 }
+	history={
+		owner = ANT
+		controller = ANT
+		add_core_of = ANT
+
+
+
+		victory_points = {
+			10781 1
+		}
+	}
+	
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+}

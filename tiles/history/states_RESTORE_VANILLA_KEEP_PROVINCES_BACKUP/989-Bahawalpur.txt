@@ -1,0 +1,24 @@
+state={
+	id=989
+	name = "Bahawalpur"
+	provinces={
+		13826 13831 13887 13905 13911 13915 13935 
+}
+
+	history={
+		owner = ANT
+		controller = ANT
+		add_core_of = ANT
+
+
+
+		buildings = {
+			infrastructure = 1
+		}
+
+	}
+	manpower=984612
+	state_category = rural
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+}

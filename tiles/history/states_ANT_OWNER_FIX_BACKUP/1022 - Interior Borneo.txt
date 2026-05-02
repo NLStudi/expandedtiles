@@ -1,0 +1,31 @@
+state = {
+	id = 1022
+	name = "STATE_1022"
+
+	manpower = 8600
+
+	impassable = yes 
+	force_link_ownership_to = 334 # Kalimantan
+
+	resources = {
+	}
+	
+	state_category = wasteland
+
+	history = {
+
+		owner = INS
+		add_core_of = INS
+
+		buildings = {
+			infrastructure = 0
+		}
+
+	}
+
+	provinces={
+		13426 13427 13428 13429 13483 13497 13536 13549 13569 13610 13667 13701 13721 13722 13726 13727 13730 13731 13732 13738 13741 13759 13760 13821 
+}
+
+	local_supplies = 0.0 
+}

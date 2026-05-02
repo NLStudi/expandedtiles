@@ -1,6 +1,6 @@
 state={
 	id=1083
-	name="STATE_1083"
+	name = "Spitzbergen"
 	manpower=1
 	
 	state_category = wasteland 
@@ -16,5 +16,7 @@ state={
 		}
 	}
 	
-	provinces={ 14302 14359 14387 14296 14484}
+	provinces={
+		14296 14302 14359 14387 14484
+	}
 }

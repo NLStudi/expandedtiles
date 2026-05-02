@@ -1,6 +1,6 @@
 state={
 	id=1056
-	name="STATE_1056"
+	name = "Eastern Wilkensland"
 	manpower=1
 
 	state_category = wasteland 
@@ -11,5 +11,7 @@ state={
 		add_core_of = ANT
 	}
 	
-	provinces={ 13477 }
+	provinces={
+		13477
+	}
 }

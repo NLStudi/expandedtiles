@@ -1,7 +1,7 @@
 
 state={
 	id=1093
-	name="STATE_1093" #Bahrain
+	name = "Socotra islands" #Bahrain
 	manpower = 4000
 
 	state_category = tiny_island

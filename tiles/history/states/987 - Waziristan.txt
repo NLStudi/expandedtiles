@@ -1,0 +1,36 @@
+
+state={
+	id=987
+	name="STATE_987" #
+	manpower = 217974 
+	
+	state_category = rural
+	
+	resources={
+
+	}
+
+	history={
+		owner = ANT
+		controller = ANT
+		add_core_of = ANT
+
+		buildings = {
+		}
+
+
+
+		set_compliance = 0
+		start_resistance = yes
+		set_resistance =  70
+		buildings = {
+			infrastructure = 1
+		}
+	}
+
+	provinces={
+		13447 13448 13449 13450 13451 13452 13453 13454 13530 13532 13538 13557 13566 13576 13577 13585 13612 13622 13623 13653 13662 13669 13682 13693 13715 13736 13743 13749 
+}
+
+	local_supplies=0.0 
+}

@@ -1,0 +1,27 @@
+state = {
+	id = 1010
+	name = "Al Anbar"
+	state_category = rural
+	manpower = 479801
+
+	resources = {
+		oil = 3
+	}
+
+	history={
+		owner = ANT
+		controller = ANT
+		add_core_of = ANT
+
+
+
+		victory_points = {
+			12413 1 # Rumadiyah
+		}
+	}
+
+	provinces={ 14068 13751 14024 14014 14002 13992 13949 13913 13852 13884}
+	
+	buildings_max_level_factor = 1.000
+	local_supplies = 0.000
+}

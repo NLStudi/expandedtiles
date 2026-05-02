@@ -1,0 +1,29 @@
+state={
+	id=982
+	name = "Madras States"
+	resources={
+		rubber=2
+	}
+	provinces={
+		13632
+	}
+	manpower = 7600000
+	buildings_max_level_factor=1.000
+	state_category=rural
+	local_supplies=0.000
+	history={
+		owner = ANT
+		controller = ANT
+		add_core_of = ANT
+
+
+
+		buildings = {
+			infrastructure = 1
+		}
+		victory_points = {
+			1321 3 
+		}
+
+	}
+}

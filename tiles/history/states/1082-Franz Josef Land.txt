@@ -1,6 +1,6 @@
 state={
 	id=1082
-	name="STATE_1082"
+	name = "Franz Josef Land"
 	manpower=1
 
 	state_category = wasteland 
@@ -13,6 +13,9 @@ state={
 		add_core_of = SOV
 	}
 	
-	provinces={ 14477  14485 14460 14497 14453 14468 14487 14450 14476 14501 14502 14488 14500}
+	provinces={
+		14450 14453 14460 14468 14476 14477 14485 14487 14488 14497 14500 14501 
+		14502
+	}
 }
 

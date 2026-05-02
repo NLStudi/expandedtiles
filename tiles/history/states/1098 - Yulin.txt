@@ -1,6 +1,6 @@
 state={
 	id=1098
-	name="STATE_1098"
+	name = "Yulin"
 	resources={
 		coal = 12 #initial distribution
 	}

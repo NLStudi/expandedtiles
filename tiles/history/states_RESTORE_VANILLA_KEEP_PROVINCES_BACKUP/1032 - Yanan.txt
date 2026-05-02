@@ -1,0 +1,49 @@
+state = {
+	id = 1032
+	name = "Yanan"
+	manpower = 4670800
+	buildings_max_level_factor = 1
+	state_category = town
+
+	history={
+		owner = ANT
+		controller = ANT
+		add_core_of = ANT
+
+
+
+		1936.1.1 = {
+			IF = {
+				limit = {
+					has_dlc = "No Compromise, No Surrender"
+				}
+				transfer_state_to = ANT
+
+			}
+		}
+
+		victory_points = {
+			1032 3 # Yanan
+		}
+
+		buildings = {
+
+
+		}
+
+		1938.10.25 = {
+
+
+			add_victory_points = {
+				province = 1032
+				value = 2
+			}	
+		}
+
+	}
+
+	provinces={
+		13930 13931 13951 13957 13965 13969 13993 13996 13998
+	}
+	local_supplies = 0
+}

@@ -1,0 +1,33 @@
+state = {
+	id = 1015
+	name = "STATE_1015"
+	manpower = 129000
+	
+	state_category = pastoral
+	
+	resources = {
+		oil = 2
+	}
+
+	history = {
+
+		owner = OMA
+		add_core_of = IMO
+		#add_core_of = OMA
+
+		buildings = {
+			infrastructure = 1
+		}
+
+		victory_points = {
+			5049 1 # Nizwa
+		}
+		
+	}
+
+	provinces={
+		13408 13409 13410 13411 13412 13413 13414 13482 13485 13492 13513 13534 13535 13543 13554 13559 13563 
+}
+
+	local_supplies = 0.0 
+}

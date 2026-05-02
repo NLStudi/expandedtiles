@@ -1,0 +1,59 @@
+state = {
+
+	id = 1038
+	name = "STATE_1038"
+	manpower = 25582133
+	state_category = rural
+	
+	resources = {
+		
+	}
+	
+	history = {
+
+		owner = CHI
+		add_core_of = CHI
+		add_core_of = PRC
+
+		1936.1.1 = {
+			IF = {
+				limit = {
+					has_dlc = "No Compromise, No Surrender"
+				}
+				transfer_state_to = SND
+				add_core_of = SND
+			}
+		}
+
+		victory_points = {
+			1069 5 # Jinan
+		}
+
+		victory_points = {
+			4181 1 # Linyi
+		}
+
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 1
+			air_base = 3
+		}
+
+		1938.10.25 = {
+			IF = {
+				limit = {
+					has_dlc = "No Compromise, No Surrender" 
+				}
+			}	
+			owner = CHI
+			controller = JAP		
+		}
+	}
+
+	provinces={
+		13469 13470 13471 13499 13573 13581 13639 13673 13729 13746 13784 
+		13792 13849 13863 13866
+	}
+
+	local_supplies = 4.0 
+}

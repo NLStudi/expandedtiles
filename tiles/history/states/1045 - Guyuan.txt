@@ -1,0 +1,31 @@
+state = {
+	id = 1045
+	name = "STATE_1045"
+	manpower = 5
+	state_category = rural
+	resources = {
+		tungsten = 1
+	}
+
+	history={
+		owner = ANT
+		controller = ANT
+		add_core_of = ANT
+
+		victory_points = {
+			13989 1 # Guyuan
+		}
+
+
+
+	}
+
+	provinces={
+		13885 13900 13927 13942 13946 13950 13967 13982 13989
+	}
+	
+	buildings_max_level_factor = 1.000
+	
+
+	local_supplies = 0.0 
+}

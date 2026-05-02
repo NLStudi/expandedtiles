@@ -1,6 +1,6 @@
 state={
 	id=1078
-	name="STATE_1078"
+	name = "St. Matthew Island"
 	manpower=1
 
 	state_category = wasteland
@@ -11,5 +11,7 @@ state={
 		#add_core_of = USA
 	}
 	
-	provinces={ 13228}
+	provinces={
+		13228
+	}
 }

@@ -1,0 +1,29 @@
+state = {
+	id = 1042
+	name = "STATE_1042"
+	manpower = 3
+	state_category = wasteland
+
+	history={
+		owner = ANT
+		controller = ANT
+		add_core_of = ANT
+
+
+		buildings = {
+			infrastructure = 1
+		}
+
+		victory_points = {
+			13976 1 # Yecheng 
+		}
+
+	}
+
+	provinces={
+		13953 13976
+	}
+
+	buildings_max_level_factor = 1.000
+	local_supplies = 1.0 
+}

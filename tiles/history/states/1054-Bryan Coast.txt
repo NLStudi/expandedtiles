@@ -1,9 +1,9 @@
 state={
 	id=1054
-	name="STATE_1054"
+	name = "Bryan Coast"
 	provinces={
-		13595 13601 13602 13607 13614 
-}
+		13595 13601 13602 13607 13614
+	}
 		history={
 		owner = ANT	
 		add_core_of = ANT

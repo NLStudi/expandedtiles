@@ -1,0 +1,33 @@
+state = {
+	id = 1016
+	name = "STATE_1016"
+	manpower = 85000
+	
+	state_category = pastoral
+
+	history={
+		owner = ANT
+		controller = ANT
+		add_core_of = ANT
+
+
+
+		buildings = {
+			infrastructure = 1
+			2103 = {
+				naval_base = 1
+			}
+		}
+
+		victory_points = {
+			2103 1 # Salalah
+		}
+		
+	}
+
+	provinces={
+		13487 13488 13489 13490 13495 13502 13503 13504 13508 13518 13519 13531 13533 13540 13546 
+}
+
+	local_supplies = 0.0 
+}

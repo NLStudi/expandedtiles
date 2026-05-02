@@ -1,6 +1,6 @@
 state={
 	id=1107
-	name="STATE_1107"
+	name = "Alxa"
 	provinces={
 		4783 7727 7803 8102 10770 10899
 	}

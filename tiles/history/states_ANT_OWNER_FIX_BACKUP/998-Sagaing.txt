@@ -1,0 +1,25 @@
+state = {
+	id = 998
+	name = "STATE_998"
+	
+	state_category = rural
+	manpower = 966906
+	
+	history = {
+		owner = BRM
+		add_core_of = BRM
+
+		buildings = {
+			infrastructure = 1
+		}
+
+		victory_points = {
+			4425 1 
+		}
+	}
+
+	provinces={13928 }
+
+	local_supplies = 0.000
+	buildings_max_level_factor = 1.000
+}

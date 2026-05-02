@@ -1,6 +1,6 @@
 state={
 	id=1081
-	name="STATE_1081" #Gogland - bigges island of Outer Islands of the Gulf of Finland
+	name = "Gogland" #Gogland - bigges island of Outer Islands of the Gulf of Finland
 	manpower = 12
 	
 	state_category = rural
@@ -13,5 +13,7 @@ state={
 		add_core_of = FIN
 	}
 
-	provinces={ 14182}
+	provinces={
+		14182
+	}
 }

@@ -1,7 +1,7 @@
 
 state={
 	id=1091
-	name="STATE_1091"
+	name = "Novaya Zemlya"
 	manpower = 972
 	
 	state_category = wasteland

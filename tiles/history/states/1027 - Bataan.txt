@@ -1,0 +1,37 @@
+state = {
+
+	id = 1027
+	name = "STATE_1027" # Bataan
+	manpower = 5
+
+	resources={
+		
+	}
+	
+	state_category = town
+
+	history = {
+
+		owner = ANT
+		add_core_of = ANT
+
+		buildings = {
+		}
+
+
+		victory_points = {
+			13822 2 # Bataan
+		}
+
+		victory_points = {
+			13822 1 # Dagupan
+		}
+		
+	}
+
+	provinces={
+		13822 13825 13845
+	}
+
+	local_supplies = 0.0 
+}

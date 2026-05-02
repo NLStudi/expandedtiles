@@ -1,0 +1,36 @@
+state = {
+	id = 1041
+	name = "STATE_1041"
+
+	history={
+		owner = ANT
+		controller = ANT
+		add_core_of = ANT
+
+
+		victory_points = {
+			13939 1 # Guanghan
+		}
+
+
+		
+		1939.1.1 = {
+			buildings = {
+				industrial_complex = 2
+				infrastructure = 3
+				arms_factory = 1
+
+			}
+		}
+
+	}
+
+	provinces={
+		13924 13939
+	}
+	manpower = 5
+	buildings_max_level_factor = 1.000
+	state_category = town
+
+	local_supplies = 0.0 
+}

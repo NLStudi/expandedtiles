@@ -1,6 +1,6 @@
 state={
 	id=1080
-	name="STATE_1080"
+	name = "Canadian Arctic Archipelago"
 	manpower=1
 
 	state_category = wasteland 
@@ -13,5 +13,7 @@ state={
 		}
 	}
 	
-	provinces={ 14412 14309 14342 14265 14282 14338 14263 2947 10527}
+	provinces={
+		2947 10527 14263 14265 14282 14309 14338 14342 14412
+	}
 }

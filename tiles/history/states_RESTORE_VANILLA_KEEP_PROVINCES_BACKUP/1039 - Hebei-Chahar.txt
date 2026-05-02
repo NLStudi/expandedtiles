@@ -1,0 +1,55 @@
+state = {
+	id = 1039
+	name = "Hebei-Chahar" # South Chahar
+	manpower = 367500
+	
+	state_category = pastoral
+
+	history={
+		owner = ANT
+		controller = ANT
+		add_core_of = ANT
+
+
+
+		1936.1.1 = {
+			IF = {
+				limit = {
+					has_dlc = "No Compromise, No Surrender"
+				}
+				transfer_state_to = HBC
+
+			}
+		}
+
+		buildings = {
+			infrastructure = 1 #was 2
+			1590 = {
+				landmark_great_wall_section = {
+				    level = 1
+				    allowed = {
+				        has_dlc = "No Compromise, No Surrender"
+				    }
+				}
+			}
+		}
+		
+		victory_points = {
+			6904 3 # Kalgan #was 4
+		}
+
+		1938.10.25 = {
+
+
+		}
+
+	}
+
+	provinces={
+		13457 13458 13459 13460 13461 13462 13539 13558 13567 13572 13580 13587 
+		13643 13649 13671 13677 13678 13687 13737 13739 13753 13764 13769 13789 
+		13827 13834 13847 13848 13888
+	}
+
+	local_supplies = 0.0 
+}

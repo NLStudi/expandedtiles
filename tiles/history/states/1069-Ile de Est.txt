@@ -1,7 +1,9 @@
 state={
 	id=1069
-	name="STATE_1069"
-	provinces={ 14170 }
+	name = "Ile de Est"
+	provinces={
+		14170
+	}
 	manpower=30
 	state_category = small_island
 	history={

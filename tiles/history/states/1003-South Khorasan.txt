@@ -1,0 +1,26 @@
+
+state={
+	id=1003
+	name="STATE_1003"
+	manpower = 243007
+	
+	state_category = wasteland
+
+	history={
+		owner = ANT
+		controller = ANT
+		add_core_of = ANT
+
+		buildings = {
+			infrastructure = 1
+		}
+		victory_points = {
+			7990 1 
+		}
+
+	}
+
+	provinces={ 13476 }
+
+	local_supplies=0.0 
+}

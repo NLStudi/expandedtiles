@@ -1,0 +1,56 @@
+state = {
+	id = 1044
+	name = "Wuwei"
+	manpower = 1010300
+	state_category = pastoral
+
+	history={
+		owner = ANT
+		controller = ANT
+		add_core_of = ANT
+
+
+
+		buildings = {
+			infrastructure = 1
+		}
+
+		victory_points = {
+			5100 1 #Wuwei
+		}
+
+		1936.1.1 = {
+			IF = {
+				limit = {
+					has_dlc = "No Compromise, No Surrender" 
+				}
+				GSM = { transfer_state = PREV }
+
+				remove_core_of = XSM
+			}
+		}
+
+		1938.10.25 = {
+			if = {
+				limit = {
+					NOT = {
+						has_dlc = "Waking the Tiger" 
+					}
+				}
+				CHI = {
+					transfer_state = PREV
+				}
+			}
+		}
+
+	}
+
+	provinces={
+		13970 13985 14000
+	}
+	
+	buildings_max_level_factor = 1.000
+	
+
+	local_supplies = 0.0 
+}

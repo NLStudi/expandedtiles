@@ -1,6 +1,6 @@
 state={
 	id=1050
-	name="STATE_1050" #Lofoten
+	name = "Jan Mayen" #Lofoten
 	manpower=25
 	
 	state_category = wasteland 
@@ -16,5 +16,7 @@ state={
 		}
 	}
 	
-	provinces={ 11157 14210}
+	provinces={
+		11157 14210
+	}
 }

@@ -1,0 +1,29 @@
+state={
+	id=1009
+	name = "Farah"
+	state_category = rural
+
+	resources = {
+		chromium = 7
+	}
+
+	provinces={ 14085 13882 14067 14048 14007 13947 13987 13971 13912}
+	history={
+		owner = ANT
+		controller = ANT
+		add_core_of = ANT
+
+
+
+		buildings = {
+			infrastructure = 0
+		}
+
+		victory_points = {
+			2017 1
+		}
+	}
+	manpower = 281165
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+}

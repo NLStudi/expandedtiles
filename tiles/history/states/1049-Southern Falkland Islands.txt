@@ -1,6 +1,6 @@
 state={
 	id=1049
-	name="STATE_1049"
+	name = "Southern Falkland Islands"
 	manpower=30
 	state_category = tiny_island
 	
@@ -16,5 +16,7 @@ state={
 		add_claim_by = ENG
 	}
 	
-	provinces={ 14030}
+	provinces={
+		14030
+	}
 }

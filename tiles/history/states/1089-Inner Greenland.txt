@@ -1,6 +1,6 @@
 state={
 	id=1089
-	name = "STATE_914"
+	name = "Inner Greenland"
 	manpower=1
 
 	state_category = wasteland 

@@ -1,0 +1,30 @@
+
+state={
+	id=1001
+	name="STATE_1001"
+	manpower = 390139
+	
+	state_category = rural
+
+	history={
+		owner = ANT
+		controller = ANT
+		add_core_of = ANT
+
+		victory_points = {
+			4943 5
+		}
+		victory_points = {
+			5098 3
+		}
+		buildings = {
+			infrastructure = 2
+		}
+
+
+	}
+
+	provinces={ 13954}
+
+	local_supplies=0.0 
+}

@@ -1,11 +1,13 @@
 state={
 	id=1066
-	name="STATE_1066"
+	name = "Paracel Islands"
 	resources={
 		oil = 2
 		rubber = 5
 	}
-	provinces={ 14178 }
+	provinces={
+		14178
+	}
 	manpower=30
 	state_category = small_island
 	history={

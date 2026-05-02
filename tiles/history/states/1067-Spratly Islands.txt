@@ -1,7 +1,9 @@
 state={
 	id=1067
-	name="STATE_1067"
-	provinces={ 14177 }
+	name = "Spratly Islands"
+	provinces={
+		14177
+	}
 	manpower=30
 	state_category = small_island
 	history={

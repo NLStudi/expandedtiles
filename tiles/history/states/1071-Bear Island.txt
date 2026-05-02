@@ -1,7 +1,9 @@
 state={
 	id=1071
-	name="STATE_1071"
-	provinces={ 14240 }
+	name = "Bear Island"
+	provinces={
+		14240
+	}
 	resources = {
 		steel = 2
 	}

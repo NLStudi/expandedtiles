@@ -1,0 +1,27 @@
+
+state={
+	id=984
+	name="STATE_984" #
+	manpower = 30650 
+	
+	state_category = rural
+	
+	resources={
+
+	}
+
+	history={
+		owner = ANT
+		controller = ANT
+		add_core_of = ANT
+
+		buildings = {
+			infrastructure = 1 #was: 5
+		}
+
+	}
+
+	provinces={13891 }
+
+	local_supplies=0.0 
+}

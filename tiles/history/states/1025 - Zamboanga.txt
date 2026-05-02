@@ -1,0 +1,36 @@
+state = {
+	id = 1025
+	name = "STATE_1025"
+	manpower = 5
+
+	resources = {
+		coal = 2 
+	}
+	
+	state_category = pastoral
+
+	history = {
+
+		owner = ant
+		add_core_of = ant
+
+		buildings = {
+
+			infrastructure = 1
+
+			1421 = {
+				naval_base = 1
+			}
+
+		}
+
+		victory_points = {
+			13783 2 # Zamboanga
+		}
+		
+	}
+
+	provinces={ 13783 }
+
+	local_supplies = 0.0 
+}

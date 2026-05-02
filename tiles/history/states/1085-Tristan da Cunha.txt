@@ -1,6 +1,6 @@
 state={
 	id=1085
-	name="STATE_1085"
+	name = "Tristan da Cunha"
 	manpower=93
 	
 	state_category = small_island
@@ -10,5 +10,7 @@ state={
 		#add_core_of = ENG
 	}
 	
-	provinces={ 13229 }
+	provinces={
+		13229
+	}
 }

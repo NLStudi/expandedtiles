@@ -1,0 +1,36 @@
+state = {
+	id = 1017
+	name = "Trung Bo"
+	manpower = 3000000
+	
+	state_category = town
+	
+	resources = {
+		chromium = 4 # was: 8
+		tungsten = 7
+	}
+
+
+	history={
+		owner = ANT
+		controller = ANT
+		add_core_of = ANT
+
+
+
+		buildings = {
+
+			infrastructure = 1
+
+		}
+
+		victory_points = {
+			10309 2 # Hué
+		}
+
+	}
+
+	provinces={ 14034 14079 14082} 
+
+	local_supplies = 0.0 
+}

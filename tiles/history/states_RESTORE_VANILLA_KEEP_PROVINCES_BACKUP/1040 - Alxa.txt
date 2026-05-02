@@ -1,0 +1,52 @@
+state={
+	id=1040
+	name = "Alxa"
+	provinces={
+		13656 13703 13720 13778 13807 13835 13837 13842 13864 13881 13895
+	}
+	manpower=450000
+	buildings_max_level_factor=1.000
+	state_category = wasteland
+	history={
+		owner = ANT
+		controller = ANT
+		add_core_of = ANT
+
+
+
+		victory_points = {
+			4783 1 # Ejin Banner
+		}
+
+		buildings = {
+			infrastructure = 1
+		}
+
+		1936.1.1 = {
+			IF = {
+				limit = {
+					has_dlc = "No Compromise, No Surrender" 
+				}
+				NXM = { transfer_state = PREV }
+
+				remove_core_of = XSM
+			}
+		}
+
+		1938.10.25 = {
+			IF = {
+				limit = {
+					NOT = {
+						has_dlc = "Waking the Tiger" 
+					}
+				}
+				CHI = {
+					transfer_state = PREV
+				}
+			}
+		}
+
+	}
+
+	local_supplies = 0.0 
+}

@@ -1,0 +1,39 @@
+state = {
+	id = 1034
+	name = "Suzhou"
+	manpower = 2472157
+	state_category = town
+	resources = {
+
+	}
+
+	history={
+		owner = ANT
+		controller = ANT
+		add_core_of = ANT
+
+
+
+		buildings = {
+			infrastructure = 2		
+		}
+
+		victory_points = {
+			10076 3 # Suzhou
+		}
+
+		victory_points = {
+			4091 1 # Nantong
+		}
+
+		1938.10.25 = {
+
+		}
+	}
+
+	provinces={
+		13994
+	}
+
+	local_supplies = 0.0 
+}

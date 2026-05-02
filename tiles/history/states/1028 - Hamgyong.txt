@@ -1,0 +1,30 @@
+state = {
+	id = 1028
+	name = "STATE_1028"
+	manpower = 5
+	state_category = rural
+
+
+
+	history = {
+
+		owner = ANT	
+		add_core_of = ANT
+
+		
+		victory_points = {
+			13802 1 # Kankō
+		}	
+
+		victory_points = {
+			13802 1 # Seishin
+		}	
+		
+	}
+
+	provinces={
+		13802 13803 13815 13823
+	}
+
+	local_supplies = 0.0 
+}

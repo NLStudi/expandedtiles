@@ -1,0 +1,29 @@
+
+state={
+	id=985
+	name="STATE_985" #
+	manpower = 5
+	
+	state_category = rural
+	
+	resources={
+
+	}
+
+	history={
+		owner = ANT
+		add_core_of = ANT
+		buildings = {
+			infrastructure = 1
+		}
+
+		victory_points = {
+			13908 1 # Gangtok
+		}
+
+	}
+
+	provinces={ 13908 }
+
+	local_supplies=0.0 
+}

@@ -1,0 +1,33 @@
+state = {
+	id = 1032
+	name = "STATE_1032"
+	manpower = 5
+	buildings_max_level_factor = 1
+	state_category = town
+
+	history={
+		owner = ANT
+		controller = ANT
+		add_core_of = ANT
+
+		victory_points = {
+			13930 3 # Yanan
+		}
+
+
+		1938.10.25 = {
+
+
+			add_victory_points = {
+				province = 13930
+				value = 2
+			}	
+		}
+
+	}
+
+	provinces={
+		13930 13931 13951 13957 13965 13969 13993 13996 13998
+	}
+	local_supplies = 0
+}

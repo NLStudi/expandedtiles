@@ -1,20 +1,16 @@
 state={
 	id=991
 	name="STATE_991"
-	manpower=200
-	
-	state_category = wasteland 
-	
+	provinces={ 13871 }
+	state_category = rural
+	manpower = 5
 	history={
-		owner = ANT	
+		owner = ANT
 		add_core_of = ANT
 		buildings = {
-			infrastructure = 0
-			13871 = {
-				naval_base = 3
-			}
+			infrastructure = 1
 		}
 	}
-	
-	provinces={ 13871 }
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
 }

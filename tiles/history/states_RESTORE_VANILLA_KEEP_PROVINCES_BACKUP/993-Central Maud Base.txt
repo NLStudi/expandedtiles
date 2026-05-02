@@ -1,0 +1,22 @@
+state={
+	id=993
+	name = "Central Maud Base"
+	manpower=200
+	
+	state_category = wasteland 
+
+	history={
+		owner = ANT	
+		add_core_of = ANT
+		buildings = {
+			infrastructure = 0
+			13788 = {
+				naval_base = 3
+			}
+		}
+	}
+	
+	provinces={
+		13788
+	}
+}

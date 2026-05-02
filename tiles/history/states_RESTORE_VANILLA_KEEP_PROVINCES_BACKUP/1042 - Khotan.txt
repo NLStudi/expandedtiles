@@ -1,0 +1,54 @@
+state = {
+	id = 1042
+	name = "Khotan"
+	manpower = 380000
+	state_category = wasteland
+
+	history={
+		owner = ANT
+		controller = ANT
+		add_core_of = ANT
+
+
+
+		1936.1.1 = {
+			IF = {
+				limit = {
+					has_dlc = "No Compromise, No Surrender" 
+				}
+				KHM = { transfer_state = PREV }
+
+			}
+		}	
+
+		buildings = {
+			infrastructure = 1
+		}
+
+		victory_points = {
+			4973 3 # Hotan
+		}
+
+		victory_points = {
+			1970 1 # Yecheng 
+		}
+
+		1938.10.25 = {
+			IF = {
+				limit = {
+					has_dlc = "No Compromise, No Surrender" 
+				}
+				remove_core_of = KHM
+			}	
+
+
+		}
+	}
+
+	provinces={
+		13953 13976
+	}
+
+	buildings_max_level_factor = 1.000
+	local_supplies = 1.0 
+}

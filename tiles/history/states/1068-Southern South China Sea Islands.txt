@@ -1,7 +1,9 @@
 state={
 	id=1068
-	name="STATE_1068" #893
-	provinces={ 14176}
+	name = "Southern South China Sea Islands" #893
+	provinces={
+		14176
+	}
 	manpower=30
 	state_category = small_island
 	history={

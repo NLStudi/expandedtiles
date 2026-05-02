@@ -1,6 +1,6 @@
 state = {
 	id = 1099
-	name = "STATE_1099"
+	name = "Yanan"
 	manpower = 4670800
 	buildings_max_level_factor = 1
 	state_category = town

@@ -1,6 +1,6 @@
 state={
 	id=1095
-	name="STATE_1095"
+	name = "Channel Islands"
 	provinces={ 14181 }
 	
 

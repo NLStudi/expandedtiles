@@ -1,6 +1,6 @@
 state={
 	id=1059
-	name="STATE_1059"
+	name = "Martha Base"
 	manpower=200
 	
 	state_category = wasteland 
@@ -16,5 +16,7 @@ state={
 		}
 	}
 	
-	provinces={13740  }
+	provinces={
+		13740
+	}
 }

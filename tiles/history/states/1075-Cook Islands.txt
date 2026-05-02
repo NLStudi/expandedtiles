@@ -1,7 +1,9 @@
 state={
 	id=1075
-	name="STATE_1075"
-	provinces={ 14173}
+	name = "Cook Islands"
+	provinces={
+		14173
+	}
 	manpower=30
 	state_category = small_island
 	history={

@@ -1,0 +1,69 @@
+state = {
+	id = 1037
+	name = "Chongqing"
+	resources = {
+	}
+
+	history={
+		owner = ANT
+		controller = ANT
+		add_core_of = ANT
+
+
+
+		buildings = {
+			infrastructure = 2 #was 3
+			arms_factory = 1
+			industrial_complex = 1 #was 2
+			air_base = 2
+		}
+
+		victory_points = {
+			6999 20 # Chongqing
+		}
+
+		victory_points = {
+			11972 1 # Yibin
+		}
+
+		1936.1.1 = {
+			IF = {
+				limit = {
+					has_dlc = "No Compromise, No Surrender"
+				}
+				transfer_state_to = SIC
+
+			}
+		}
+
+		1938.10.25 = {	
+			IF = {
+				limit = {
+					has_dlc = "No Compromise, No Surrender" 
+				}
+				remove_core_of = SIC
+			}	
+
+
+		}
+
+		1939.1.1 = {
+			buildings = {
+				industrial_complex = 3
+				infrastructure = 3
+				air_base = 3
+				arms_factory = 1
+			}
+		}
+
+	}
+
+	provinces={
+		13455 13456 13578 13579 13670 13676 13744 13763
+	}
+	manpower = 31777980
+	buildings_max_level_factor = 1.000
+	state_category = city
+
+	local_supplies = 0.0 
+}

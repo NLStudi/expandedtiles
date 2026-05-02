@@ -1,0 +1,60 @@
+state = {
+	id = 1033
+	name = "Fangchenggang"
+	manpower = 4145000
+	state_category = town
+	resources = {
+
+	}
+
+	history={
+		owner = ANT
+		controller = ANT
+		add_core_of = ANT
+
+
+
+		1936.1.1 = {
+			IF = {
+				limit = {
+					has_dlc = "No Compromise, No Surrender"
+				}
+				transfer_state_to = GDC
+
+				remove_core_of = GXC
+			}
+		}
+
+
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 1
+			10004 = { # Fangcheng
+				naval_base = 1
+				coastal_bunker = 1
+			}
+		}
+
+
+		victory_points = { 
+			10004 1 # Fangchenggang
+		}
+
+		1938.10.25 = {
+			
+			remove_core_of = GXC
+
+			JAP = {
+				set_province_controller = 1018
+				set_province_controller = 4023
+				set_province_controller = 10004
+			} 			
+		}
+	}
+
+	provinces={
+		13916 13921 13922 13932 13933
+	}
+
+	local_supplies = 1.0 
+}

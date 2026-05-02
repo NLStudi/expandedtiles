@@ -1,0 +1,43 @@
+state = {
+	id = 1037
+	name = "STATE_1037"
+	resources = {
+	}
+
+	history={
+		owner = ANT
+		controller = ANT
+		add_core_of = ANT
+
+		victory_points = {
+			13455 20 # Chongqing
+		}
+
+		victory_points = {
+			13455 1 # Yibin
+		}
+
+
+		1938.10.25 = {	
+			IF = {
+				limit = {
+					has_dlc = "No Compromise, No Surrender" 
+				}
+				remove_core_of = SIC
+			}	
+
+
+		}
+
+
+	}
+
+	provinces={
+		13455 13456 13578 13579 13670 13676 13744 13763
+	}
+	manpower = 0
+	buildings_max_level_factor = 1.000
+	state_category = city
+
+	local_supplies = 0.0 
+}

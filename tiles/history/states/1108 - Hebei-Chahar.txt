@@ -1,6 +1,6 @@
 state = {
 	id = 1108
-	name = "STATE_1108" # South Chahar
+	name = "Hebei-Chahar" # South Chahar
 	manpower = 367500
 	
 	state_category = pastoral

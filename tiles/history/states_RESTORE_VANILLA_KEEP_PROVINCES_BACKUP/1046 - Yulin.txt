@@ -1,0 +1,32 @@
+state={
+	id=1046
+	name = "Yulin"
+	resources={
+		coal = 12 #initial distribution
+	}
+
+	history={
+		owner = ANT
+		controller = ANT
+		add_core_of = ANT
+
+
+
+		buildings = {
+			infrastructure = 1
+		}
+
+		victory_points = {
+			7314 1 
+		}
+	}
+
+	provinces={
+		13747 13790 13867
+	}
+	manpower = 1057400
+	buildings_max_level_factor = 1.000
+	state_category = town
+
+	local_supplies=0.0 
+}
